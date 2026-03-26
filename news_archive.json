@@ -172,7 +172,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T17:23:34+00:00",
+    "pub_date": "2026-03-26T17:32:47+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26mideast-carousel-442-gcbk/26mideast-carousel-442-gcbk-mediumSquareAt3X.jpg"
   },
   "f139bca8dab2": {
@@ -205,7 +205,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T16:00:00+00:00",
+    "pub_date": "2026-03-26T17:37:49+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/25/multimedia/00int-olympics-transgender-ban-pkml/00int-olympics-transgender-ban-pkml-mediumSquareAt3X.jpg"
   },
   "7a4fc282882b": {
@@ -238,7 +238,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T15:58:03+00:00",
+    "pub_date": "2026-03-26T17:33:51+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26canada-military-spending-tchz/26canada-military-spending-tchz-mediumSquareAt3X.jpg"
   },
   "8f54c06f146e": {
@@ -325,7 +325,7 @@
     "summary": "",
     "source": "NYT World",
     "source_domain": "nytimes.com",
-    "cat": "세계",
+    "cat": "국제뉴스",
     "pub_date": "2026-03-26T15:14:54+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26israel-iran-nato-01-bhwp/26israel-iran-nato-01-bhwp-mediumSquareAt3X.jpg"
   },
@@ -635,7 +635,7 @@
     "source_domain": "bbc.com",
     "cat": "경제/주식",
     "pub_date": "2026-03-26T16:14:54+00:00",
-    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/603e/live/1ea2ded0-2932-11f1-b930-6bf1eac08e0d.jpg"
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a6d8/live/70609ad0-2939-11f1-a79a-77e93010d956.jpg"
   },
   "8483e5b8b031": {
     "id": "8483e5b8b031",
@@ -1844,7 +1844,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T17:35:21+00:00",
+    "pub_date": "2026-03-26T18:28:49+00:00",
     "thumbnail": ""
   },
   "980f10968c5c": {
@@ -1855,7 +1855,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T17:35:21+00:00",
+    "pub_date": "2026-03-26T18:28:49+00:00",
     "thumbnail": ""
   },
   "7544e477b550": {
@@ -1866,7 +1866,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T17:35:21+00:00",
+    "pub_date": "2026-03-26T18:28:49+00:00",
     "thumbnail": ""
   },
   "188261967b64": {
@@ -1877,7 +1877,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T17:35:22+00:00",
+    "pub_date": "2026-03-26T18:28:49+00:00",
     "thumbnail": ""
   },
   "7d4ff39cbdaf": {
@@ -1888,7 +1888,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T17:35:22+00:00",
+    "pub_date": "2026-03-26T18:28:49+00:00",
     "thumbnail": ""
   },
   "eae42dd14bb8": {
@@ -1899,7 +1899,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T17:35:22+00:00",
+    "pub_date": "2026-03-26T18:28:49+00:00",
     "thumbnail": ""
   },
   "a092d1563238": {
@@ -1910,7 +1910,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T17:35:22+00:00",
+    "pub_date": "2026-03-26T18:28:49+00:00",
     "thumbnail": ""
   },
   "4e31baab2e47": {
@@ -1932,7 +1932,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T17:35:21+00:00",
+    "pub_date": "2026-03-26T18:28:49+00:00",
     "thumbnail": ""
   },
   "3855bec288ed": {
@@ -1988,6 +1988,215 @@
     "source_domain": "espn.com",
     "cat": "스포츠",
     "pub_date": "2026-03-26T18:14:39+00:00",
+    "thumbnail": ""
+  },
+  "de7db79a7432": {
+    "id": "de7db79a7432",
+    "title": "Elon Musk's X advertising boycott lawsuit dismissed by US judge",
+    "link": "https://www.bbc.com/news/articles/c05dlm0l0jgo?at_medium=RSS&at_campaign=rss",
+    "summary": "US District Judge Jane Boyle said the company had failed to show it had suffered any harm under federal competition laws.",
+    "source": "BBC Tech",
+    "source_domain": "bbc.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T17:29:13+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a734/live/95be3b70-292f-11f1-b930-6bf1eac08e0d.jpg"
+  },
+  "9375e0d74a18": {
+    "id": "9375e0d74a18",
+    "title": "Which E-Readers I'd Recommend Buying in Amazon's Spring Sale",
+    "link": "https://www.wired.com/story/e-reader-deals-amazon-spring-sale/",
+    "summary": "Amazon's Spring Sale has multiple of our favorite e-readers discounted, including one that's now under $100.",
+    "source": "Wired",
+    "source_domain": "wired.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T17:25:39+00:00",
+    "thumbnail": "https://media.wired.com/photos/69c48b0a086bd8701941544f/master/pass/Our-Favorite-E-Readers-Are-On-Sale-Right-Now.jpg"
+  },
+  "724d3e08028c": {
+    "id": "724d3e08028c",
+    "title": "Orban's Hungarian government accused of mass voter intimidation ahead of election",
+    "link": "https://www.bbc.com/news/articles/c36r0068xp2o?at_medium=RSS&at_campaign=rss",
+    "summary": "A film quoting voters, mayors and a police officer alleges money and drugs are being offered to pressure people to back the ruling party.",
+    "source": "BBC World",
+    "source_domain": "bbc.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-26T17:16:06+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5bf/live/78df8390-292c-11f1-827e-f5a307c02015.jpg"
+  },
+  "c8de106d9fa2": {
+    "id": "c8de106d9fa2",
+    "title": "Google unveils TurboQuant, a new AI memory compression algorithm — and yes, the internet is calling it ‘Pied Piper’",
+    "link": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
+    "summary": "Google’s TurboQuant has the internet joking about Pied Piper from HBO's \"Silicon Valley.\" The compression algorithm promises to shrink AI’s “working memory” by up to 6x, but it’s still just a lab expe",
+    "source": "TC AI",
+    "source_domain": "techcrunch.com",
+    "cat": "AI",
+    "pub_date": "2026-03-25T20:38:45+00:00",
+    "thumbnail": ""
+  },
+  "119a424ffd1f": {
+    "id": "119a424ffd1f",
+    "title": "Melania Trump wants a robot to homeschool your child",
+    "link": "https://techcrunch.com/2026/03/25/melania-trump-wants-a-robot-to-homeschool-your-child/",
+    "summary": "The first lady sees AI and robotics playing a prominent role in the future of American education.",
+    "source": "TC AI",
+    "source_domain": "techcrunch.com",
+    "cat": "AI",
+    "pub_date": "2026-03-25T18:55:41+00:00",
+    "thumbnail": ""
+  },
+  "934a94842946": {
+    "id": "934a94842946",
+    "title": "Bernie Sanders and AOC propose a ban on data center construction",
+    "link": "https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/",
+    "summary": "Senator Bernie Sanders and Rep. Alexandria Ocasio-Cortez introduced companion legislation to halt construction on new data centers until Congress passes comprehensive AI regulation.",
+    "source": "TC AI",
+    "source_domain": "techcrunch.com",
+    "cat": "AI",
+    "pub_date": "2026-03-25T17:15:50+00:00",
+    "thumbnail": ""
+  },
+  "f26f774467da": {
+    "id": "f26f774467da",
+    "title": "Google launches Lyria 3 Pro music generation model",
+    "link": "https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/",
+    "summary": "Google is launching Lyria 3 Pro, an upgraded music model that generates longer, more customizable tracks, as it expands AI music tools across Gemini, enterprise products, and other services.",
+    "source": "TC AI",
+    "source_domain": "techcrunch.com",
+    "cat": "AI",
+    "pub_date": "2026-03-25T16:37:43+00:00",
+    "thumbnail": ""
+  },
+  "81ecd67a8988": {
+    "id": "81ecd67a8988",
+    "title": "Reddit takes on the bots with new ‘human verification’ requirements for fishy behavior",
+    "link": "https://techcrunch.com/2026/03/25/reddit-bots-new-human-verification-requirements/",
+    "summary": "Reddit will require suspected automated accounts to verify they’re human, as it ramps up efforts to curb bot-driven spam and manipulation.",
+    "source": "TC AI",
+    "source_domain": "techcrunch.com",
+    "cat": "AI",
+    "pub_date": "2026-03-25T16:10:00+00:00",
+    "thumbnail": ""
+  },
+  "56d860220455": {
+    "id": "56d860220455",
+    "title": "Harvey confirms $11B valuation: Sequoia triples down",
+    "link": "https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/",
+    "summary": "Investors like Sequoia, Andreessen Horowitz,  Kleiner Perkins, and Elad Gil can't get enough of AI legal tech startup Harvey.",
+    "source": "TC AI",
+    "source_domain": "techcrunch.com",
+    "cat": "AI",
+    "pub_date": "2026-03-25T15:27:15+00:00",
+    "thumbnail": ""
+  },
+  "bedf0dbba1ee": {
+    "id": "bedf0dbba1ee",
+    "title": "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app",
+    "link": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/",
+    "summary": "Granola's valuation jumped from $250 million to $1.5 billion with this round, and it has added more support for AI agents after users previously complained.",
+    "source": "TC AI",
+    "source_domain": "techcrunch.com",
+    "cat": "AI",
+    "pub_date": "2026-03-25T14:48:40+00:00",
+    "thumbnail": ""
+  },
+  "810c07cfea56": {
+    "id": "810c07cfea56",
+    "title": "Intercom's new post-trained Fin Apex 1.0 beats GPT-5.4 and Claude Sonnet 4.6 at customer service resolutions",
+    "link": "https://venturebeat.com/technology/intercoms-new-post-trained-fin-apex-1-0-beats-gpt-5-4-and-claude-sonnet-4-6",
+    "summary": "Intercom is taking an unusual gamble for a legacy software company: building its own AI model.The 15-year-old, Dublin, Ireland-based massive customer service platform announced Fin Apex 1.0 on Thursda",
+    "source": "VentureBeat",
+    "source_domain": "venturebeat.com",
+    "cat": "AI",
+    "pub_date": "2026-03-26T16:16:00+00:00",
+    "thumbnail": "https://images.ctfassets.net/jdtwqhzvc2n1/1m6rKtRFpu30IlvdBGT0uL/3a0c0efdce3d96ba7972bc29acfeea9b/Gemini_Generated_Image_.png?w=300&q=30"
+  },
+  "bd5e04371b67": {
+    "id": "bd5e04371b67",
+    "title": "Mistral AI just released a text-to-speech model it says beats ElevenLabs — and it's giving away the weights for free",
+    "link": "https://venturebeat.com/orchestration/mistral-ai-just-released-a-text-to-speech-model-it-says-beats-elevenlabs-and",
+    "summary": "The enterprise voice AI market is in the middle of a land grab. ElevenLabs and IBM announced a collaboration just this week to bring premium voice capabilities into IBM&#x27;s watsonx Orchestrate plat",
+    "source": "VentureBeat",
+    "source_domain": "venturebeat.com",
+    "cat": "AI",
+    "pub_date": "2026-03-26T11:30:00+00:00",
+    "thumbnail": "https://images.ctfassets.net/jdtwqhzvc2n1/72D5HGgYf4s3Pux8zzbC4I/dce882939be8e43c79c3fe9baf9a5400/nuneybits_Vector_art_of_burnt_orange_voice_waves_rising_from_a__b4e149ce-8692-4f29-8c57-9d1ac9c21a08.webp?w=300&q=30"
+  },
+  "78f7366ff2be": {
+    "id": "78f7366ff2be",
+    "title": "The consequential AI work that actually moves the needle for enterprises",
+    "link": "https://venturebeat.com/orchestration/the-consequential-ai-work-that-actually-moves-the-needle-for-enterprises",
+    "summary": "Presented by OutSystems After two years of flashy AI demos, rushed agent prototypes, and breathless predictions, enterprise technology leaders are striking a more pragmatic tone in 2026. In a recent w",
+    "source": "VentureBeat",
+    "source_domain": "venturebeat.com",
+    "cat": "AI",
+    "pub_date": "2026-03-26T04:00:00+00:00",
+    "thumbnail": "https://images.ctfassets.net/jdtwqhzvc2n1/1vZsMKA4KPgbILWUlfD82K/9e8ea836e3d32d244af59cdeabad8c68/AdobeStock_914441797.jpeg?w=300&q=30"
+  },
+  "f7dcc13fbb4a": {
+    "id": "f7dcc13fbb4a",
+    "title": "Google's new TurboQuant algorithm speeds up AI memory 8x, cutting costs by 50% or more",
+    "link": "https://venturebeat.com/infrastructure/googles-new-turboquant-algorithm-speeds-up-ai-memory-8x-cutting-costs-by-50",
+    "summary": "As Large Language Models (LLMs) expand their context windows to process massive documents and intricate conversations, they encounter a brutal hardware reality known as the &quot;Key-Value (KV) cache ",
+    "source": "VentureBeat",
+    "source_domain": "venturebeat.com",
+    "cat": "AI",
+    "pub_date": "2026-03-25T19:35:00+00:00",
+    "thumbnail": "https://images.ctfassets.net/jdtwqhzvc2n1/2WVKlEGnFpAcW5sMnTTA6c/d7c0e846054b2ee271fcbc37a53dbe23/Gemini_Generated_Image_uvfgr3uvfgr3uvfg.png?w=300&q=30"
+  },
+  "e8ea372de595": {
+    "id": "e8ea372de595",
+    "title": "Oracle converges the AI data stack to give enterprise agents a single version of truth",
+    "link": "https://venturebeat.com/data/oracle-converges-the-ai-data-stack-to-give-enterprise-agents-a-single",
+    "summary": "Enterprise data teams moving agentic AI into production are hitting a consistent failure point at the data tier. Agents built across a vector store, a relational database, a graph store and a lakehous",
+    "source": "VentureBeat",
+    "source_domain": "venturebeat.com",
+    "cat": "AI",
+    "pub_date": "2026-03-25T19:00:00+00:00",
+    "thumbnail": "https://images.ctfassets.net/jdtwqhzvc2n1/sQWXul3LIKGqi78c0EcDg/9d8523e8f498d65330437a808bd05506/database-ascontrollayer-smk1.png?w=300&q=30"
+  },
+  "f87c7fd94b90": {
+    "id": "f87c7fd94b90",
+    "title": "How xMemory cuts token costs and context bloat in AI agents",
+    "link": "https://venturebeat.com/orchestration/how-xmemory-cuts-token-costs-and-context-bloat-in-ai-agents",
+    "summary": "Standard RAG pipelines break when enterprises try to use them for long-term, multi-session LLM agent deployments. This is a critical limitation as demand for persistent AI assistants grows.xMemory, a ",
+    "source": "VentureBeat",
+    "source_domain": "venturebeat.com",
+    "cat": "AI",
+    "pub_date": "2026-03-25T00:00:00+00:00",
+    "thumbnail": "https://images.ctfassets.net/jdtwqhzvc2n1/Tqu00uVRNNXGb8qA2fLE4/aeb86ac0be3098100e59726b201c667d/LLM_context_organization.jpg?w=300&q=30"
+  },
+  "5aa33debcab0": {
+    "id": "5aa33debcab0",
+    "title": "OpenAI is shutting down Sora, its powerful AI video model, app and API",
+    "link": "https://venturebeat.com/technology/openai-is-shutting-down-sora-its-powerful-ai-video-app",
+    "summary": "OpenAI is shuttering Sora, its stand-alone AI video generation app and social network, and the availability for developers to access the Sora 2 video model family through its application programming i",
+    "source": "VentureBeat",
+    "source_domain": "venturebeat.com",
+    "cat": "AI",
+    "pub_date": "2026-03-24T21:20:00+00:00",
+    "thumbnail": "https://images.ctfassets.net/jdtwqhzvc2n1/2dEwFNdOd4Uf698uIDeFAS/3ef7de3b64485733a3e978e5dfefe358/Gemini_Generated_Image_1bsv991bsv991bsv.png?w=300&q=30"
+  },
+  "01a0bbc50e0e": {
+    "id": "01a0bbc50e0e",
+    "title": "Verstappen expels journalist from news conference",
+    "link": "https://www.bbc.com/sport/formula1/articles/cwy3pggg4zjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Max Verstappen ejects a journalist from his news conference at the Japanese Grand Prix over a row that dates back to Abu Dhabi last year.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T10:49:41+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1be/live/718aba30-28fd-11f1-be8b-2136d1c912ba.jpg"
+  },
+  "f503d513884f": {
+    "id": "f503d513884f",
+    "title": "Amputee cornhole player waives right to hearing",
+    "link": "https://www.espn.com/espn/story/_/id/48313170/quadruple-amputee-cornhole-player-waives-hearing-murder-case",
+    "summary": "A professional cornhole player who's also a quadruple amputee waived his right to an extradition hearing as authorities seek to move him from Virginia to Maryland, where he faces charges of fatally sh",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T18:28:49+00:00",
     "thumbnail": ""
   }
 }
