@@ -1,35 +1,36 @@
-name: Update News Dashboard
+name: Update News
 
 on:
   schedule:
-    - cron: "0 * * * *"
-  workflow_dispatch:
+    - cron: '0 * * * *'   # 매시간 정각
+  workflow_dispatch:        # 수동 실행 버튼
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: 📥 코드 체크아웃
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: 🐍 Python 3.11 설치
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: Install dependencies
+      - name: 📦 의존성 설치
         run: pip install -r requirements.txt
 
-      - name: Generate index.html
+      - name: 🗞️ 뉴스 생성
         run: python generate_news.py
 
-      - name: Commit & Push
+      - name: 💾 변경사항 커밋 & 푸시
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html
-          git diff --cached --quiet || git commit -m "chore: update news $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git add index.html news_archive.json
+          git diff --cached --quiet || git commit -m "🗞️ 뉴스 자동 업데이트 $(date +'%Y-%m-%d %H:%M')"
           git push
