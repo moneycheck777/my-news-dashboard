@@ -166,13 +166,13 @@
   },
   "106e7b779b16": {
     "id": "106e7b779b16",
-    "title": "Iran War Live Updates: Trump Again Puts Off Threatened Strikes on Power Grid",
+    "title": "Iran War Live Updates: Trump Again Extends Deadline for Iran to Open Strait or Face Strikes on Power Grid",
     "link": "https://www.nytimes.com/live/2026/03/26/world/iran-war-israel-trump-oil",
-    "summary": "President Trump has threatened to strike Iran’s  power plants if it does not reopen the Strait of Hormuz, a major transit route for oil tankers. The deadline moved from Friday to April 6.",
+    "summary": "President Trump moved the deadline to reopen the major transit route for oil tankers from Friday to April 6. Stocks fell sharply and oil prices rose.",
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T21:00:49+00:00",
+    "pub_date": "2026-03-26T22:37:06+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26israel-iran-promo5p-qcvk/26israel-iran-promo5p-qcvk-mediumSquareAt3X.jpg"
   },
   "f139bca8dab2": {
@@ -532,9 +532,9 @@
     "title": "Cohere launches an open source voice model specifically for transcription",
     "link": "https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/",
     "summary": "Relatively light at just 2 billion parameters, the model is meant for use with consumer-grade GPUs for those who want to self-host it. It currently supports 14 languages.",
-    "source": "TechCrunch",
+    "source": "TC AI",
     "source_domain": "techcrunch.com",
-    "cat": "IT/테크",
+    "cat": "AI",
     "pub_date": "2026-03-26T13:30:00+00:00",
     "thumbnail": ""
   },
@@ -551,7 +551,7 @@
   },
   "8ba3ea309e41": {
     "id": "8ba3ea309e41",
-    "title": "A ‘pound of flesh’ from data centers: One senator’s answer to AI job losses",
+    "title": "A ‘pound of flesh’ from data centers: one senator’s answer to AI job losses",
     "link": "https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/",
     "summary": "Fears of AI-driven job loss are growing fast, and they’re fueling backlash against data centers. Sen. Mark Warner suggests taxing them to help workers survive the transition.",
     "source": "TC AI",
@@ -1827,13 +1827,13 @@
   },
   "cd74fe0cd3ed": {
     "id": "cd74fe0cd3ed",
-    "title": "Everything you need for Opening Day: What we're watching, lineups and updates from every game",
+    "title": "Opening Day: What we're watching, lineups and updates from every game",
     "link": "https://www.espn.com/mlb/story/_/id/48251306/mlb-opening-day-2026-storylines-lineups-live-updates-takeaways-analysis",
     "summary": "Baseball is back! Here's your one-stop shop for all of the season-opening action.",
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T20:21:52+00:00",
+    "pub_date": "2026-03-26T22:53:04+00:00",
     "thumbnail": ""
   },
   "a403894b9193": {
@@ -1855,7 +1855,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T21:59:31+00:00",
+    "pub_date": "2026-03-26T23:10:55+00:00",
     "thumbnail": ""
   },
   "7544e477b550": {
@@ -1943,7 +1943,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T21:54:54+00:00",
+    "pub_date": "2026-03-26T22:06:09+00:00",
     "thumbnail": ""
   },
   "2f600cbc06ce": {
@@ -1954,7 +1954,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T21:54:54+00:00",
+    "pub_date": "2026-03-26T22:06:08+00:00",
     "thumbnail": ""
   },
   "3be4426d9dcf": {
@@ -1965,7 +1965,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T21:59:31+00:00",
+    "pub_date": "2026-03-26T23:10:55+00:00",
     "thumbnail": ""
   },
   "0ad5e7c0c467": {
@@ -1976,7 +1976,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T18:14:39+00:00",
+    "pub_date": "2026-03-26T23:15:28+00:00",
     "thumbnail": ""
   },
   "4ba52bea4e1e": {
@@ -2317,7 +2317,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T18:18:32+00:00",
+    "pub_date": "2026-03-26T22:29:58+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26int-malaysia-iran-ships-tkwc/26int-malaysia-iran-ships-tkwc-mediumSquareAt3X.jpg"
   },
   "e5c14d34c564": {
@@ -2355,7 +2355,7 @@
   },
   "fdfd9cc0090e": {
     "id": "fdfd9cc0090e",
-    "title": "Prem clubs agree minimum spend on player wages",
+    "title": "Prem clubs agree £5.4m minimum spend on player wages",
     "link": "https://www.bbc.com/sport/rugby-union/articles/cx2wp6wdgxvo?at_medium=RSS&at_campaign=rss",
     "summary": "Prem clubs agree to introduce a 'salary floor' from next season in an attempt to keep the top flight as closely fought as possible.",
     "source": "BBC Sport",
@@ -2372,7 +2372,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T21:59:30+00:00",
+    "pub_date": "2026-03-26T23:10:55+00:00",
     "thumbnail": ""
   },
   "5c6a6ca814ac": {
@@ -2383,7 +2383,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T21:59:30+00:00",
+    "pub_date": "2026-03-26T23:10:55+00:00",
     "thumbnail": ""
   },
   "6fd4ffc4e060": {
@@ -2405,7 +2405,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T17:59:57+00:00",
+    "pub_date": "2026-03-26T22:53:04+00:00",
     "thumbnail": ""
   },
   "d510fdc19505": {
@@ -2559,8 +2559,8 @@
     "source": "BBC Sport",
     "source_domain": "bbc.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T20:50:04+00:00",
-    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bdd/live/478a1b90-294d-11f1-98c5-01603f6fa96c.jpg"
+    "pub_date": "2026-03-26T21:53:29+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c0b/live/dff72750-295d-11f1-98c5-01603f6fa96c.jpg"
   },
   "0a58d2ad350b": {
     "id": "0a58d2ad350b",
@@ -2592,7 +2592,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T21:59:31+00:00",
+    "pub_date": "2026-03-26T23:10:55+00:00",
     "thumbnail": ""
   },
   "7c896ab968bb": {
@@ -2614,7 +2614,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T21:59:30+00:00",
+    "pub_date": "2026-03-26T23:10:55+00:00",
     "thumbnail": ""
   },
   "51d037a345c4": {
@@ -2625,7 +2625,238 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T21:42:08+00:00",
+    "pub_date": "2026-03-26T22:29:24+00:00",
+    "thumbnail": ""
+  },
+  "f4d568ce2d52": {
+    "id": "f4d568ce2d52",
+    "title": "How Trump’s Plot to Grab Iran's Nuclear Fuel Would Actually Work",
+    "link": "https://www.wired.com/story/us-iran-war-nuclear-extraction-ground-operation/",
+    "summary": "Experts say that an American ground operation targeting nuclear sites in Iran would be incredibly complicated, put troops’ lives at great risk—and might still fail.",
+    "source": "Wired",
+    "source_domain": "wired.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T21:42:52+00:00",
+    "thumbnail": "https://media.wired.com/photos/69c31174ac9dd3ca1ad22d1e/master/pass/security_uranium_GettyImages-1226809254.jpg"
+  },
+  "5667d8561597": {
+    "id": "5667d8561597",
+    "title": "You Can Skip a Lot of Amazon’s Spring Sale, but Don’t Skip This Travel Upgrade",
+    "link": "https://www.wired.com/story/cadence-capsules-amazon-spring-sale-2026/",
+    "summary": "This viral magnetic travel-toiletry system is rarely on sale, and this discount is legitimately good.",
+    "source": "Wired",
+    "source_domain": "wired.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T18:16:28+00:00",
+    "thumbnail": "https://media.wired.com/photos/69c56acfbf542f5813ce4da0/master/pass/This-Is-the-Cheapest-Cadence-Capsules-Have-Been-This-Year.jpg"
+  },
+  "96095d732a81": {
+    "id": "96095d732a81",
+    "title": "These 35 Amazon Spring Sale Tech Deals Are Actually Good. We Checked the Price History (2026)",
+    "link": "https://www.wired.com/story/the-amazon-spring-sale-2026-1/",
+    "summary": "This sale spans almost an entire week, and it’s full of fake “deals.” We hunted to find truly good prices on gear we’ve tested.",
+    "source": "Wired",
+    "source_domain": "wired.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T18:07:20+00:00",
+    "thumbnail": "https://media.wired.com/photos/69c31871ea56e672b4eef17c/master/pass/The-Best-Deals-From-the-Amazon-Spring-Sale.jpg"
+  },
+  "6ea1f8e1a98e": {
+    "id": "6ea1f8e1a98e",
+    "title": "Meet the Tech Reporters Using AI to Help Write and Edit Their Stories",
+    "link": "https://www.wired.com/story/tech-reporters-using-ai-write-edit-stories/",
+    "summary": "Independent writers are using AI agents all throughout their reporting process. What’s the value of a human journalist, anyway?",
+    "source": "Wired",
+    "source_domain": "wired.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T18:00:00+00:00",
+    "thumbnail": "https://media.wired.com/photos/69c44c4c4ff31d9d83686fcc/master/pass/Model-Behavior-Newsletter-Writers-Using-AI-to-Write-Their-Columns-Business.jpg"
+  },
+  "e92acf9d052b": {
+    "id": "e92acf9d052b",
+    "title": "Wikipedia cracks down on the use of AI in article writing",
+    "link": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/",
+    "summary": "The site, whose policies are subject to change, has struggled with the issue of AI-generated writing.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T21:50:10+00:00",
+    "thumbnail": ""
+  },
+  "1596b86a3695": {
+    "id": "1596b86a3695",
+    "title": "[1분건강] 갑자기 몸에 튀어나온 ‘혹’, 혹시 지방종일까",
+    "link": "https://zdnet.co.kr/view/?no=20260326174505",
+    "summary": "[지디넷코리아]#. 울산 북구에 사무직으로 근무하는 50대 남성 A씨는 지난해 봄 목욕탕에서 세신을 하던 도중 세신사로부터 목 뒤쪽에 아주 작은 혹이 만져진다는 얘기를 들었다. 당시에는 통증이나 가려움 등 별다른 증상이 없고 일상생활에 지장을 주는 상황이 아니었기에 대수롭지 않게 생각하고 넘겼고, 1년 가까이 지난 최근에 옷을 입으면 불편할 정도로 혹이 커",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T22:00:02+00:00",
+    "thumbnail": ""
+  },
+  "29c938b8a820": {
+    "id": "29c938b8a820",
+    "title": "영하60도 액체 물서 임계점 첫 관찰…\"과학 교과서 다시 써야\"",
+    "link": "https://zdnet.co.kr/view/?no=20260327060007",
+    "summary": "[지디넷코리아]영하60도 부근서 물 성질이 완전히 바뀌는 임계점이 존재한다는 사실이 세계 처음 관찰됐다.관찰 결과는 27일 새벽3시 (현지시간 26일 오후2시,EDT) 세계적인 국제 학술지 사이언스에 게재됐다.김경환 포항공과대학교(POSTECH) 화학과 교수 연구팀(제1저자=유선주 석·박사통합과정생)은 앤더스 닐슨 스웨덴 스톡홀름대학교 물리학과 교수 연구팀",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T21:00:07+00:00",
+    "thumbnail": ""
+  },
+  "8e705c7b7272": {
+    "id": "8e705c7b7272",
+    "title": "Trump's signature to appear on US dollars in first for sitting president",
+    "link": "https://www.bbc.com/news/articles/cz0el909yp3o?at_medium=RSS&at_campaign=rss",
+    "summary": "The US president's signature will appear on new paper currency alongside Treasury Secretary Scott Bessent.",
+    "source": "BBC Business",
+    "source_domain": "bbc.com",
+    "cat": "경제/주식",
+    "pub_date": "2026-03-26T22:56:13+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b92/live/de9e37f0-2966-11f1-a2fb-cb82ebb56cce.jpg"
+  },
+  "3b13878a0ef7": {
+    "id": "3b13878a0ef7",
+    "title": "Rescuers attempt to save stranded humpback whale off German coast",
+    "link": "https://www.bbc.com/news/articles/ce3dn005x7xo?at_medium=RSS&at_campaign=rss",
+    "summary": "The marine mammal, which is stuck on a sandbank, was first spotted in Lübeck Bay on Monday.",
+    "source": "BBC World",
+    "source_domain": "bbc.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-26T17:02:03+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e9a/live/023ed200-292b-11f1-827e-f5a307c02015.jpg"
+  },
+  "28523822e70e": {
+    "id": "28523822e70e",
+    "title": "Rubio Says Allies Should Help Secure Strait by Iran for Oil and Gas Ships",
+    "link": "https://www.nytimes.com/2026/03/26/world/middleeast/rubio-strait-of-hormuz-iran-oil.html",
+    "summary": "The secretary of state said the United States and Iran were passing messages to each other as he headed to France for a diplomatic meeting of the Group of 7 nations.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-26T21:34:26+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26israel-iran-rubio-khgw/26israel-iran-rubio-khgw-mediumSquareAt3X-v2.jpg"
+  },
+  "a6e582de7be2": {
+    "id": "a6e582de7be2",
+    "title": "Gyokeres Sweden's hero as Kosovo dream of first World Cup",
+    "link": "https://www.bbc.com/sport/football/articles/czexpdw8n32o?at_medium=RSS&at_campaign=rss",
+    "summary": "Graham Potter's Sweden are one win from qualifying for the World Cup after Viktor Gyokeres scores a hat-trick in their 3-1 play-off semi-final win over Ukraine.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T21:58:13+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/740c/live/120ae530-295c-11f1-98c5-01603f6fa96c.jpg"
+  },
+  "8763bdfac272": {
+    "id": "8763bdfac272",
+    "title": "'Stunning, breathtaking, glorious!' James gives Wales lead against Bosnia",
+    "link": "https://www.bbc.com/sport/football/videos/cjw84n93plvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Dan James scores a stunning long-range effort to give Wales a crucial lead in their World Cup Play-off semi-final against Bosnia-Herzegovina in Cardiff.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T21:34:35+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c1a/live/717a28b0-295b-11f1-934f-036468834728.jpg"
+  },
+  "0db8a72d8d31": {
+    "id": "0db8a72d8d31",
+    "title": "Tonali and Kean end Northern Ireland's World Cup dreams",
+    "link": "https://www.bbc.com/sport/football/videos/cx2eq9d7nv5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Northern Ireland's hopes of reaching the 2026 World Cup are brought to an end, as they're beaten 2-0 by Italy in their World Cup play-off semi-final in Bergamo, as the home side close in on qualifying",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T22:58:51+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b214/live/9b44ecd0-2964-11f1-a79a-77e93010d956.png"
+  },
+  "1bdb055694e0": {
+    "id": "1bdb055694e0",
+    "title": "Littler takes out 170 twice to beat Van Gerwen",
+    "link": "https://www.bbc.com/sport/darts/articles/c239n020e9zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Luke Littler produces form close to his sensational best to overpower Michael van Gerwen and win his third Premier League night of the season in Berlin.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T22:08:23+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0c1/live/f8d91670-295d-11f1-98c5-01603f6fa96c.jpg"
+  },
+  "4a0c1907b073": {
+    "id": "4a0c1907b073",
+    "title": "Gauff reaches first Miami Open final",
+    "link": "https://www.bbc.com/sport/tennis/articles/c5yv7knpz72o?at_medium=RSS&at_campaign=rss",
+    "summary": "American Coco Gauff cruises past 13th seed Karolina Muchova in straight sets to reach her first Miami Open final.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T21:16:27+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b7a/live/6a3e1ad0-2955-11f1-98c5-01603f6fa96c.jpg"
+  },
+  "aa7843e31927": {
+    "id": "aa7843e31927",
+    "title": "Hodgkinson pokes fun at West Ham amid London 2029 Worlds bid",
+    "link": "https://www.bbc.com/sport/athletics/articles/c86e395jdlqo?at_medium=RSS&at_campaign=rss",
+    "summary": "Keely Hodgkinson pokes fun at West Ham by claiming Great Britain will win more medals than the Hammers have ever if the 2029 World Championships are held at London Stadium.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T11:19:39+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aecf/live/727b9c20-28f8-11f1-a95f-75471ca6e71e.jpg"
+  },
+  "d86449520644": {
+    "id": "d86449520644",
+    "title": "Qareqare hat-trick fires Castleford past Bradford",
+    "link": "https://www.bbc.com/sport/rugby-league/articles/cnv83618rrno?at_medium=RSS&at_campaign=rss",
+    "summary": "Jason Qareqare’s hat-trick inspires a sensational turnaround as Castleford beat Bradford 40-28 at the OneBore Stadium to secure a second Super League win of the season.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T22:40:04+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/437c/live/1288c7c0-295c-11f1-98c5-01603f6fa96c.jpg"
+  },
+  "2fca893c6ca4": {
+    "id": "2fca893c6ca4",
+    "title": "Salah one of the all-time greats - Klopp",
+    "link": "https://www.bbc.com/sport/football/articles/c3931xlwxjro?at_medium=RSS&at_campaign=rss",
+    "summary": "Former Liverpool head coach Jurgen Klopp says Mohamed Salah is \"one of the all-time greats\" and his legacy at the club will be difficult to top.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T20:43:16+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ac2/live/4af32870-2953-11f1-98c5-01603f6fa96c.jpg"
+  },
+  "b2d93756426a": {
+    "id": "b2d93756426a",
+    "title": "Tonali, Kean goals send Italy to WC playoff final",
+    "link": "https://www.espn.com/soccer/story/_/id/48313675/2026-world-cup-playoffs-uefa-turkiye-italy-wales-ukraine-sweden-ireland",
+    "summary": "Italy finally won a match in the World Cup playoffs. Now the four-time champion needs to win one more to avoid failing to qualify for a third straight time.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T23:10:55+00:00",
+    "thumbnail": ""
+  },
+  "e6c7de81202d": {
+    "id": "e6c7de81202d",
+    "title": "Auriemma: Title IX 'pretty much out the window'",
+    "link": "https://www.espn.com/womens-college-basketball/story/_/id/48315323/uconn-geno-auriemma-says-title-ix-pretty-much-window",
+    "summary": "UConn women's basketball coach Geno Auriemma on Thursday said Title IX legislation, in practice, is \"pretty much out the window.\"",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T23:10:55+00:00",
+    "thumbnail": ""
+  },
+  "2d80b83b1b5c": {
+    "id": "2d80b83b1b5c",
+    "title": "UCLA's Close sounds alarm on coaching burden",
+    "link": "https://www.espn.com/womens-college-basketball/story/_/id/48314856/ucla-close-asks-ncaa-make-changes-ease-coaching-burden",
+    "summary": "UCLA women's basketball coach Cori Close said Thursday that collegiate sports success comes with an exhausting pace for coaches, and pleaded for the NCAA to make changes.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T23:10:55+00:00",
     "thumbnail": ""
   }
 }
