@@ -13,26 +13,35 @@ from html.parser import HTMLParser
 ARCHIVE_FILE = "news_archive.json"
 OUTPUT_FILE  = "index.html"
 MAX_DAYS     = 7
-UA = "Mozilla/5.0 (compatible; NewsDashboard/1.0)"
+UA           = "Mozilla/5.0 (compatible; NewsDashboard/1.0)"
 
 RSS_FEEDS = [
-    # 영어 뉴스
-    {"url": "https://feeds.bbci.co.uk/news/world/rss.xml",            "source": "BBC News",          "cat": "세계"},
-    {"url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "source": "NYT World",         "cat": "세계"},
-    {"url": "https://feeds.reuters.com/reuters/topNews",              "source": "Reuters",           "cat": "세계"},
-    {"url": "https://feeds.bbci.co.uk/news/technology/rss.xml",       "source": "BBC Tech",          "cat": "기술"},
-    {"url": "https://feeds.wired.com/wired/index",                    "source": "Wired",             "cat": "기술"},
-    {"url": "https://techcrunch.com/feed/",                           "source": "TechCrunch",        "cat": "기술"},
-    {"url": "https://feeds.bbci.co.uk/news/business/rss.xml",         "source": "BBC Business",      "cat": "경제"},
-    {"url": "https://feeds.reuters.com/reuters/businessNews",         "source": "Reuters Business",  "cat": "경제"},
-    # 한국 뉴스
-    {"url": "https://www.yonhapnewstv.co.kr/category/news/headline/feed/", "source": "연합뉴스TV",  "cat": "세계"},
-    {"url": "https://www.hani.co.kr/rss/",                           "source": "한겨레",            "cat": "세계"},
-    {"url": "https://www.chosun.com/arc/outboundfeeds/rss/",         "source": "조선일보",          "cat": "세계"},
-    {"url": "https://www.khan.co.kr/rss/rssdata/kh_total.xml",       "source": "경향신문",          "cat": "세계"},
-    {"url": "https://feeds.feedburner.com/zdkorea",                  "source": "ZDNet Korea",       "cat": "기술"},
-    {"url": "https://bloter.net/feed",                               "source": "Bloter",            "cat": "기술"},
+    # IT/테크
+    {"url": "https://feeds.bbci.co.uk/news/technology/rss.xml",  "source": "BBC Tech",    "cat": "IT/테크"},
+    {"url": "https://feeds.wired.com/wired/index",               "source": "Wired",       "cat": "IT/테크"},
+    {"url": "https://techcrunch.com/feed/",                      "source": "TechCrunch",  "cat": "IT/테크"},
+    {"url": "https://feeds.feedburner.com/zdkorea",              "source": "ZDNet Korea", "cat": "IT/테크"},
+    {"url": "https://bloter.net/feed",                           "source": "Bloter",      "cat": "IT/테크"},
+    # 경제/주식
+    {"url": "https://feeds.bbci.co.uk/news/business/rss.xml",        "source": "BBC Business",     "cat": "경제/주식"},
+    {"url": "https://feeds.reuters.com/reuters/businessNews",        "source": "Reuters Business", "cat": "경제/주식"},
+    {"url": "https://feeds.marketwatch.com/marketwatch/topstories/", "source": "MarketWatch",      "cat": "경제/주식"},
+    # 국제뉴스
+    {"url": "https://feeds.bbci.co.uk/news/world/rss.xml",           "source": "BBC World",   "cat": "국제뉴스"},
+    {"url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml","source": "NYT World",  "cat": "국제뉴스"},
+    {"url": "https://feeds.reuters.com/reuters/topNews",             "source": "Reuters",     "cat": "국제뉴스"},
+    {"url": "https://www.yonhapnewstv.co.kr/category/news/headline/feed/", "source": "연합뉴스TV", "cat": "국제뉴스"},
+    {"url": "https://www.chosun.com/arc/outboundfeeds/rss/",         "source": "조선일보",    "cat": "국제뉴스"},
+    # AI
+    {"url": "https://news.google.com/rss/search?q=artificial+intelligence&hl=en-US&gl=US&ceid=US:en",
+                                                                     "source": "Google News AI", "cat": "AI"},
+    {"url": "https://www.theverge.com/rss/index.xml",                "source": "The Verge",      "cat": "AI"},
+    # 스포츠
+    {"url": "https://feeds.bbci.co.uk/sport/rss.xml",                "source": "BBC Sport",   "cat": "스포츠"},
+    {"url": "https://www.espn.com/espn/rss/news",                    "source": "ESPN",        "cat": "스포츠"},
 ]
+
+CATS = ["IT/테크", "경제/주식", "국제뉴스", "AI", "스포츠"]
 
 # ──────────────────────────────────────────
 # 유틸리티
@@ -41,7 +50,7 @@ def make_id(link):
     return hashlib.md5(link.encode()).hexdigest()[:12]
 
 def parse_pub_date(entry):
-    for attr in ('published_parsed', 'updated_parsed'):
+    for attr in ("published_parsed", "updated_parsed"):
         t = getattr(entry, attr, None)
         if t:
             try:
@@ -50,14 +59,8 @@ def parse_pub_date(entry):
                 pass
     return datetime.now(timezone.utc).isoformat()
 
-def is_within_days(iso_str, days=MAX_DAYS):
-    try:
-        dt = datetime.fromisoformat(iso_str)
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return datetime.now(timezone.utc) - dt < timedelta(days=days)
-    except Exception:
-        return True
+def esc(s):
+    return s.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace('"','&quot;')
 
 # ──────────────────────────────────────────
 # 썸네일 추출
@@ -67,42 +70,34 @@ class ImgParser(HTMLParser):
         super().__init__()
         self.src = None
     def handle_starttag(self, tag, attrs):
-        if tag == 'img' and not self.src:
+        if tag == "img" and not self.src:
             for k, v in attrs:
-                if k == 'src' and v and v.startswith('http'):
+                if k == "src" and v and v.startswith("http"):
                     self.src = v
 
 def extract_thumbnail(entry):
-    # 1) media:content
-    media = getattr(entry, 'media_content', None)
+    media = getattr(entry, "media_content", None)
     if media and isinstance(media, list):
         for m in media:
-            url = m.get('url', '')
-            if url.startswith('http'):
+            url = m.get("url", "")
+            if url.startswith("http"):
                 return url
-
-    # 2) media:thumbnail
-    thumb = getattr(entry, 'media_thumbnail', None)
+    thumb = getattr(entry, "media_thumbnail", None)
     if thumb and isinstance(thumb, list):
-        url = thumb[0].get('url', '')
-        if url.startswith('http'):
+        url = thumb[0].get("url", "")
+        if url.startswith("http"):
             return url
-
-    # 3) enclosure
-    for enc in getattr(entry, 'enclosures', []):
-        if getattr(enc, 'type', '').startswith('image'):
-            url = getattr(enc, 'href', '') or getattr(enc, 'url', '')
-            if url.startswith('http'):
+    for enc in getattr(entry, "enclosures", []):
+        if getattr(enc, "type", "").startswith("image"):
+            url = getattr(enc, "href", "") or getattr(enc, "url", "")
+            if url.startswith("http"):
                 return url
-
-    # 4) summary 안 <img>
-    summary = getattr(entry, 'summary', '') or ''
+    summary = getattr(entry, "summary", "") or ""
     p = ImgParser()
     p.feed(summary)
     if p.src:
         return p.src
-
-    return ''
+    return ""
 
 # ──────────────────────────────────────────
 # RSS 수집
@@ -111,29 +106,31 @@ def fetch_all():
     articles = {}
     for feed_info in RSS_FEEDS:
         try:
-            d = feedparser.parse(feed_info['url'],
-                                 agent=UA,
-                                 request_headers={'Accept-Language': 'ko,en;q=0.9'})
+            d = feedparser.parse(
+                feed_info["url"],
+                agent=UA,
+                request_headers={"Accept-Language": "ko,en;q=0.9"},
+            )
             for entry in d.entries[:15]:
-                link = getattr(entry, 'link', '')
+                link = getattr(entry, "link", "")
                 if not link:
                     continue
                 aid = make_id(link)
                 if aid in articles:
                     continue
-                title   = getattr(entry, 'title', '').strip()
-                summary = re.sub(r'<[^>]+>', '', getattr(entry, 'summary', '') or '').strip()[:200]
-                domain  = urlparse(link).netloc.replace('www.', '')
+                title   = getattr(entry, "title", "").strip()
+                summary = re.sub(r"<[^>]+>", "", getattr(entry, "summary", "") or "").strip()[:200]
+                domain  = urlparse(link).netloc.replace("www.", "")
                 articles[aid] = {
-                    'id':            aid,
-                    'title':         title,
-                    'link':          link,
-                    'summary':       summary,
-                    'source':        feed_info['source'],
-                    'source_domain': domain,
-                    'cat':           feed_info['cat'],
-                    'pub_date':      parse_pub_date(entry),
-                    'thumbnail':     extract_thumbnail(entry),
+                    "id":            aid,
+                    "title":         title,
+                    "link":          link,
+                    "summary":       summary,
+                    "source":        feed_info["source"],
+                    "source_domain": domain,
+                    "cat":           feed_info["cat"],
+                    "pub_date":      parse_pub_date(entry),
+                    "thumbnail":     extract_thumbnail(entry),
                 }
         except Exception as e:
             print(f"[WARN] {feed_info['source']} 수집 실패: {e}")
@@ -144,15 +141,14 @@ def fetch_all():
 # ──────────────────────────────────────────
 def load_archive():
     if os.path.exists(ARCHIVE_FILE):
-        with open(ARCHIVE_FILE, 'r', encoding='utf-8') as f:
+        with open(ARCHIVE_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
     return {}
 
 def save_archive(data):
-    with open(ARCHIVE_FILE, 'w', encoding='utf-8') as f:
+    with open(ARCHIVE_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-# ✅ 수정 1: isinstance 체크 추가 → list 데이터 들어와도 크래시 안 남
 def merge_archive(old, new):
     merged = {**old, **new}
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_DAYS)
@@ -162,7 +158,7 @@ def merge_archive(old, new):
             print(f"[SKIP] 잘못된 데이터 형식 제거: {aid}")
             continue
         try:
-            dt = datetime.fromisoformat(art['pub_date'])
+            dt = datetime.fromisoformat(art["pub_date"])
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
             if dt >= cutoff:
@@ -174,367 +170,347 @@ def merge_archive(old, new):
 # ──────────────────────────────────────────
 # 카드 HTML 생성
 # ──────────────────────────────────────────
-# ✅ 수정 2: 파비콘 HTML 올바른 <img> 태그로 수정
 def build_card_html(article):
-    aid     = str(article.get('id', ''))
-    href    = article.get('link', '')
-    cat     = article.get('cat', '')
-    title   = article.get('title', '').replace('"', '&quot;')
-    summary = article.get('summary', '').replace('"', '&quot;')
-    source  = article.get('source', '').replace('"', '&quot;')
-    domain  = article.get('source_domain', '')
-    thumb   = article.get('thumbnail', '')
-    pub     = article.get('pub_date', '')[:16]
+    aid     = str(article.get("id", ""))
+    href    = article.get("link", "").replace("'", "\\'")
+    title   = esc(article.get("title", ""))
+    summary = esc(article.get("summary", ""))
+    source  = esc(article.get("source", ""))
+    domain  = article.get("source_domain", "")
+    thumb   = article.get("thumbnail", "")
+    pub     = article.get("pub_date", "")[:16].replace("T", " ")
 
-    # 썸네일
-    if thumb:
-        thumb_html = (
-            '<div class="card-thumb">'
-            '<img src="' + thumb + '" alt="" loading="lazy"'
-            ' onerror="this.parentNode.className=\'card-thumb no-img\';'
-            'this.parentNode.innerHTML=\'📰\';">'
-            '</div>'
-        )
-    else:
-        thumb_html = '<div class="card-thumb no-img">📰</div>'
-
-    # 파비콘
-    if domain:
-        favicon_html = (
-            '![image](https://www.google.com/s2/favicons?domain=)'
-        )
-    else:
-        favicon_html = ''
-
-    # 카드 조립
-    html = (
-        '<div class="card"'
-        ' data-id="' + aid + '"'
-        ' data-href="' + href + '"'
-        ' data-cat="' + cat + '"'
-        ' data-title="' + title + '"'
-        ' data-summary="' + summary + '"'
-        ' data-source="' + source + '">'
-        + thumb_html +
-        '<div class="card-body">'
-        '<div class="card-top">'
-        '<div class="source-wrap">'
-        + favicon_html +
-        '<span class="source-name">' + source + '</span>'
-        '</div>'
-        '<span class="new-badge">NEW</span>'
-        '</div>'
-        '<div class="card-title">' + article.get('title', '') + '</div>'
-        '<div class="card-summary">' + article.get('summary', '') + '</div>'
-        '<div class="card-footer">'
-        '<span>' + pub + '</span>'
-        '<span class="read-label">✓ 읽음</span>'
-        '</div>'
-        '</div>'
-        '</div>'
+    thumb_html = (
+        '<div class="card-thumb"><img src="' + thumb + '" onerror="this.parentElement.innerHTML=\'<span>📰</span>\'"></div>'
+        if thumb else
+        '<div class="card-thumb no-thumb"><span>📰</span></div>'
     )
-    return html
+    favicon_html = (
+        '![image](https://www.google.com/s2/favicons?domain=)'
+        if domain else ""
+    )
+    return (
+        '<article class="card" data-id="' + aid + '" onclick="openArticle(\'' + aid + "','" + href + '\')">'
+        + thumb_html
+        + '<div class="card-body">'
+        + '<div class="card-meta">' + favicon_html
+        + '<span class="source-name">' + source + '</span>'
+        + '<span class="new-badge">NEW</span>'
+        + '</div>'
+        + '<h3 class="card-title">' + title + '</h3>'
+        + '<p class="card-summary">' + summary + '</p>'
+        + '<div class="card-footer">'
+        + '<span class="pub-date">' + pub + '</span>'
+        + '<span class="read-check">✓ 읽음</span>'
+        + '</div></div></article>'
+    )
 
 # ──────────────────────────────────────────
 # HTML 생성
 # ──────────────────────────────────────────
 def build_html(articles):
-    cats = ['세계', '기술', '경제']
-    now_str = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
+    now_str    = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    cutoff_48h = datetime.now(timezone.utc) - timedelta(hours=48)
 
-    tab_cards = {c: [] for c in cats}
-    tab_cards['__archive__'] = []
-    cutoff_recent = datetime.now(timezone.utc) - timedelta(days=2)
+    tab_cards = {c: [] for c in CATS}
+    tab_cards["__archive__"] = []
 
-    # ✅ 수정 3: isinstance 필터 추가 → list 데이터 정렬 시 크래시 방지
-    for art in sorted(
+    sorted_arts = sorted(
         [a for a in articles.values() if isinstance(a, dict)],
-        key=lambda x: x.get('pub_date', ''),
-        reverse=True
-    ):
-        c = art.get('cat', '기타')
+        key=lambda x: x.get("pub_date", ""),
+        reverse=True,
+    )
+    for art in sorted_arts:
+        c    = art.get("cat", "")
         card = build_card_html(art)
         if c in tab_cards:
             tab_cards[c].append(card)
         try:
-            dt = datetime.fromisoformat(art['pub_date'])
+            dt = datetime.fromisoformat(art["pub_date"])
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
-            if dt < cutoff_recent:
-                tab_cards['__archive__'].append(card)
+            if dt < cutoff_48h:
+                tab_cards["__archive__"].append(card)
         except Exception:
             pass
 
-    # 탭 버튼
-    tab_buttons = ''
-    for c in cats:
-        cnt = len(tab_cards[c])
-        tab_buttons += (
-            '<button class="tab-btn" data-tab="tab-' + c + '">'
-            + c +
-            ' <span class="badge" id="badge-' + c + '">' + str(cnt) + '</span>'
-            '</button>'
+    # ── 탭 버튼
+    tab_btns = ""
+    for i, c in enumerate(CATS):
+        active = " active" if i == 0 else ""
+        tab_btns += (
+            '<button class="tab-btn' + active + '" onclick="switchTab(\'' + c + '\',this)">'
+            + c
+            + '<span class="tab-badge" id="badge-' + c + '">0</span>'
+            + '</button>'
         )
-    tab_buttons += (
-        '<button class="tab-btn" data-tab="tab-__archive__">'
+    tab_btns += (
+        '<button class="tab-btn" onclick="switchTab(\'__archive__\',this)">'
         '📁 보관함'
-        ' <span class="badge" id="badge-__archive__">' + str(len(tab_cards['__archive__'])) + '</span>'
+        '<span class="tab-badge" id="badge-__archive__">' + str(len(tab_cards["__archive__"])) + '</span>'
         '</button>'
     )
 
-    # 탭 컨텐츠
-    tab_contents = ''
-    for c in cats:
-        cards_html = ''.join(tab_cards[c]) if tab_cards[c] else '<p class="empty">뉴스가 없습니다.</p>'
+    # ── 탭 컨텐츠
+    tab_contents = ""
+    for i, c in enumerate(CATS):
+        display = "block" if i == 0 else "none"
+        inner   = "".join(tab_cards[c]) if tab_cards[c] else '<p class="empty">뉴스가 없습니다.</p>'
         tab_contents += (
-            '<div class="tab-content" id="tab-' + c + '">'
-            '<div class="card-grid">' + cards_html + '</div>'
-            '</div>'
+            '<div class="tab-content" id="tab-' + c + '" style="display:' + display + '">'
+            + '<div class="cards-grid">' + inner + '</div>'
+            + '</div>'
         )
-    archive_html = ''.join(tab_cards['__archive__']) if tab_cards['__archive__'] else '<p class="empty">보관된 뉴스가 없습니다.</p>'
+    arch_inner = "".join(tab_cards["__archive__"]) if tab_cards["__archive__"] else '<p class="empty">보관된 뉴스가 없습니다.</p>'
     tab_contents += (
-        '<div class="tab-content" id="tab-__archive__">'
-        '<div class="card-grid">' + archive_html + '</div>'
-        '</div>'
+        '<div class="tab-content" id="tab-__archive__" style="display:none">'
+        + '<div class="cards-grid">' + arch_inner + '</div>'
+        + '</div>'
     )
 
-    html = """<!DOCTYPE html>
+    # ── JS용 전체 기사 목록 (검색)
+    all_json = json.dumps(
+        [{"id": a.get("id",""), "title": a.get("title",""), "summary": a.get("summary",""),
+          "source": a.get("source",""), "cat": a.get("cat",""), "link": a.get("link","")}
+         for a in sorted_arts],
+        ensure_ascii=False,
+    )
+
+    return (
+"""<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My News Dashboard</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>📡 My News Dashboard</title>
 <style>
-  :root {
-    --bg: #0f1117; --surface: #1a1d27; --surface2: #22263a;
-    --accent: #4f8ef7; --accent2: #7c5cbf;
-    --text: #e8eaf6; --muted: #6b7280; --border: #2e3250;
-    --green: #22c55e; --red: #ef4444; --yellow: #f59e0b;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; min-height: 100vh; }
-
-  /* 헤더 */
-  header {
-    background: linear-gradient(135deg, var(--surface) 0%, var(--surface2) 100%);
-    border-bottom: 1px solid var(--border);
-    padding: 16px 24px; display: flex; align-items: center;
-    justify-content: space-between; flex-wrap: wrap; gap: 12px;
-    position: sticky; top: 0; z-index: 100;
-  }
-  .logo { font-size: 1.3rem; font-weight: 700; color: var(--accent); letter-spacing: -0.5px; }
-  .updated { font-size: 0.75rem; color: var(--muted); }
-
-  /* 검색 */
-  #searchWrap { display: flex; align-items: center; gap: 8px; flex: 1; max-width: 360px; }
-  #searchInput {
-    width: 100%; padding: 8px 14px; border-radius: 20px;
-    border: 1px solid var(--border); background: var(--surface2);
-    color: var(--text); font-size: 0.9rem; outline: none; transition: border .2s;
-  }
-  #searchInput:focus { border-color: var(--accent); }
-  #searchCount { font-size: 0.78rem; color: var(--accent); white-space: nowrap; }
-
-  /* 탭 */
-  .tab-bar {
-    display: flex; gap: 6px; padding: 14px 24px 0;
-    border-bottom: 1px solid var(--border); overflow-x: auto;
-  }
-  .tab-btn {
-    padding: 8px 18px; border: none; border-radius: 10px 10px 0 0;
-    background: var(--surface2); color: var(--muted);
-    cursor: pointer; font-size: 0.9rem; transition: all .2s;
-    display: flex; align-items: center; gap: 6px;
-  }
-  .tab-btn:hover { background: var(--surface); color: var(--text); }
-  .tab-btn.active { background: var(--accent); color: #fff; font-weight: 600; }
-  .badge {
-    background: var(--surface); color: var(--accent);
-    border-radius: 10px; padding: 1px 7px;
-    font-size: 0.72rem; font-weight: 700;
-  }
-  .tab-btn.active .badge { background: rgba(255,255,255,.2); color: #fff; }
-
-  /* 컨텐츠 */
-  .tab-content { display: none; padding: 24px; }
-  .tab-content.active { display: block; }
-
-  /* 카드 그리드 */
-  .card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 16px;
-  }
-
-  /* 카드 */
-  .card {
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: 12px; overflow: hidden; cursor: pointer;
-    transition: transform .2s, box-shadow .2s, opacity .3s;
-    display: flex; flex-direction: column;
-  }
-  .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,.4); }
-  .card.read { opacity: 0.45; }
-
-  /* 썸네일 */
-  .card-thumb {
-    width: 100%; height: 160px; overflow: hidden;
-    background: var(--surface2); display: flex; align-items: center; justify-content: center;
-  }
-  .card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  .card-thumb.no-img { font-size: 2.5rem; color: var(--muted); }
-
-  /* 카드 본문 */
-  .card-body { padding: 14px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
-  .card-top { display: flex; align-items: center; justify-content: space-between; }
-  .source-wrap { display: flex; align-items: center; gap: 6px; }
-  .favicon { width: 16px; height: 16px; border-radius: 3px; }
-  .source-name { font-size: 0.72rem; color: var(--accent); font-weight: 600; text-transform: uppercase; }
-  .new-badge {
-    font-size: 0.65rem; background: var(--green); color: #fff;
-    border-radius: 4px; padding: 1px 6px; font-weight: 700;
-    opacity: 1; transition: opacity .3s;
-  }
-  .card.read .new-badge { opacity: 0; }
-  .card-title { font-size: 0.95rem; font-weight: 600; line-height: 1.4; color: var(--text); }
-  .card-summary { font-size: 0.8rem; color: var(--muted); line-height: 1.5; }
-  .card-footer {
-    display: flex; justify-content: space-between; align-items: center;
-    margin-top: auto; padding-top: 8px; border-top: 1px solid var(--border);
-    font-size: 0.72rem; color: var(--muted);
-  }
-  .read-label { color: var(--green); opacity: 0; transition: opacity .3s; font-weight: 600; }
-  .card.read .read-label { opacity: 1; }
-
-  /* 검색 없음 */
-  .no-result {
-    grid-column: 1/-1; text-align: center;
-    padding: 60px 0; color: var(--muted); font-size: 1rem;
-  }
-  .empty { color: var(--muted); padding: 40px; text-align: center; }
+:root{
+  --bg:#0f1117;--surface:#1a1d27;--surface2:#22263a;
+  --accent:#4f8ef7;--accent2:#7c5ef7;
+  --text:#e8eaf0;--text2:#9da3b4;
+  --red:#f74f4f;--green:#4fbd7c;
+  --radius:12px;--shadow:0 4px 24px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;min-height:100vh}
+header{
+  background:linear-gradient(135deg,var(--surface),var(--surface2));
+  border-bottom:1px solid rgba(79,142,247,.2);
+  padding:18px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+}
+header h1{font-size:1.4rem;font-weight:700;
+  background:linear-gradient(90deg,var(--accent),var(--accent2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.header-meta{margin-left:auto;color:var(--text2);font-size:.8rem}
+.countdown{color:var(--accent);font-weight:700}
+.search-wrap{width:100%;margin-top:10px}
+#searchInput{
+  width:100%;padding:10px 18px;
+  background:var(--surface2);border:1px solid rgba(255,255,255,.1);
+  border-radius:24px;color:var(--text);font-size:.95rem;outline:none;transition:border .2s;
+}
+#searchInput:focus{border-color:var(--accent)}
+#searchInput::placeholder{color:var(--text2)}
+.tabs{
+  display:flex;gap:6px;padding:16px 24px 0;
+  overflow-x:auto;border-bottom:1px solid rgba(255,255,255,.06);
+}
+.tab-btn{
+  padding:8px 18px;border-radius:24px 24px 0 0;border:none;
+  background:var(--surface);color:var(--text2);cursor:pointer;
+  font-size:.85rem;font-weight:600;white-space:nowrap;
+  display:flex;align-items:center;gap:6px;transition:background .2s,color .2s;
+}
+.tab-btn:hover{background:var(--surface2);color:var(--text)}
+.tab-btn.active{background:var(--accent);color:#fff}
+.tab-badge{
+  background:rgba(255,255,255,.25);color:#fff;
+  border-radius:10px;padding:1px 7px;font-size:.72rem;font-weight:700;min-width:22px;text-align:center;
+}
+.tab-btn.active .tab-badge{background:rgba(0,0,0,.25)}
+.tab-content{padding:20px 24px}
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.empty{color:var(--text2);text-align:center;padding:40px}
+.card{
+  background:var(--surface);border-radius:var(--radius);overflow:hidden;cursor:pointer;
+  box-shadow:var(--shadow);transition:transform .18s,box-shadow .18s,opacity .2s;
+  border:1px solid rgba(255,255,255,.06);
+}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 32px rgba(0,0,0,.5)}
+.card.read{opacity:.42}
+.card-thumb{height:160px;overflow:hidden;background:var(--surface2);
+  display:flex;align-items:center;justify-content:center}
+.card-thumb img{width:100%;height:100%;object-fit:cover}
+.card-thumb.no-thumb span{font-size:2.5rem}
+.card-body{padding:14px}
+.card-meta{display:flex;align-items:center;gap:6px;margin-bottom:8px;flex-wrap:wrap}
+.favicon{width:14px;height:14px;border-radius:3px}
+.source-name{font-size:.75rem;color:var(--text2);font-weight:600}
+.new-badge{
+  background:var(--red);color:#fff;font-size:.65rem;font-weight:700;
+  padding:2px 7px;border-radius:10px;margin-left:auto;
+}
+.card.read .new-badge{display:none}
+.card-title{font-size:.95rem;font-weight:700;line-height:1.4;margin-bottom:6px}
+.card-summary{font-size:.8rem;color:var(--text2);line-height:1.5;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card-footer{display:flex;justify-content:space-between;align-items:center;margin-top:10px}
+.pub-date{font-size:.72rem;color:var(--text2)}
+.read-check{font-size:.72rem;color:var(--green);opacity:0;transition:opacity .2s}
+.card.read .read-check{opacity:1}
+#noResult{display:none;text-align:center;padding:40px;color:var(--text2)}
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--surface2);border-radius:3px}
 </style>
 </head>
 <body>
 
 <header>
-  <div>
-    <div class="logo">📰 My News Dashboard</div>
-    <div class="updated">업데이트: """ + now_str + """</div>
+  <h1>📡 My News Dashboard</h1>
+  <div class="header-meta">
+    마지막 갱신: """ + now_str + """ &nbsp;|&nbsp;
+    다음 갱신까지: <span class="countdown" id="countdown">--:--</span>
   </div>
-  <div id="searchWrap">
-    <input type="text" id="searchInput" placeholder="🔍 제목·요약·언론사 검색...">
-    <span id="searchCount"></span>
+  <div class="search-wrap">
+    <input id="searchInput" type="text"
+      placeholder="🔍 제목, 요약, 출처 검색..."
+      oninput="doSearch(this.value)">
   </div>
 </header>
 
-<div class="tab-bar">""" + tab_buttons + """</div>
+<div class="tabs" id="tabBar">"""
++ tab_btns +
+"""</div>
 
-<main>""" + tab_contents + """</main>
+<div id="mainContent">"""
++ tab_contents +
+"""</div>
+<div id="noResult">검색 결과가 없습니다.</div>
 
 <script>
-// ── 읽음 상태 ──
+const ALL = """ + all_json + """;
 const READ_KEY = 'news_read_ids';
-function getRead() {
-  try { return new Set(JSON.parse(localStorage.getItem(READ_KEY) || '[]')); }
-  catch { return new Set(); }
+
+function getRS(){
+  try{ return new Set(JSON.parse(localStorage.getItem(READ_KEY)||'[]')); }
+  catch(e){ return new Set(); }
 }
-function saveRead(s) {
-  localStorage.setItem(READ_KEY, JSON.stringify([...s]));
-}
-function applyRead() {
-  const read = getRead();
-  document.querySelectorAll('.card').forEach(card => {
-    if (read.has(card.dataset.id)) card.classList.add('read');
+function saveRS(s){ localStorage.setItem(READ_KEY, JSON.stringify([...s])); }
+
+function applyRead(){
+  const rs = getRS();
+  document.querySelectorAll('.card').forEach(c => {
+    c.classList.toggle('read', rs.has(c.dataset.id));
   });
   updateBadges();
 }
-function markRead(card) {
-  const read = getRead();
-  read.add(card.dataset.id);
-  saveRead(read);
-  card.classList.add('read');
-  updateBadges();
+
+function openArticle(aid, href){
+  const rs = getRS();
+  rs.add(aid);
+  saveRS(rs);
+  applyRead();
+  window.open(href, '_blank');
 }
 
-// ── 배지(미읽음 수) ──
-function updateBadges() {
-  const read = getRead();
-  document.querySelectorAll('.tab-btn').forEach(btn => {
-    const tabId = btn.dataset.tab;
-    const cat = tabId.replace('tab-', '');
-    const badgeEl = document.getElementById('badge-' + cat);
-    if (!badgeEl) return;
-    const cards = document.querySelectorAll('#' + tabId + ' .card');
-    const unread = [...cards].filter(c => !read.has(c.dataset.id) && c.style.display !== 'none').length;
-    badgeEl.textContent = unread;
+function updateBadges(){
+  const rs = getRS();
+  document.querySelectorAll('.tab-content').forEach(tc => {
+    const id    = tc.id.replace('tab-', '');
+    const badge = document.getElementById('badge-' + id);
+    if(!badge) return;
+    const unread = [...tc.querySelectorAll('.card')].filter(c => !rs.has(c.dataset.id)).length;
+    badge.textContent    = unread;
+    badge.style.display  = unread > 0 ? 'inline-block' : 'none';
   });
 }
 
-// ── 탭 ──
-const tabBtns = document.querySelectorAll('.tab-btn');
-const tabContents = document.querySelectorAll('.tab-content');
-function switchTab(targetId) {
-  tabBtns.forEach(b => b.classList.toggle('active', b.dataset.tab === targetId));
-  tabContents.forEach(t => t.classList.toggle('active', t.id === targetId));
-  filterCards();
+function switchTab(id, btn){
+  if(document.getElementById('searchInput').value.trim()) return;
+  document.querySelectorAll('.tab-content').forEach(t => t.style.display = 'none');
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  const sp = document.getElementById('searchPanel');
+  if(sp) sp.style.display = 'none';
+  document.getElementById('tab-' + id).style.display = 'block';
+  btn.classList.add('active');
 }
-tabBtns.forEach(btn => btn.addEventListener('click', () => switchTab(btn.dataset.tab)));
 
-// ── 카드 클릭 ──
-document.querySelectorAll('.card').forEach(card => {
-  card.addEventListener('click', () => {
-    markRead(card);
-    window.open(card.dataset.href, '_blank');
-  });
-});
+function doSearch(q){
+  const query = q.trim().toLowerCase();
+  const nr    = document.getElementById('noResult');
+  const tb    = document.getElementById('tabBar');
+  const mc    = document.getElementById('mainContent');
 
-// ── 검색 ──
-const searchInput = document.getElementById('searchInput');
-const searchCount = document.getElementById('searchCount');
-function filterCards() {
-  const q = searchInput.value.trim().toLowerCase();
-  const activeTab = document.querySelector('.tab-content.active');
-  if (!activeTab) return;
-  const cards = activeTab.querySelectorAll('.card');
-  let visible = 0;
-  cards.forEach(card => {
-    const hit = !q
-      || card.dataset.title.toLowerCase().includes(q)
-      || card.dataset.summary.toLowerCase().includes(q)
-      || card.dataset.source.toLowerCase().includes(q);
-    card.style.display = hit ? '' : 'none';
-    if (hit) visible++;
-  });
-  const grid = activeTab.querySelector('.card-grid');
-  let noRes = activeTab.querySelector('.no-result');
-  if (q && visible === 0) {
-    if (!noRes) {
-      noRes = document.createElement('div');
-      noRes.className = 'no-result';
-      noRes.textContent = '검색 결과가 없습니다.';
-      grid.appendChild(noRes);
-    }
-    noRes.style.display = '';
-  } else {
-    if (noRes) noRes.style.display = 'none';
+  if(!query){
+    tb.style.display = 'flex';
+    const sp = document.getElementById('searchPanel');
+    if(sp) sp.style.display = 'none';
+    document.querySelectorAll('.tab-content').forEach((t,i) =>
+      t.style.display = i===0 ? 'block' : 'none');
+    document.querySelectorAll('.tab-btn').forEach((b,i) =>
+      b.classList.toggle('active', i===0));
+    nr.style.display = 'none';
+    applyRead();
+    return;
   }
-  searchCount.textContent = q ? visible + '건 검색됨' : '';
-  updateBadges();
-}
-searchInput.addEventListener('input', filterCards);
 
-// ── 초기화 ──
-switchTab('tab-세계');
+  tb.style.display = 'none';
+  document.querySelectorAll('.tab-content').forEach(t => t.style.display = 'none');
+
+  let sp = document.getElementById('searchPanel');
+  if(!sp){ sp = document.createElement('div'); sp.id = 'searchPanel'; mc.appendChild(sp); }
+  sp.style.display = 'block';
+  sp.className = 'tab-content';
+
+  const rs      = getRS();
+  const matched = ALL.filter(a =>
+    (a.title + ' ' + a.summary + ' ' + a.source).toLowerCase().includes(query)
+  );
+
+  if(!matched.length){ sp.innerHTML = ''; nr.style.display = 'block'; return; }
+  nr.style.display = 'none';
+
+  let grid = '<div class="cards-grid">';
+  matched.forEach(a => {
+    const rc = rs.has(a.id) ? ' read' : '';
+    const nb = rc ? '' : '<span class="new-badge">NEW</span>';
+    const safeHref = a.link.replace(/'/g, "&apos;");
+    grid += `<article class="card${rc}" data-id="${a.id}" onclick="openArticle('${a.id}','${safeHref}')">`
+      + '<div class="card-body">'
+      + `<div class="card-meta"><span class="source-name">${a.source}</span>${nb}</div>`
+      + `<h3 class="card-title">${a.title}</h3>`
+      + `<p class="card-summary">${a.summary}</p>`
+      + `<div class="card-footer"><span class="pub-date">${a.cat}</span>`
+      + '<span class="read-check">✓ 읽음</span></div>'
+      + '</div></article>';
+  });
+  grid += '</div>';
+  sp.innerHTML = grid;
+}
+
+function tick(){
+  const now  = new Date();
+  const next = new Date(now);
+  next.setUTCMinutes(0,0,0);
+  next.setUTCHours(next.getUTCHours() + 1);
+  const d = Math.max(0, Math.floor((next - now) / 1000));
+  document.getElementById('countdown').textContent =
+    String(Math.floor(d/60)).padStart(2,'0') + ':' + String(d%60).padStart(2,'0');
+}
+
 applyRead();
+tick();
+setInterval(tick, 1000);
 </script>
 </body>
 </html>"""
-    return html
+    )
 
 # ──────────────────────────────────────────
 # 메인
 # ──────────────────────────────────────────
-if __name__ == '__main__':
+if __name__ == "__main__":
     print("뉴스 수집 중...")
     new_articles = fetch_all()
     print(f"  수집: {len(new_articles)}건")
@@ -545,6 +521,6 @@ if __name__ == '__main__':
     print(f"  아카이브: {len(merged)}건")
 
     html = build_html(merged)
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"  '{OUTPUT_FILE}' 생성 완료!")
