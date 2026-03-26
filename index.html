@@ -15,13 +15,19 @@
     --tag-bg: #252840;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; padding: 24px; }
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; padding: 24px; min-height: 100vh; }
   header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 8px; }
   header h1 { font-size: 1.6rem; color: #fff; }
+  .header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
   .updated { font-size: 0.8rem; color: var(--sub); }
+  .refresh-badge {
+    font-size: 0.72rem; color: #4caf50;
+    background: #1b2e1b; padding: 3px 10px;
+    border-radius: 20px; border: 1px solid #2e5c2e;
+  }
   .tabs { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
   .tab-btn {
-    padding: 8px 20px; border: 1px solid var(--border);
+    padding: 8px 22px; border: 1px solid var(--border);
     border-radius: 999px; background: var(--card-bg);
     color: var(--sub); cursor: pointer; font-size: 0.9rem;
     transition: all 0.2s;
@@ -30,16 +36,16 @@
   .tab-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 16px;
   }
   .card {
     background: var(--card-bg); border: 1px solid var(--border);
-    border-radius: 12px; padding: 16px;
+    border-radius: 12px; padding: 18px;
     display: flex; flex-direction: column; gap: 10px;
-    transition: border-color 0.2s;
+    transition: border-color 0.2s, transform 0.15s;
   }
-  .card:hover { border-color: var(--accent); }
+  .card:hover { border-color: var(--accent); transform: translateY(-2px); }
   .card-source {
     font-size: 0.72rem; font-weight: 700; letter-spacing: 0.05em;
     color: var(--accent); background: var(--tag-bg);
@@ -49,15 +55,31 @@
   .card-title { font-size: 0.95rem; font-weight: 600; line-height: 1.4; }
   .card-title a { color: var(--text); text-decoration: none; }
   .card-title a:hover { color: var(--accent); }
-  .card-summary { font-size: 0.82rem; color: var(--sub); line-height: 1.5; flex: 1; }
-  .card-date { font-size: 0.75rem; color: var(--sub); margin-top: auto; }
-  .no-news { color: var(--sub); padding: 40px; text-align: center; font-size: 1rem; }
+  .card-summary { font-size: 0.82rem; color: var(--sub); line-height: 1.55; flex: 1; }
+  .card-date { font-size: 0.75rem; color: var(--sub); margin-top: auto; padding-top: 6px; border-top: 1px solid var(--border); }
+  .no-news { color: var(--sub); padding: 60px; text-align: center; font-size: 1rem; }
+  #countdown-bar {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    background: #12151f; border-top: 1px solid var(--border);
+    padding: 8px 24px; display: flex; align-items: center; gap: 12px;
+    font-size: 0.78rem; color: var(--sub); z-index: 100;
+  }
+  #progress-track {
+    flex: 1; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden;
+  }
+  #progress-fill {
+    height: 100%; background: var(--accent); width: 0%;
+    transition: width 1s linear; border-radius: 2px;
+  }
 </style>
 </head>
 <body>
 <header>
   <h1>📰 My News Dashboard</h1>
-  <span class="updated">마지막 업데이트: 2026년 03월 27일 01:07 KST</span>
+  <div class="header-right">
+    <span class="updated">마지막 업데이트: 2026년 03월 27일 01:13 KST</span>
+    <span class="refresh-badge">🔄 매시간 자동 갱신</span>
+  </div>
 </header>
 <div class="tabs">
 <button class="tab-btn active" onclick="switchTab('IT/테크')" id="btn-IT/테크">IT/테크</button>
@@ -84,7 +106,7 @@
         <div class="card">
           <div class="card-source">TechCrunch</div>
           <div class="card-title"><a href="https://techcrunch.com/2026/03/26/why-hiring-the-weirdos-works/" target="_blank">Why hiring the weirdos works</a></div>
-          <div class="card-summary">When you’re building at breakneck speed, hiring a trusted team is crucial for an early-stage startup. Bland CEO and co-founder Isaiah Granet has tactical advice on how the company managed to find hidd</div>
+          <div class="card-summary">When you’re building at breakneck speed, hiring a trusted team is crucial for an early-stage startup. Bland CEO and co-founder Isaiah Granet has tactical advice on how the company managed to find hidden talent in unlikel</div>
           <div class="card-date">🕐 2026.03.26 23:38</div>
         </div>
         <div class="card">
@@ -94,28 +116,40 @@
           <div class="card-date">🕐 2026.03.26 23:09</div>
         </div>
         <div class="card">
+          <div class="card-source">TechCrunch</div>
+          <div class="card-title"><a href="https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/" target="_blank">Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems</a></div>
+          <div class="card-summary">Conntour uses AI models to let security teams query camera feeds using natural language to find any object, person, or situation.</div>
+          <div class="card-date">🕐 2026.03.26 22:41</div>
+        </div>
+        <div class="card">
           <div class="card-source">The Verge</div>
           <div class="card-title"><a href="https://www.theverge.com/podcast/900540/live-nation-ticketmaster-lawsuit-antitrust-trump-doj-settlement" target="_blank">Everyone hates Ticketmaster. Why’d Trump go easy on them?</a></div>
-          <div class="card-summary">Today on Decoder, we’re talking about the major antitrust lawsuit against Live Nation, and what it might mean for antitrust and competition law in general now that the Justice Department under Trump h</div>
+          <div class="card-summary">Today on Decoder, we’re talking about the major antitrust lawsuit against Live Nation, and what it might mean for antitrust and competition law in general now that the Justice Department under Trump has decided to settle</div>
           <div class="card-date">🕐 2026.03.27 00:31</div>
         </div>
         <div class="card">
           <div class="card-source">The Verge</div>
           <div class="card-title"><a href="https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban" target="_blank">Wikipedia bans AI-generated articles</a></div>
-          <div class="card-summary">Wikipedia will no longer allow editors to write or rewrite articles using AI. The update, which was added to Wikipedia's guidelines late last week, cites the tendency for AI-written articles to violat</div>
+          <div class="card-summary">Wikipedia will no longer allow editors to write or rewrite articles using AI. The update, which was added to Wikipedia's guidelines late last week, cites the tendency for AI-written articles to violate "several of Wikipe</div>
           <div class="card-date">🕐 2026.03.27 00:02</div>
         </div>
         <div class="card">
           <div class="card-source">The Verge</div>
           <div class="card-title"><a href="https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals" target="_blank">The best deals we’ve found from Amazon’s Big Spring Sale (so far)</a></div>
-          <div class="card-summary">Amazon loves to manufacture an event. March is historically a dry spell for deals; however, with Amazon’s third annual Big Spring Sale, which starts today and runs through March 31st, the retail behem</div>
+          <div class="card-summary">Amazon loves to manufacture an event. March is historically a dry spell for deals; however, with Amazon’s third annual Big Spring Sale, which starts today and runs through March 31st, the retail behemoth is hoping to lur</div>
           <div class="card-date">🕐 2026.03.27 00:01</div>
         </div>
         <div class="card">
           <div class="card-source">The Verge</div>
           <div class="card-title"><a href="https://www.theverge.com/policy/901404/senators-warren-hawley-eia-letter-data-centers" target="_blank">Senators are pushing to find out how much electricity data centers actually use</a></div>
-          <div class="card-summary">On Thursday, senators Elizabeth Warren (D-MA) and Josh Hawley (R-MO) sent a letter to the Energy Information Administration (EIA) asking it to collect "comprehensive, annual energy-use disclosures" on</div>
+          <div class="card-summary">On Thursday, senators Elizabeth Warren (D-MA) and Josh Hawley (R-MO) sent a letter to the Energy Information Administration (EIA) asking it to collect "comprehensive, annual energy-use disclosures" on data centers and ma</div>
           <div class="card-date">🕐 2026.03.26 23:25</div>
+        </div>
+        <div class="card">
+          <div class="card-source">The Verge</div>
+          <div class="card-title"><a href="https://www.theverge.com/transportation/900559/robotaxi-two-seater-tesla-lucid-drag-cost" target="_blank">Why a two-seater robotaxi makes more sense than you think</a></div>
+          <div class="card-summary">When Tesla revealed the Cybercab in 2024, many people were baffled by the automaker's decision to make it a two-seater. I had similar thoughts when I first saw it at the LA Auto Show later that year: What kind of taxi ha</div>
+          <div class="card-date">🕐 2026.03.26 23:00</div>
         </div>
         <div class="card">
           <div class="card-source">Wired</div>
@@ -123,34 +157,64 @@
           <div class="card-summary">The Telegram-based Xinbi Guarantee black market sells services that help prop up scam operations. British officials just hit the highly lucrative marketplace with sweeping sanctions.</div>
           <div class="card-date">🕐 2026.03.27 00:15</div>
         </div>
+        <div class="card">
+          <div class="card-source">Wired</div>
+          <div class="card-title"><a href="https://www.wired.com/story/sony-afeela-was-doomed-to-fail/" target="_blank">The Sony Afeela Was Doomed to Fail</a></div>
+          <div class="card-summary">A six-year EV rollout ends with a thud.</div>
+          <div class="card-date">🕐 2026.03.26 23:13</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Wired</div>
+          <div class="card-title"><a href="https://www.wired.com/story/using-a-vpn-may-subject-you-to-nsa-spying/" target="_blank">Using a VPN May Subject You to NSA Spying</a></div>
+          <div class="card-summary">US lawmakers are pressing Tulsi Gabbard to reveal whether using a VPN that connects to overseas servers can strip Americans of their constitutional protections against warrantless surveillance.</div>
+          <div class="card-date">🕐 2026.03.26 22:32</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Wired</div>
+          <div class="card-title"><a href="https://www.wired.com/review/soundboks-mix/" target="_blank">Soundboks Mix Review: A Great Party Speaker</a></div>
+          <div class="card-summary">This large Bluetooth speaker is massively loud, nearly indestructible, and lasts for 40 hours.</div>
+          <div class="card-date">🕐 2026.03.26 21:08</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Wired</div>
+          <div class="card-title"><a href="https://www.wired.com/story/senators-demand-to-know-how-much-energy-data-centers-use/" target="_blank">Senators Demand to Know How Much Energy Data Centers Use</a></div>
+          <div class="card-summary">In a letter sent Thursday morning, Elizabeth Warren and Josh Hawley press the Energy Information Agency to mandate annual electricity disclosure for data centers.</div>
+          <div class="card-date">🕐 2026.03.26 21:00</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Ars Technica</div>
+          <div class="card-title"><a href="https://arstechnica.com/science/2026/03/archaeologists-may-have-found-the-grave-of-the-legendary-fourth-musketeer/" target="_blank">Damaged church floor may have revealed the grave of the fourth musketeer</a></div>
+          <div class="card-summary">This will not be turning up in the church rummage sale.</div>
+          <div class="card-date">🕐 2026.03.27 00:17</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Ars Technica</div>
+          <div class="card-title"><a href="https://arstechnica.com/cars/2026/03/the-corvette-e-ray-is-dead-long-live-the-grand-sport-x/" target="_blank">The Corvette E-Ray is dead, long live the Grand Sport X</a></div>
+          <div class="card-summary">The mid-engined Corvette gets a new variant.</div>
+          <div class="card-date">🕐 2026.03.26 23:56</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Ars Technica</div>
+          <div class="card-title"><a href="https://arstechnica.com/science/2026/03/2026s-historic-snow-drought-is-bad-news-for-the-west/" target="_blank">2026's historic snow drought is bad news for the West</a></div>
+          <div class="card-summary">For much of the Western US, winter 2026 was the year snow never came.</div>
+          <div class="card-date">🕐 2026.03.26 22:52</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Ars Technica</div>
+          <div class="card-title"><a href="https://arstechnica.com/gadgets/2026/03/brincs-new-police-drone-uses-starlink-carries-narcan-chases-vehicles-at-60mph/" target="_blank">BRINC's new police drone uses Starlink, carries Narcan, chases vehicles at 60mph</a></div>
+          <div class="card-summary">Company calls Guardian the "most capable 911 response drone ever.”</div>
+          <div class="card-date">🕐 2026.03.26 06:12</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Ars Technica</div>
+          <div class="card-title"><a href="https://arstechnica.com/space/2026/03/here-is-nasas-plan-for-nuking-gateway-and-sending-it-to-mars/" target="_blank">Here is NASA's plan for nuking Gateway and sending it to Mars</a></div>
+          <div class="card-summary">Only one US-built nuclear reactor has ever flown in space, and that was more than 60 years ago.</div>
+          <div class="card-date">🕐 2026.03.26 05:21</div>
+        </div>
       </div>
     </div>
     <div class="tab-content" id="tab-경제/주식" style="display:none">
       <div class="grid">
-        <div class="card">
-          <div class="card-source">Bloomberg Markets</div>
-          <div class="card-title"><a href="https://www.bloomberg.com/news/articles/2026-03-26/mortgage-rates-jump-to-6-38-as-war-rattles-housing-market" target="_blank">Mortgage Rates Jump to 6.38% as War Rattles Housing Market</a></div>
-          <div class="card-summary">US mortgage rates jumped for a fourth straight week, reaching the highest point in six months and dampening prospects for the crucial spring season as the Iran war roils markets.</div>
-          <div class="card-date">🕐 2026.03.27 01:00</div>
-        </div>
-        <div class="card">
-          <div class="card-source">Bloomberg Markets</div>
-          <div class="card-title"><a href="https://www.bloomberg.com/news/articles/2026-03-25/latest-oil-market-news-and-analysis-for-march-26" target="_blank">Oil Rallies After Trump Issues Warning to Iran on Peace Talks</a></div>
-          <div class="card-summary">Oil rose more than 5% after US President Trump threatened Iran with intensified military action, with the two sides seemingly far from a ceasefire in a conflict that has upended global energy market.</div>
-          <div class="card-date">🕐 2026.03.26 07:03</div>
-        </div>
-        <div class="card">
-          <div class="card-source">Bloomberg Markets</div>
-          <div class="card-title"><a href="https://www.bloomberg.com/news/articles/2026-03-26/wall-street-groups-urge-judge-to-toss-optimum-antitrust-suit" target="_blank">Wall Street Groups Urge Judge to Toss Optimum Antitrust Suit</a></div>
-          <div class="card-summary">Wall Street trade groups lined up behind Apollo Global Management and other firms seeking dismissal of a lawsuit by Optimum Communications Inc. accusing lenders of forming an “illegal cartel” to freez</div>
-          <div class="card-date">🕐 2026.03.27 00:41</div>
-        </div>
-        <div class="card">
-          <div class="card-source">Bloomberg Markets</div>
-          <div class="card-title"><a href="https://www.bloomberg.com/news/articles/2026-03-26/lego-billionaires-family-office-hit-by-poor-investment-returns" target="_blank">Lego Billionaires’ Family Office Hit by Poor Investment Returns</a></div>
-          <div class="card-summary">Profits dropped at the family office of the billionaire owners of Lego last year after disappointing returns in its investment arm offset a standout year at the toymaker.</div>
-          <div class="card-date">🕐 2026.03.27 00:41</div>
-        </div>
         <div class="card">
           <div class="card-source">CNBC Economy</div>
           <div class="card-title"><a href="https://www.cnbc.com/2026/03/26/global-forecasting-group-sees-us-inflation-at-4point2percent-this-year-much-higher-than-fed-estimate.html" target="_blank">Global forecasting group sees U.S. inflation at 4.2% this year, much higher than Fed estimate</a></div>
@@ -174,6 +238,102 @@
           <div class="card-title"><a href="https://www.cnbc.com/2026/03/24/us-to-pay-totalenergies-1-billion-to-kill-east-coast-wind-projects.html" target="_blank">White House to pay TotalEnergies $1 billion to kill off East Coast wind farm projects</a></div>
           <div class="card-summary">The announcement comes as the Iran war disrupts global oil and gas supplies, making the U.S.' development of its LNG resources more urgent.</div>
           <div class="card-date">🕐 2026.03.24 16:26</div>
+        </div>
+        <div class="card">
+          <div class="card-source">CNBC Economy</div>
+          <div class="card-title"><a href="https://www.cnbc.com/2026/03/20/elizabeth-warren-demands-answers-on-costs-economic-impact-of-illegal-and-reckless-war.html" target="_blank">Elizabeth Warren demands answers on costs, economic impact of 'illegal and reckless war'</a></div>
+          <div class="card-summary">The liberal Democratic firebrand ripped President Donald Trump, whom she said has 'dragged the United States into an illegal and reckless war.'</div>
+          <div class="card-date">🕐 2026.03.22 02:28</div>
+        </div>
+        <div class="card">
+          <div class="card-source">CNBC Finance</div>
+          <div class="card-title"><a href="https://www.cnbc.com/2026/03/25/the-firm-whose-ai-paper-knocked-the-whole-market-is-out-with-another-big-call.html" target="_blank">The research firm whose AI paper knocked the whole stock market is out with another big call</a></div>
+          <div class="card-summary">Citrini Research said persistently high energy prices risk weighing on consumers and corporate earnings, creating a tough backdrop for equities.</div>
+          <div class="card-date">🕐 2026.03.26 01:49</div>
+        </div>
+        <div class="card">
+          <div class="card-source">CNBC Finance</div>
+          <div class="card-title"><a href="https://www.cnbc.com/2026/03/25/former-sec-chair-jay-clayton-says-regulators-would-scrutinize-trading-ahead-of-trump-post.html" target="_blank">Former SEC Chair Jay Clayton says regulators would scrutinize trading ahead of Trump post</a></div>
+          <div class="card-summary">"Any move like that in advance of any announcement, the regulators are going to look at," said Clayton, former SEC chair.</div>
+          <div class="card-date">🕐 2026.03.26 00:21</div>
+        </div>
+        <div class="card">
+          <div class="card-source">CNBC Finance</div>
+          <div class="card-title"><a href="https://www.cnbc.com/2026/03/24/totalenergies-ceo-world-has-never-experienced-refining-margins-like-this-.html" target="_blank">World has 'never experienced' soaring refining margins like this, TotalEnergies CEO tells CNBC</a></div>
+          <div class="card-summary">TotalEnergies CEO Patrick Pouyanné on the Iran war, the $1 billion deal with the White House, investment in the U.S., and more.</div>
+          <div class="card-date">🕐 2026.03.25 04:28</div>
+        </div>
+        <div class="card">
+          <div class="card-source">CNBC Finance</div>
+          <div class="card-title"><a href="https://www.cnbc.com/2026/03/24/jamie-dimon-iran-war-middle-east-peace-prospects-long-term.html" target="_blank">Jamie Dimon says Iran war makes Middle East peace prospects better in the long term</a></div>
+          <div class="card-summary">JPMorgan Chase CEO Jamie Dimon issued an optimistic viewpoint on Middle East peace, weeks into the war with Iran.</div>
+          <div class="card-date">🕐 2026.03.25 03:14</div>
+        </div>
+        <div class="card">
+          <div class="card-source">CNBC Finance</div>
+          <div class="card-title"><a href="https://www.cnbc.com/2026/03/24/moodys-private-credit-fund-kkr-future-standard-junk.html" target="_blank">Moody's cuts rating on private credit fund run by KKR and Future Standard to junk as bad loans grow</a></div>
+          <div class="card-summary">The move by Moody's is the latest sign of distress in private credit; retail investors have been rushing to withdraw funds, from Blackstone to Apollo.</div>
+          <div class="card-date">🕐 2026.03.24 23:55</div>
+        </div>
+        <div class="card">
+          <div class="card-source">MarketWatch</div>
+          <div class="card-title"><a href="https://www.marketwatch.com/story/adobes-stock-may-not-be-an-ai-loser-but-this-analyst-sees-a-number-of-reasons-to-steer-clear-731df79f?mod=mw_rss_topstories" target="_blank">Adobe’s stock may not be an ‘AI loser,’ but this analyst sees a number of reasons to steer clear</a></div>
+          <div class="card-summary">AI won’t necessarily devastate Adobe’s business, but it does invite various investor questions that a William Blair analyst doubts will get resolved in the near future.</div>
+          <div class="card-date">🕐 2026.03.27 00:48</div>
+        </div>
+        <div class="card">
+          <div class="card-source">MarketWatch</div>
+          <div class="card-title"><a href="https://www.marketwatch.com/story/120-a-barrel-oil-may-be-a-tipping-point-that-shifts-feds-focus-from-high-inflation-to-recession-threat-0c47c8a4?mod=mw_rss_topstories" target="_blank">$120-a-barrel oil may be a tipping point that shifts Fed’s focus from high inflation to recession threat</a></div>
+          <div class="card-summary">U.S.-traded crude was at around $93 a barrel on Thursday.</div>
+          <div class="card-date">🕐 2026.03.27 00:43</div>
+        </div>
+        <div class="card">
+          <div class="card-source">MarketWatch</div>
+          <div class="card-title"><a href="https://www.marketwatch.com/story/investors-are-dangerously-complacent-about-potential-blowback-from-iran-conflict-former-hedge-fund-exec-says-36c24c52?mod=mw_rss_topstories" target="_blank">Investors are dangerously complacent about potential blowback from Iran conflict, former hedge-fund exec says</a></div>
+          <div class="card-summary">Markets are not fully reflecting the shock to oil prices resulting from the Iran conflict, Unlimited Funds’ Bob Elliott warns.</div>
+          <div class="card-date">🕐 2026.03.27 00:42</div>
+        </div>
+        <div class="card">
+          <div class="card-source">MarketWatch</div>
+          <div class="card-title"><a href="https://www.marketwatch.com/story/i-dont-want-social-security-to-switch-me-from-disability-to-retirement-benefits-how-can-i-stop-it-9a59b8ea?mod=mw_rss_topstories" target="_blank">I don’t want Social Security to switch me from disability to retirement benefits. How can I stop it?</a></div>
+          <div class="card-summary">“I want to wait until 70 to collect full retirement benefits.”</div>
+          <div class="card-date">🕐 2026.03.27 00:31</div>
+        </div>
+        <div class="card">
+          <div class="card-source">MarketWatch</div>
+          <div class="card-title"><a href="https://www.marketwatch.com/story/warner-bros-discovery-sets-shareholder-vote-as-sale-to-paramount-moves-full-steam-ahead-32ffb5e4?mod=mw_rss_topstories" target="_blank">Warner Bros. Discovery sets shareholder vote as sale to Paramount moves full steam ahead</a></div>
+          <div class="card-summary">A special meeting of Warner Bros. shareholders will be held on April 23 to vote on the buyout by Paramount.</div>
+          <div class="card-date">🕐 2026.03.27 00:26</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Investing.com</div>
+          <div class="card-title"><a href="https://www.investing.com/news/company-news/seadrill-ltd-stock-hits-52week-high-at-4606-usd-93CH-4583065" target="_blank">Seadrill Ltd stock hits 52-week high at 46.06 USD</a></div>
+          <div class="card-summary"></div>
+          <div class="card-date">🕐 2026.03.27 01:10</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Investing.com</div>
+          <div class="card-title"><a href="https://www.investing.com/news/insider-trading-news/saba-capital-buys-virtus-dividend-nfj-shares-worth-732k-93CH-4583064" target="_blank">Saba capital buys Virtus Dividend (NFJ) shares worth $732k</a></div>
+          <div class="card-summary"></div>
+          <div class="card-date">🕐 2026.03.27 01:10</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Investing.com</div>
+          <div class="card-title"><a href="https://www.investing.com/news/analyst-ratings/olaplex-stock-price-target-lowered-to-206-by-evercore-isi-93CH-4583063" target="_blank">Olaplex stock price target lowered to $2.06 by Evercore ISI</a></div>
+          <div class="card-summary"></div>
+          <div class="card-date">🕐 2026.03.27 01:09</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Investing.com</div>
+          <div class="card-title"><a href="https://www.investing.com/news/analyst-ratings/hc-wainwright-raises-insmed-stock-price-target-on-arikayce-data-93CH-4583062" target="_blank">H.C. Wainwright raises Insmed stock price target on ARIKAYCE data</a></div>
+          <div class="card-summary"></div>
+          <div class="card-date">🕐 2026.03.27 01:09</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Investing.com</div>
+          <div class="card-title"><a href="https://www.investing.com/news/company-news/smithfield-foods-stock-hits-alltime-high-at-2607-usd-93CH-4583061" target="_blank">Smithfield Foods stock hits all-time high at 26.07 USD</a></div>
+          <div class="card-summary"></div>
+          <div class="card-date">🕐 2026.03.27 01:09</div>
         </div>
       </div>
     </div>
@@ -203,63 +363,225 @@
           <div class="card-summary">The women's category of Olympic sports will be limited to biological females from 2028, says the International Olympic Committee.</div>
           <div class="card-date">🕐 2026.03.26 23:29</div>
         </div>
+        <div class="card">
+          <div class="card-source">BBC World</div>
+          <div class="card-title"><a href="https://www.bbc.com/sport/football/articles/c070kg5rn0ko?at_medium=RSS&at_campaign=rss" target="_blank">Senegal to parade Afcon trophy despite title being stripped</a></div>
+          <div class="card-summary">Senegal's Football Federation boss calls the decision to hand Morocco the Afcon title a "robbery" amid plans to parade the trophy before Saturday's friendly against Peru in Paris.</div>
+          <div class="card-date">🕐 2026.03.26 23:35</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Al Jazeera</div>
+          <div class="card-title"><a href="https://www.aljazeera.com/news/2026/3/26/tehranstollbooth-how-iran-picks-who-to-let-through-strait-of-hormuz?traffic_source=rss" target="_blank">Tehran’s’tollbooth’: How Iran picks who to let through Strait of Hormuz</a></div>
+          <div class="card-summary">Iran has blocked the passage of vessels carrying 20 percent of the world’s oil and liquefied natural gas supplies.</div>
+          <div class="card-date">🕐 2026.03.27 00:56</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Al Jazeera</div>
+          <div class="card-title"><a href="https://www.aljazeera.com/video/newsfeed/2026/3/26/pakistan-says-it-is-mediating-us-iran-talks?traffic_source=rss" target="_blank">Pakistan says it is mediating US-Iran talks</a></div>
+          <div class="card-summary">Pakistan says it is mediating indirect talks between the US and Iran aimed at ending the war.</div>
+          <div class="card-date">🕐 2026.03.27 00:33</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Al Jazeera</div>
+          <div class="card-title"><a href="https://www.aljazeera.com/video/newsfeed/2026/3/26/wto-says-world-experiencing-worst-trade-disruption-in-80-years?traffic_source=rss" target="_blank">WTO says world experiencing worst trade disruption in 80 years</a></div>
+          <div class="card-summary">WTO chief Ngozi Okonjo-Iweala says the global trade order has ‘irrevocably changed’.</div>
+          <div class="card-date">🕐 2026.03.27 00:25</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Al Jazeera</div>
+          <div class="card-title"><a href="https://www.aljazeera.com/news/2026/3/26/russian-officials-meet-us-counterparts-as-moscow-denies-aiding-iran?traffic_source=rss" target="_blank">Russian officials meet US counterparts as Moscow denies aiding Iran</a></div>
+          <div class="card-summary">Kremlin spokesperson says talks are part of &#039;​necessary dialogue&#039; with Washington as war in Ukraine continues.</div>
+          <div class="card-date">🕐 2026.03.26 22:34</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Al Jazeera</div>
+          <div class="card-title"><a href="https://www.aljazeera.com/video/newsfeed/2026/3/26/iranian-naval-chief-killed-in-attack-israel-says?traffic_source=rss" target="_blank">Iranian naval chief killed in attack, Israel says</a></div>
+          <div class="card-summary">Israel says it has killed IRGC naval commander Alireza Tangsiri in a strike near Bandar Abbas by the Strait of Hormuz.</div>
+          <div class="card-date">🕐 2026.03.26 22:23</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Guardian World</div>
+          <div class="card-title"><a href="https://www.theguardian.com/news/2026/mar/26/nigeria-regional-superpower-uk-reparative-justice-trade-economic-ties" target="_blank">Nigeria takes its place on world stage in quest to become regional superpower</a></div>
+          <div class="card-summary">Nigeria and UK look to strengthen trade and economic ties amid growing calls from Africa and Caribbean for reparative justice“There are chapters in our shared history that I know have left some painful marks,” King Charl</div>
+          <div class="card-date">🕐 2026.03.26 23:45</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Guardian World</div>
+          <div class="card-title"><a href="https://www.theguardian.com/world/2026/mar/26/sudan-drone-strikes-civilian-targets-north-darfur-market-north-kordofan-truck" target="_blank">Two drone strikes on civilian targets kill 28 people in Sudan</a></div>
+          <div class="card-summary">Market in North Darfur and truck carrying civilians in North Kordofan hit as civil war approaches fourth yearAt least 28 civilians have been killed in two separate drone strikes in Sudan, according to health workers, as </div>
+          <div class="card-date">🕐 2026.03.26 19:24</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Guardian World</div>
+          <div class="card-title"><a href="https://www.theguardian.com/world/2026/mar/26/ukraine-war-briefing-zelenskyy-says-us-has-linked-security-guarantees-to-ceding-of-donbas" target="_blank">Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding of Donbas</a></div>
+          <div class="card-summary">Ukrainian president says peace deal proposed by US includes handing over land to Russia. What we know on day 1,492 Continue reading...</div>
+          <div class="card-date">🕐 2026.03.26 15:51</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Guardian World</div>
+          <div class="card-title"><a href="https://www.theguardian.com/news/2026/mar/25/un-votes-slave-trade-gravest-crime-against-humanity-reparatory-justice" target="_blank">UN votes to describe slave trade as ‘gravest crime against humanity’</a></div>
+          <div class="card-summary">Members call for reparatory justice as landmark resolution aims for ‘political recognition at the highest level’The United Nations has voted to describe the transatlantic chattel slave trade as the “gravest crime against</div>
+          <div class="card-date">🕐 2026.03.26 04:16</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Guardian World</div>
+          <div class="card-title"><a href="https://www.theguardian.com/culture/2026/mar/25/ebo-m-lion-king-circle-of-life-chant-learnmore-jonasi-lawsuit" target="_blank">Lebo M sues comedian Learnmore Jonasi claiming Circle of Life misrepresentation</a></div>
+          <div class="card-summary">Grammy winner seeks more than $20m in damages over mistranslation of The Lion King chantA Grammy-winning South African composer who wrote and performed the opening chant in Circle of Life for Disney’s The Lion King is su</div>
+          <div class="card-date">🕐 2026.03.25 12:06</div>
+        </div>
+        <div class="card">
+          <div class="card-source">DW News</div>
+          <div class="card-title"><a href="https://www.dw.com/en/online-porn-sites-putting-kids-safety-at-risk-eu-says/a-76547658?maca=en-rss-en-all-1573-xml-mrss" target="_blank">Online porn sites putting kids' safety at risk, EU says</a></div>
+          <div class="card-summary">Social media platform Snapchat and four adult websites put kids in danger by not enforcing age-limits to access content, according to the European Commission. An EU age-verification app is set to launch in 2027.</div>
+          <div class="card-date">🕐 2026.03.27 01:01</div>
+        </div>
+        <div class="card">
+          <div class="card-source">DW News</div>
+          <div class="card-title"><a href="https://www.dw.com/en/european-nato-defense-spending-rose-by-almost-20-in-2025/a-76544678?maca=en-rss-en-all-1573-xml-mrss" target="_blank">European NATO defense spending rose by almost 20% in 2025</a></div>
+          <div class="card-summary">European NATO members and Canada increased their defense spending by an aggregate of 19.6% in 2025, the second consecutive year at that rate. German defense spending, famously sluggish to rise, reached 2.4% of GDP.</div>
+          <div class="card-date">🕐 2026.03.27 00:43</div>
+        </div>
+        <div class="card">
+          <div class="card-source">DW News</div>
+          <div class="card-title"><a href="https://www.dw.com/en/ukraine-us-tied-guarantees-to-donbas-withdrawal-zelenskyy/a-76544649?maca=en-rss-en-all-1573-xml-mrss" target="_blank">Ukraine: US tied guarantees to Donbas withdrawal — Zelenskyy</a></div>
+          <div class="card-summary">Ukrainian President Zelenskyy has said the United States linked future security guarantees to Kyiv's withdrawal from the Donbas region. The comments have gone down well in Russia, which is stepping up its offensive.</div>
+          <div class="card-date">🕐 2026.03.26 23:36</div>
+        </div>
+        <div class="card">
+          <div class="card-source">DW News</div>
+          <div class="card-title"><a href="https://www.dw.com/en/olympic-committee-bans-transgender-women-from-female-events/a-76546859?maca=en-rss-en-all-1573-xml-mrss" target="_blank">Olympic Committee bans transgender women from female events</a></div>
+          <div class="card-summary">The International Olympic Committee has said it will reintroduce genetic gender testing to determine eligibility for female events at the 2028 Los Angeles Games and beyond.</div>
+          <div class="card-date">🕐 2026.03.26 23:02</div>
+        </div>
+        <div class="card">
+          <div class="card-source">DW News</div>
+          <div class="card-title"><a href="https://www.dw.com/en/looksmaxxing-the-manosphere-beauty-cult/a-76538730?maca=en-rss-en-all-1573-xml-mrss" target="_blank">'Looksmaxxing' — the manosphere beauty cult</a></div>
+          <div class="card-summary">The online trend with roots in misogyny encourages socially isolated young men to undertake painful practices to gain beauty and status — and its language is reaching the White House.</div>
+          <div class="card-date">🕐 2026.03.26 22:42</div>
+        </div>
       </div>
     </div>
     <div class="tab-content" id="tab-AI" style="display:none">
       <div class="grid">
         <div class="card">
-          <div class="card-source">MIT Tech Review AI</div>
+          <div class="card-source">MIT Tech Review</div>
           <div class="card-title"><a href="https://www.technologyreview.com/2026/03/26/1134697/the-download-battery-ai-pivot-new-ai-tool-math/" target="_blank">The Download: a battery pivot to AI, and rewriting math</a></div>
-          <div class="card-summary">This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why this battery company is pivoting to AI&#160; Q</div>
+          <div class="card-summary">This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why this battery company is pivoting to AI&#160; Qichao Hu&#160;doesn’</div>
           <div class="card-date">🕐 2026.03.26 21:42</div>
         </div>
         <div class="card">
-          <div class="card-source">MIT Tech Review AI</div>
+          <div class="card-source">MIT Tech Review</div>
           <div class="card-title"><a href="https://www.technologyreview.com/2026/03/26/1134470/the-snow-gods-how-a-couple-of-ski-bums-built-the-internets-best-weather-app/" target="_blank">The snow gods: How a couple of ski bums built the internet’s best weather app</a></div>
-          <div class="card-summary">The best snow-forecasting app for skiers and snowboarders isn’t from any of the federally funded weather services. Nor from any of the big-name brands. It’s an independent app startup that leverages g</div>
+          <div class="card-summary">The best snow-forecasting app for skiers and snowboarders isn’t from any of the federally funded weather services. Nor from any of the big-name brands. It’s an independent app startup that leverages government data, its </div>
           <div class="card-date">🕐 2026.03.26 19:00</div>
         </div>
         <div class="card">
-          <div class="card-source">MIT Tech Review AI</div>
+          <div class="card-source">MIT Tech Review</div>
           <div class="card-title"><a href="https://www.technologyreview.com/2026/03/26/1134677/gas-prices-electric-vehicles/" target="_blank">Are high gas prices good news for EVs? It’s complicated.</a></div>
-          <div class="card-summary">I live in a dense city with plentiful public transportation options and limited parking, so I don’t own a car. I’m often utterly clueless about the current price of gasoline. But as the conflict in Ir</div>
+          <div class="card-summary">I live in a dense city with plentiful public transportation options and limited parking, so I don’t own a car. I’m often utterly clueless about the current price of gasoline. But as the conflict in Iran has escalated, fo</div>
           <div class="card-date">🕐 2026.03.26 19:00</div>
         </div>
         <div class="card">
-          <div class="card-source">MIT Tech Review AI</div>
+          <div class="card-source">MIT Tech Review</div>
           <div class="card-title"><a href="https://www.technologyreview.com/2026/03/25/1134664/roundtables-the-next-era-of-space-exploration/" target="_blank">Roundtables: The Next Era of Space Exploration</a></div>
-          <div class="card-summary">Listen to the session or watch below Whether it&#8217;s the race to find life on Mars, the campaign to outsmart killer asteroids, or the quest to make the moon a permanent home to astronauts, scientis</div>
+          <div class="card-summary">Listen to the session or watch below Whether it&#8217;s the race to find life on Mars, the campaign to outsmart killer asteroids, or the quest to make the moon a permanent home to astronauts, scientists&#8217; efforts in</div>
           <div class="card-date">🕐 2026.03.26 02:26</div>
+        </div>
+        <div class="card">
+          <div class="card-source">MIT Tech Review</div>
+          <div class="card-title"><a href="https://www.technologyreview.com/2026/03/25/1134657/battery-company-ai-pivot-ses/" target="_blank">Why this battery company is pivoting to AI</a></div>
+          <div class="card-summary">Qichao Hu doesn’t mince words about how he sees the state of the battery industry. “Almost every Western battery company has either died or is going to die. It’s kind of the reality,” he says. Hu is the CEO of SES AI, a </div>
+          <div class="card-date">🕐 2026.03.26 00:02</div>
         </div>
         <div class="card">
           <div class="card-source">VentureBeat AI</div>
           <div class="card-title"><a href="https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud" target="_blank">Railway secures $100 million to challenge AWS with AI-native cloud infrastructure</a></div>
-          <div class="card-summary">Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi</div>
+          <div class="card-summary">Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging</div>
           <div class="card-date">🕐 2026.01.22 23:00</div>
         </div>
         <div class="card">
           <div class="card-source">VentureBeat AI</div>
           <div class="card-title"><a href="https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free" target="_blank">Claude Code costs up to $200 a month. Goose does the same thing for free.</a></div>
-          <div class="card-summary">The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive.Claude Code, Anthropic&#x27;s terminal-based AI agent that can write, debug, and deploy code autonomously, has cap</div>
+          <div class="card-summary">The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive.Claude Code, Anthropic&#x27;s terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imaginatio</div>
           <div class="card-date">🕐 2026.01.19 23:00</div>
         </div>
         <div class="card">
           <div class="card-source">VentureBeat AI</div>
           <div class="card-title"><a href="https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai" target="_blank">Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews</a></div>
-          <div class="card-summary">Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s $100 million offers seemed impossible. So he spen</div>
+          <div class="card-summary">Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s $100 million offers seemed impossible. So he spent $5,000 — a fifth o</div>
           <div class="card-date">🕐 2026.01.16 23:01</div>
         </div>
         <div class="card">
           <div class="card-source">VentureBeat AI</div>
           <div class="card-title"><a href="https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and" target="_blank">Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI</a></div>
-          <div class="card-summary">Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company&#x27;s workplace assistant, transforming it from a simple notification tool into what executives describe as a fully</div>
+          <div class="card-summary">Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company&#x27;s workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent ca</div>
           <div class="card-date">🕐 2026.01.13 22:00</div>
+        </div>
+        <div class="card">
+          <div class="card-source">VentureBeat AI</div>
+          <div class="card-title"><a href="https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no" target="_blank">Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required</a></div>
+          <div class="card-summary">Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire featur</div>
+          <div class="card-date">🕐 2026.01.12 20:30</div>
         </div>
         <div class="card">
           <div class="card-source">Hacker News AI</div>
           <div class="card-title"><a href="https://www.theguardian.com/lifeandstyle/2026/mar/26/ai-chatbot-users-lives-wrecked-by-delusion" target="_blank">Marriage over, €100k down; AI users whose lives were wrecked by delusion</a></div>
-          <div class="card-summary">Article URL: https://www.theguardian.com/lifeandstyle/2026/mar/26/ai-chatbot-users-lives-wrecked-by-delusion Comments URL: https://news.ycombinator.com/item?id=47530264 Points: 77 # Comments: 59</div>
+          <div class="card-summary">Article URL: https://www.theguardian.com/lifeandstyle/2026/mar/26/ai-chatbot-users-lives-wrecked-by-delusion Comments URL: https://news.ycombinator.com/item?id=47530264 Points: 78 # Comments: 69</div>
           <div class="card-date">🕐 2026.03.26 22:32</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Hacker News AI</div>
+          <div class="card-title"><a href="https://github.com/jonwiggins/optio" target="_blank">Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR</a></div>
+          <div class="card-summary">I think like many of you, I've been jumping between many claude code/codex sessions at a time, managing multiple lines of work and worktrees in multiple repos. I wanted a way to easily manage multiple lines of work and r</div>
+          <div class="card-date">🕐 2026.03.26 02:10</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Hacker News AI</div>
+          <div class="card-title"><a href="https://www.bbc.com/future/article/20260324-i-tried-to-prove-im-not-an-ai-deepfake" target="_blank">I tried to prove I'm not AI. My aunt wasn't convinced</a></div>
+          <div class="card-summary">Article URL: https://www.bbc.com/future/article/20260324-i-tried-to-prove-im-not-an-ai-deepfake Comments URL: https://news.ycombinator.com/item?id=47515502 Points: 165 # Comments: 186</div>
+          <div class="card-date">🕐 2026.03.25 19:28</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Hacker News AI</div>
+          <div class="card-title"><a href="https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/" target="_blank">TurboQuant: Redefining AI efficiency with extreme compression</a></div>
+          <div class="card-summary">Article URL: https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/ Comments URL: https://news.ycombinator.com/item?id=47513475 Points: 525 # Comments: 150</div>
+          <div class="card-date">🕐 2026.03.25 14:00</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Hacker News AI</div>
+          <div class="card-title"><a href="https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/" target="_blank">Disney Exits OpenAI Deal After AI Giant Shutters Sora</a></div>
+          <div class="card-summary">Article URL: https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/ Comments URL: https://news.ycombinator.com/item?id=47509234 Points: 206 # Comments: 3</div>
+          <div class="card-date">🕐 2026.03.25 06:01</div>
+        </div>
+        <div class="card">
+          <div class="card-source">The Verge AI</div>
+          <div class="card-title"><a href="https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban" target="_blank">Wikipedia bans AI-generated articles</a></div>
+          <div class="card-summary">Wikipedia will no longer allow editors to write or rewrite articles using AI. The update, which was added to Wikipedia's guidelines late last week, cites the tendency for AI-written articles to violate "several of Wikipe</div>
+          <div class="card-date">🕐 2026.03.27 00:02</div>
+        </div>
+        <div class="card">
+          <div class="card-source">The Verge AI</div>
+          <div class="card-title"><a href="https://www.theverge.com/policy/901404/senators-warren-hawley-eia-letter-data-centers" target="_blank">Senators are pushing to find out how much electricity data centers actually use</a></div>
+          <div class="card-summary">On Thursday, senators Elizabeth Warren (D-MA) and Josh Hawley (R-MO) sent a letter to the Energy Information Administration (EIA) asking it to collect "comprehensive, annual energy-use disclosures" on data centers and ma</div>
+          <div class="card-date">🕐 2026.03.26 23:25</div>
+        </div>
+        <div class="card">
+          <div class="card-source">The Verge AI</div>
+          <div class="card-title"><a href="https://www.theverge.com/ai-artificial-intelligence/899108/webtoon-canvas-ai-translation-localization-yongsoo-kim" target="_blank">Webtoon is adding AI localization tools to its comics platform</a></div>
+          <div class="card-summary">Canvas, Webtoon's platform for user-uploaded comics, is about to get a major overhaul that's designed to help creators make more money and share their art with a wider audience. Today, Webtoon announced its plans to roll</div>
+          <div class="card-date">🕐 2026.03.26 22:00</div>
+        </div>
+        <div class="card">
+          <div class="card-source">The Verge AI</div>
+          <div class="card-title"><a href="https://www.theverge.com/ai-artificial-intelligence/901315/eu-ai-act-delays-ban-nudify-apps" target="_blank">EU backs nude app ban and delays to landmark AI rules</a></div>
+          <div class="card-summary">European lawmakers have voted to delay key parts of the EU AI Act, the bloc's flagship law for regulating artificial intelligence, while also backing proposals to ban nudify apps. The measures, approved by a large majori</div>
+          <div class="card-date">🕐 2026.03.26 21:49</div>
+        </div>
+        <div class="card">
+          <div class="card-source">The Verge AI</div>
+          <div class="card-title"><a href="https://www.theverge.com/ai-artificial-intelligence/901293/openai-adult-mode-erotic-chatbot-shelved-indefinitely" target="_blank">OpenAI shelves erotic chatbot &#8216;indefinitely&#8217;</a></div>
+          <div class="card-summary">OpenAI &#8203;has paused plans to release a sexualized "adult mode" for ChatGPT, in its latest move to refocus on the company's core &#8203;products. According to The Financial Times, the erotic chatbot has been shelved </div>
+          <div class="card-date">🕐 2026.03.26 20:58</div>
         </div>
       </div>
     </div>
@@ -286,7 +608,13 @@
         <div class="card">
           <div class="card-source">ESPN</div>
           <div class="card-title"><a href="https://www.espn.com/mens-college-basketball/story/_/id/48312538/sources-lsu-working-lure-wade-back-firing-mcmahon" target="_blank">LSU works to lure Wade back before firing coach</a></div>
-          <div class="card-summary">LSU is working to finalize a deal to return Will Wade, the current coach at NC State, who was suspended for the 2019 NCAA tournament while at LSU and later fired amid an NCAA probe that left the progr</div>
+          <div class="card-summary">LSU is working to finalize a deal to return Will Wade, the current coach at NC State, who was suspended for the 2019 NCAA tournament while at LSU and later fired amid an NCAA probe that left the program with significant </div>
+          <div class="card-date">🕐 2026.03.27 01:37</div>
+        </div>
+        <div class="card">
+          <div class="card-source">ESPN</div>
+          <div class="card-title"><a href="https://www.espn.com/mlb/story/_/id/48312279/brewers-place-jackson-chourio-il-due-fractured-hand" target="_blank">Brewers star OF Chourio set to miss 2-4 weeks</a></div>
+          <div class="card-summary">The Brewers placed star outfielder Chourio on the 10-day injured list on Thursday because of a fractured left hand. The move was made retroactive to Wednesday.</div>
           <div class="card-date">🕐 2026.03.27 01:37</div>
         </div>
         <div class="card">
@@ -314,13 +642,81 @@
           <div class="card-date">🕐 2026.03.26 23:33</div>
         </div>
         <div class="card">
+          <div class="card-source">BBC Sport</div>
+          <div class="card-title"><a href="https://www.bbc.com/sport/football/articles/c0rxqg9erewo?at_medium=RSS&at_campaign=rss" target="_blank">Referee and VAR errors increase in Premier League</a></div>
+          <div class="card-summary">Refereeing mistakes on the field and through the video assistant referee have risen across most categories in this season's Premier League.</div>
+          <div class="card-date">🕐 2026.03.26 21:18</div>
+        </div>
+        <div class="card">
           <div class="card-source">Sky Sports</div>
           <div class="card-title"><a href="https://www.skysports.com/football/live-blog/12040/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more" target="_blank">Motherwell's Slattery handed four-match ban</a></div>
           <div class="card-summary"></div>
           <div class="card-date">🕐 2026.03.23 21:33</div>
         </div>
+        <div class="card">
+          <div class="card-source">Sky Sports</div>
+          <div class="card-title"><a href="https://www.skysports.com/f1/live-blog/12040/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts" target="_blank">Verstappen ejects journalist from press conference</a></div>
+          <div class="card-summary"></div>
+          <div class="card-date">🕐 2026.03.25 18:40</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Sky Sports</div>
+          <div class="card-title"><a href="https://www.skysports.com/other-sports/news/12040/13524669/sky-sports-receives-five-nominations-for-2026-sja-british-sports-journalism-awards" target="_blank">Sky Sports receives five nominations for SJA Sports Journalism awards</a></div>
+          <div class="card-summary">Sky Sports have picked up five nominations at this year's SJA British Sports Journalism awards with Kaveh Solhekol, Craig Slater, Adam Bate and Megan Wellens all in contention.</div>
+          <div class="card-date">🕐 2026.03.26 22:14</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Sky Sports</div>
+          <div class="card-title"><a href="https://www.skysports.com/football/news/12040/13524599/england-vs-uruguay-harry-maguire-kobbie-mainoo-and-phil-foden-among-players-hoping-to-impress-thomas-tuchel" target="_blank">Which players will seize their chance to impress Tuchel?</a></div>
+          <div class="card-summary">England's friendly against Uruguay is an invaluable opportunity for players pushing for a place in Thomas Tuchel's World Cup squad.</div>
+          <div class="card-date">🕐 2026.03.26 19:06</div>
+        </div>
+        <div class="card">
+          <div class="card-source">Sky Sports</div>
+          <div class="card-title"><a href="https://www.skysports.com/cricket/news/12040/13520900/ipl-qa-with-virat-kohli-jos-buttler-vaibhav-sooryavanshi-jacob-bethell-and-more-in-t20-league-live-on-sky-sports" target="_blank">IPL 2026 Q&A with Kohli, Sooryavanshi, Bethell and more set to star</a></div>
+          <div class="card-summary">All you need to know ahead of the 2026 Indian Premier League, with all 84 matches live on Sky Sports.</div>
+          <div class="card-date">🕐 2026.03.26 21:00</div>
+        </div>
+        <div class="card">
+          <div class="card-source">ESPN NFL</div>
+          <div class="card-title"><a href="https://www.espn.com/nfl/story/_/id/48287895/2027-nfl-free-agency-early-look-top-players-quarterbacks-available" target="_blank">An early look at 2027 free agency: Which playmakers could be available next March?</a></div>
+          <div class="card-summary">Which top players might be available in next year's NFL free agency? We picked out 50 stars to keep an eye on.</div>
+          <div class="card-date">🕐 2026.03.26 22:27</div>
+        </div>
+        <div class="card">
+          <div class="card-source">ESPN NFL</div>
+          <div class="card-title"><a href="https://www.espn.com/nfl/story/_/id/48259765/2026-nfl-free-agency-class-rankings-teams-improved-better-worse-32-signings-deals" target="_blank">Ranking all 32 NFL free agency classes: Which teams most improved their rosters?</a></div>
+          <div class="card-summary">How did every team fare in March, taking into account free agent signings, trades, extensions and departures.</div>
+          <div class="card-date">🕐 2026.03.26 22:27</div>
+        </div>
+        <div class="card">
+          <div class="card-source">ESPN NFL</div>
+          <div class="card-title"><a href="https://www.espn.com/nfl/story/_/id/48312447/tom-brady-says-asked-nfl-possible-comeback" target="_blank">Brady on comeback: NFL didn't 'like that idea'</a></div>
+          <div class="card-summary">Tom Brady says he explored the possibility of coming out of retirement and returning to the NFL, adding that the league did not "like that idea very much."</div>
+          <div class="card-date">🕐 2026.03.27 01:19</div>
+        </div>
+        <div class="card">
+          <div class="card-source">ESPN NFL</div>
+          <div class="card-title"><a href="https://www.espn.com/nfl/story/_/id/48306031/rams-puka-nacua-sued-alleged-antisemitic-remark-bite" target="_blank">Nacua sued over alleged antisemitic remark, bite</a></div>
+          <div class="card-summary">A woman in Los Angeles has filed a civil lawsuit against Puka Nacua alleging the Rams wide receiver made an "unprovoked antisemitic statement" and later bit her on the shoulder.</div>
+          <div class="card-date">🕐 2026.03.27 01:19</div>
+        </div>
+        <div class="card">
+          <div class="card-source">ESPN NFL</div>
+          <div class="card-title"><a href="https://www.espn.com/nfl/story/_/id/48305104/seahawks-open-wednesday-week-1-australia-game-thursday" target="_blank">Seahawks to open on Wed. due to Australia game</a></div>
+          <div class="card-summary">The Super Bowl LX champion Seahawks will open the season on the Wednesday of Week 1 instead of hosting the usual Thursday night opener.</div>
+          <div class="card-date">🕐 2026.03.27 01:19</div>
+        </div>
       </div>
     </div>
+
+<!-- 하단 자동갱신 카운트다운 바 -->
+<div id="countdown-bar">
+  <span>⏱ 다음 갱신까지</span>
+  <div id="progress-track"><div id="progress-fill"></div></div>
+  <span id="countdown-text">60:00</span>
+</div>
+
 <script>
 function switchTab(cat) {
   document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
@@ -328,6 +724,31 @@ function switchTab(cat) {
   document.getElementById('tab-' + cat).style.display = 'block';
   document.getElementById('btn-' + cat).classList.add('active');
 }
+
+// ── 자동 새로고침 카운트다운 (1시간 = 3600초) ──
+(function() {
+  const TOTAL = 3600;
+  let remaining = TOTAL;
+
+  function fmt(sec) {
+    const m = String(Math.floor(sec / 60)).padStart(2, '0');
+    const s = String(sec % 60).padStart(2, '0');
+    return m + ':' + s;
+  }
+
+  function tick() {
+    remaining--;
+    document.getElementById('countdown-text').textContent = fmt(remaining);
+    const pct = ((TOTAL - remaining) / TOTAL * 100).toFixed(2);
+    document.getElementById('progress-fill').style.width = pct + '%';
+    if (remaining <= 0) {
+      location.reload();
+    }
+  }
+
+  document.getElementById('countdown-text').textContent = fmt(remaining);
+  setInterval(tick, 1000);
+})();
 </script>
 </body>
 </html>
