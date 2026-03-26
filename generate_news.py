@@ -1,84 +1,104 @@
 import feedparser
+import json
+import re
 from datetime import datetime, timezone, timedelta
 
 KST = timezone(timedelta(hours=9))
-now = datetime.now(KST).strftime("%Y-%m-%d %H:%M KST")
 
 FEEDS = {
-    "💻 IT/테크": [
-        "https://feeds.feedburner.com/TechCrunch",
-        "https://www.theverge.com/rss/index.xml",
+    "IT/테크": [
+        ("TechCrunch", "https://techcrunch.com/feed/"),
+        ("The Verge", "https://www.theverge.com/rss/index.xml"),
+        ("Wired", "https://www.wired.com/feed/rss"),
     ],
-    "📈 경제/주식": [
-        "https://feeds.bloomberg.com/markets/news.rss",
-        "https://feeds.reuters.com/reuters/businessNews",
+    "경제/주식": [
+        ("Reuters Business", "https://feeds.reuters.com/reuters/businessNews"),
+        ("Bloomberg Markets", "https://feeds.bloomberg.com/markets/news.rss"),
+        ("CNBC Economy", "https://www.cnbc.com/id/20910258/device/rss/rss.html"),
     ],
-    "🌍 국제 뉴스": [
-        "https://feeds.bbci.co.uk/news/world/rss.xml",
-        "https://feeds.reuters.com/Reuters/worldNews",
+    "국제 뉴스": [
+        ("BBC World", "http://feeds.bbci.co.uk/news/world/rss.xml"),
+        ("Reuters World", "https://feeds.reuters.com/Reuters/worldNews"),
+        ("AP News", "https://rsshub.app/apnews/world-news"),
     ],
-    "🤖 AI": [
-        "https://hnrss.org/frontpage?q=AI+LLM+GPT",
-        "https://www.technologyreview.com/feed/",
+    "AI": [
+        ("MIT Tech Review AI", "https://www.technologyreview.com/feed/"),
+        ("VentureBeat AI", "https://venturebeat.com/category/ai/feed/"),
+        ("Hacker News AI", "https://hnrss.org/newest?q=AI&points=50"),
     ],
-    "⚽ 스포츠": [
-        "https://feeds.bbci.co.uk/sport/rss.xml",
-        "https://www.espn.com/espn/rss/news",
+    "스포츠": [
+        ("ESPN", "https://www.espn.com/espn/rss/news"),
+        ("BBC Sport", "http://feeds.bbci.co.uk/sport/rss.xml"),
+        ("Sky Sports", "https://www.skysports.com/rss/12040"),
     ],
 }
 
-def fetch_news(urls, limit=20):
-    items = []
-    seen = set()
-    for url in urls:
+def clean(text):
+    if not text:
+        return ""
+    text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:200]
+
+def fetch_news(category, sources, count=9):
+    articles = []
+    for source_name, url in sources:
         try:
             feed = feedparser.parse(url)
-            source = feed.feed.get("title", url)
-            for entry in feed.entries:
-                title = entry.get("title", "").strip()
-                link  = entry.get("link", "#")
-                pub   = entry.get("published", "")
-                summary = entry.get("summary", "")[:120]
-                # HTML 태그 간단 제거
-                import re
-                summary = re.sub(r"<[^>]+>", "", summary).strip()
-                if title and title not in seen:
-                    seen.add(title)
-                    items.append({
-                        "title": title,
-                        "link": link,
-                        "pub": pub,
-                        "summary": summary,
-                        "source": source
-                    })
+            for entry in feed.entries[:4]:
+                title = clean(entry.get("title", "제목 없음"))
+                summary = clean(entry.get("summary", entry.get("description", "")))
+                link = entry.get("link", "#")
+                published = entry.get("published_parsed") or entry.get("updated_parsed")
+                if published:
+                    dt = datetime(*published[:6], tzinfo=timezone.utc).astimezone(KST)
+                    date_str = dt.strftime("%Y.%m.%d %H:%M")
+                else:
+                    date_str = "날짜 미상"
+                articles.append({
+                    "title": title,
+                    "summary": summary,
+                    "link": link,
+                    "date": date_str,
+                    "source": source_name
+                })
         except Exception as e:
-            print(f"Feed error ({url}): {e}")
-    return items[:limit]
+            print(f"[오류] {source_name}: {e}")
+            continue
+    return articles[:count]
 
-def card(item):
-    return f"""
-        <a class="card" href="{item['link']}" target="_blank" rel="noopener">
-          <div class="card-source">{item['source']}</div>
-          <div class="card-title">{item['title']}</div>
-          <div class="card-summary">{item['summary']}</div>
-          <div class="card-date">{item['pub'][:16] if item['pub'] else ''}</div>
-        </a>"""
+def generate_html(all_news, updated_time):
+    tabs_html = ""
+    contents_html = ""
+    categories = list(all_news.keys())
 
-tabs_html = ""
-panels_html = ""
+    for i, cat in enumerate(categories):
+        active = "active" if i == 0 else ""
+        tabs_html += f'<button class="tab-btn {active}" onclick="switchTab(\'{cat}\')" id="btn-{cat}">{cat}</button>\n'
 
-for i, (cat, urls) in enumerate(FEEDS.items()):
-    active = "active" if i == 0 else ""
-    tab_id = f"tab{i}"
-    tabs_html += f'<button class="tab {active}" onclick="switchTab(this,\'{tab_id}\')">{cat}</button>\n'
-    news_items = fetch_news(urls)
-    if news_items:
-        cards = "".join(card(n) for n in news_items)
-    else:
-        cards = '<p class="empty">뉴스를 불러오지 못했어요. 잠시 후 다시 시도합니다.</p>'
-    panels_html += f'<div class="panel {active}" id="{tab_id}">\n<div class="grid">{cards}</div>\n</div>\n'
+    for i, (cat, articles) in enumerate(all_news.items()):
+        display = "block" if i == 0 else "none"
+        cards_html = ""
 
-html = f"""<!DOCTYPE html>
+        if not articles:
+            cards_html = '<div class="no-news">📭 현재 뉴스를 불러올 수 없습니다.</div>'
+        else:
+            for a in articles:
+                cards_html += f'''
+        <div class="card">
+          <div class="card-source">{a["source"]}</div>
+          <div class="card-title"><a href="{a["link"]}" target="_blank">{a["title"]}</a></div>
+          <div class="card-summary">{a["summary"]}</div>
+          <div class="card-date">🕐 {a["date"]}</div>
+        </div>'''
+
+        contents_html += f'''
+    <div class="tab-content" id="tab-{cat}" style="display:{display}">
+      <div class="grid">{cards_html}
+      </div>
+    </div>'''
+
+    return f'''<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
@@ -87,74 +107,81 @@ html = f"""<!DOCTYPE html>
 <style>
   :root {{
     --bg: #0f1117;
-    --surface: #1a1d27;
-    --border: #2e3147;
+    --card-bg: #1a1d27;
+    --border: #2e3150;
+    --text: #e0e0e0;
+    --sub: #8b8fa8;
     --accent: #4f8ef7;
-    --text: #e8eaf6;
-    --muted: #8b90a7;
-    --source: #4f8ef7;
+    --tag-bg: #252840;
   }}
   * {{ box-sizing: border-box; margin: 0; padding: 0; }}
-  body {{ background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; min-height: 100vh; }}
-  header {{ padding: 24px 20px 12px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; border-bottom: 1px solid var(--border); }}
-  header h1 {{ font-size: 1.5rem; font-weight: 700; }}
-  .updated {{ font-size: 0.8rem; color: var(--muted); }}
-  .tabs {{ display: flex; flex-wrap: wrap; gap: 8px; padding: 16px 20px; }}
-  .tab {{
-    background: var(--surface); color: var(--muted);
-    border: 1px solid var(--border); border-radius: 20px;
-    padding: 8px 18px; cursor: pointer; font-size: 0.9rem;
+  body {{ background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; padding: 24px; }}
+  header {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 8px; }}
+  header h1 {{ font-size: 1.6rem; color: #fff; }}
+  .updated {{ font-size: 0.8rem; color: var(--sub); }}
+  .tabs {{ display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }}
+  .tab-btn {{
+    padding: 8px 20px; border: 1px solid var(--border);
+    border-radius: 999px; background: var(--card-bg);
+    color: var(--sub); cursor: pointer; font-size: 0.9rem;
     transition: all 0.2s;
   }}
-  .tab.active, .tab:hover {{ background: var(--accent); color: #fff; border-color: var(--accent); }}
-  .panel {{ display: none; padding: 0 20px 40px; }}
-  .panel.active {{ display: block; }}
+  .tab-btn:hover {{ border-color: var(--accent); color: var(--accent); }}
+  .tab-btn.active {{ background: var(--accent); color: #fff; border-color: var(--accent); }}
   .grid {{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 16px;
-    margin-top: 16px;
   }}
   .card {{
-    display: flex; flex-direction: column; gap: 8px;
-    background: var(--surface); border: 1px solid var(--border);
+    background: var(--card-bg); border: 1px solid var(--border);
     border-radius: 12px; padding: 16px;
-    text-decoration: none; color: var(--text);
-    transition: border-color 0.2s, transform 0.2s;
+    display: flex; flex-direction: column; gap: 10px;
+    transition: border-color 0.2s;
   }}
-  .card:hover {{ border-color: var(--accent); transform: translateY(-2px); }}
-  .card-source {{ font-size: 0.75rem; color: var(--source); font-weight: 600; text-transform: uppercase; }}
+  .card:hover {{ border-color: var(--accent); }}
+  .card-source {{
+    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.05em;
+    color: var(--accent); background: var(--tag-bg);
+    display: inline-block; padding: 3px 8px; border-radius: 4px;
+    width: fit-content;
+  }}
   .card-title {{ font-size: 0.95rem; font-weight: 600; line-height: 1.4; }}
-  .card-summary {{ font-size: 0.82rem; color: var(--muted); line-height: 1.5; flex: 1; }}
-  .card-date {{ font-size: 0.75rem; color: var(--muted); margin-top: auto; }}
-  .empty {{ color: var(--muted); padding: 40px 0; text-align: center; }}
-  @media (max-width: 600px) {{
-    .grid {{ grid-template-columns: 1fr; }}
-    header h1 {{ font-size: 1.2rem; }}
-  }}
+  .card-title a {{ color: var(--text); text-decoration: none; }}
+  .card-title a:hover {{ color: var(--accent); }}
+  .card-summary {{ font-size: 0.82rem; color: var(--sub); line-height: 1.5; flex: 1; }}
+  .card-date {{ font-size: 0.75rem; color: var(--sub); margin-top: auto; }}
+  .no-news {{ color: var(--sub); padding: 40px; text-align: center; font-size: 1rem; }}
 </style>
 </head>
 <body>
 <header>
   <h1>📰 My News Dashboard</h1>
-  <span class="updated">마지막 업데이트: {now}</span>
+  <span class="updated">마지막 업데이트: {updated_time}</span>
 </header>
 <div class="tabs">
-{tabs_html}
-</div>
-{panels_html}
+{tabs_html}</div>
+{contents_html}
 <script>
-  function switchTab(btn, id) {{
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-    btn.classList.add('active');
-    document.getElementById(id).classList.add('active');
-  }}
+function switchTab(cat) {{
+  document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
+  document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+  document.getElementById('tab-' + cat).style.display = 'block';
+  document.getElementById('btn-' + cat).classList.add('active');
+}}
 </script>
 </body>
-</html>"""
+</html>'''
 
-with open("index.html", "w", encoding="utf-8") as f:
-    f.write(html)
+if __name__ == "__main__":
+    now_kst = datetime.now(KST).strftime("%Y년 %m월 %d일 %H:%M KST")
+    all_news = {}
+    for cat, sources in FEEDS.items():
+        print(f"[수집 중] {cat}...")
+        all_news[cat] = fetch_news(cat, sources)
+        print(f"  → {len(all_news[cat])}개 수집 완료")
 
-print(f"✅ index.html 생성 완료 ({now})")
+    html = generate_html(all_news, now_kst)
+    with open("index.html", "w", encoding="utf-8") as f:
+        f.write(html)
+    print("✅ index.html 생성 완료!")
