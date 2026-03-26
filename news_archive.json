@@ -166,14 +166,14 @@
   },
   "106e7b779b16": {
     "id": "106e7b779b16",
-    "title": "Iran War Live Updates: Trump Delivers New Threats, Escalating Effort to Pressure Iran",
+    "title": "Iran War Live Updates: Trump Again Puts Off Threatened Strikes on Power Grid",
     "link": "https://www.nytimes.com/live/2026/03/26/world/iran-war-israel-trump-oil",
-    "summary": "Mr. Trump warned Iranian officials to consider his peace proposal “before it is too late.” As the administration struggles to force Iran to fully open the Strait of Hormuz to oil shipments, the Israel",
+    "summary": "President Trump has threatened to strike Iran’s  power plants if it does not reopen the Strait of Hormuz, a major transit route for oil tankers. The deadline moved from Friday to April 6.",
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T19:16:38+00:00",
-    "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26israel-iran-140-gfqb/26israel-iran-140-gfqb-mediumSquareAt3X.jpg"
+    "pub_date": "2026-03-26T21:00:49+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26israel-iran-promo5p-qcvk/26israel-iran-promo5p-qcvk-mediumSquareAt3X.jpg"
   },
   "f139bca8dab2": {
     "id": "f139bca8dab2",
@@ -205,7 +205,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T18:04:29+00:00",
+    "pub_date": "2026-03-26T20:46:37+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/25/multimedia/00int-olympics-transgender-ban-pkml/00int-olympics-transgender-ban-pkml-mediumSquareAt3X.jpg"
   },
   "7a4fc282882b": {
@@ -554,9 +554,9 @@
     "title": "A ‘pound of flesh’ from data centers: One senator’s answer to AI job losses",
     "link": "https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/",
     "summary": "Fears of AI-driven job loss are growing fast, and they’re fueling backlash against data centers. Sen. Mark Warner suggests taxing them to help workers survive the transition.",
-    "source": "TechCrunch",
+    "source": "TC AI",
     "source_domain": "techcrunch.com",
-    "cat": "IT/테크",
+    "cat": "AI",
     "pub_date": "2026-03-26T12:00:00+00:00",
     "thumbnail": ""
   },
@@ -1844,18 +1844,18 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T19:57:30+00:00",
+    "pub_date": "2026-03-26T21:59:31+00:00",
     "thumbnail": ""
   },
   "980f10968c5c": {
     "id": "980f10968c5c",
-    "title": "LSU lures Wade back as it fires coach McMahon",
+    "title": "Wade rejoining LSU; NC State AD feels 'lied to'",
     "link": "https://www.espn.com/mens-college-basketball/story/_/id/48312538/sources-lsu-working-lure-wade-back-firing-mcmahon",
     "summary": "Will Wade said in a statement posted to X on Thursday that he is leaving his job as the coach at NC State to return to LSU.",
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T19:57:30+00:00",
+    "pub_date": "2026-03-26T21:59:31+00:00",
     "thumbnail": ""
   },
   "7544e477b550": {
@@ -1943,7 +1943,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T16:53:15+00:00",
+    "pub_date": "2026-03-26T21:54:54+00:00",
     "thumbnail": ""
   },
   "2f600cbc06ce": {
@@ -1954,7 +1954,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T17:43:50+00:00",
+    "pub_date": "2026-03-26T21:54:54+00:00",
     "thumbnail": ""
   },
   "3be4426d9dcf": {
@@ -1965,7 +1965,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T19:57:30+00:00",
+    "pub_date": "2026-03-26T21:59:31+00:00",
     "thumbnail": ""
   },
   "0ad5e7c0c467": {
@@ -2201,7 +2201,7 @@
   },
   "5707ec3f0c38": {
     "id": "5707ec3f0c38",
-    "title": "16 of the most interesting startups from YC W’26 Demo Day",
+    "title": "16 of the most interesting startups from YC W26 Demo Day",
     "link": "https://techcrunch.com/2026/03/26/16-of-the-most-interesting-startups-from-yc-w26-demo-day/",
     "summary": "From redirecting doomscrolling to training humanoid robots, these 16 startups stood out as the most interesting ones from an overflowing YC cohort.",
     "source": "TechCrunch",
@@ -2280,7 +2280,7 @@
     "id": "175a2c2667c1",
     "title": "US prosecutors argue Maduro 'plundered' Venezuelan wealth in court battle over legal fees",
     "link": "https://www.bbc.com/news/articles/c4g8wxyq7v5o?at_medium=RSS&at_campaign=rss",
-    "summary": "A judge said the right to defence was paramount as prosecutors argued the couple should not be able to use Venezuelan funds to pay their lawyers.",
+    "summary": "A judge said the right to defence was paramount as prosecutors argued the couple should not be able to use Venezuelan funds to pay lawyers.",
     "source": "BBC World",
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
@@ -2289,13 +2289,13 @@
   },
   "11fdee61fc25": {
     "id": "11fdee61fc25",
-    "title": "Spanish woman to die by euthanasia after long legal battle with father",
+    "title": "Spanish woman dies by euthanasia after long legal battle with father",
     "link": "https://www.bbc.com/news/articles/c7vqdd23y0vo?at_medium=RSS&at_campaign=rss",
     "summary": "The European Court of Human Rights (ECHR) ruled in Noelia Castillo's favour earlier this week.",
     "source": "BBC World",
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T18:45:47+00:00",
+    "pub_date": "2026-03-26T20:33:07+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4bbc/live/d567f270-2939-11f1-b297-95b0a0a8331e.jpg"
   },
   "03c6a5162a8d": {
@@ -2355,7 +2355,7 @@
   },
   "fdfd9cc0090e": {
     "id": "fdfd9cc0090e",
-    "title": "Prem clubs agree a minimum spend on player wages",
+    "title": "Prem clubs agree minimum spend on player wages",
     "link": "https://www.bbc.com/sport/rugby-union/articles/cx2wp6wdgxvo?at_medium=RSS&at_campaign=rss",
     "summary": "Prem clubs agree to introduce a 'salary floor' from next season in an attempt to keep the top flight as closely fought as possible.",
     "source": "BBC Sport",
@@ -2372,7 +2372,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T19:57:30+00:00",
+    "pub_date": "2026-03-26T21:59:30+00:00",
     "thumbnail": ""
   },
   "5c6a6ca814ac": {
@@ -2383,7 +2383,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T19:57:30+00:00",
+    "pub_date": "2026-03-26T21:59:30+00:00",
     "thumbnail": ""
   },
   "6fd4ffc4e060": {
@@ -2406,6 +2406,226 @@
     "source_domain": "espn.com",
     "cat": "스포츠",
     "pub_date": "2026-03-26T17:59:57+00:00",
+    "thumbnail": ""
+  },
+  "d510fdc19505": {
+    "id": "d510fdc19505",
+    "title": "Mastodon is making its decentralized social network easier to use with its latest revamp",
+    "link": "https://techcrunch.com/2026/03/26/mastodon-is-making-its-decentralized-social-network-easier-to-use-with-its-latest-revamp/",
+    "summary": "Mastodon is redesigning user profiles to simplify the experience and better appeal to mainstream users and organizations.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T20:42:50+00:00",
+    "thumbnail": ""
+  },
+  "5b1c84e2a2ff": {
+    "id": "5b1c84e2a2ff",
+    "title": "Netflix confirms it’s raising prices again",
+    "link": "https://techcrunch.com/2026/03/26/netflix-confirms-its-raising-prices-again/",
+    "summary": "The standard plan without ads now costs $19.99 per month, a $2 increase from the previous $17.99 subscription fee, while the premium plan is also going up by $2 and will now cost $26.99 per month.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T20:39:17+00:00",
+    "thumbnail": ""
+  },
+  "7095cef13072": {
+    "id": "7095cef13072",
+    "title": "강원랜드, 에너지 위기 대응 ‘강원랜드형 고강도 절감 대책’ 시행",
+    "link": "https://zdnet.co.kr/view/?no=20260327014112",
+    "summary": "[지디넷코리아]강원랜드(대표이사 직무대행 남한규)는 중동 정세 불안으로 인한 에너지 수급 불확실성에 대응하고 정부의 에너지 위기 극복 노력에 동참하기 위해 ‘강원랜드형 에너지 절감 대책’을 본격 시행했다고 26일 밝혔다.이번 대책은 임직원과 고객 대상 에너지 절약 캠페인을 포함한 다각적 전략으로, 이날 남한규 대표이사 직무대행과 간부급 직원들이 차량 5부제",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T16:41:12+00:00",
+    "thumbnail": ""
+  },
+  "cd40235d24e7": {
+    "id": "cd40235d24e7",
+    "title": "벤처기업협회, AI 벤처 성장 해법 모색 나서…포럼 개최",
+    "link": "https://zdnet.co.kr/view/?no=20260327013520",
+    "summary": "[지디넷코리아]벤처기업협회는 26일 국회의원회관 제1간담회의실에서 AI 시대 벤처기업 활성화 및 성장 기반 구축 방안을 논의하기 위한 '제2회 벤처·스타트업 성장 포럼'을 개최했다.이번 포럼은 중소벤처기업부와 함께 더불어민주당 김동아 의원실과 벤처기업협회·코리아스타트업포럼이 AI 산업의 경쟁 구도가 기술 개발 중심에서 상용화와 시장 선점 중심으로 빠르게 전",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T16:35:20+00:00",
+    "thumbnail": ""
+  },
+  "5ad4193a16cd": {
+    "id": "5ad4193a16cd",
+    "title": "\"국내 액셀러레이터 투자 생태계 작년보다 개선\"",
+    "link": "https://zdnet.co.kr/view/?no=20260327013036",
+    "summary": "[지디넷코리아]초기 스타트업 및 액셀러레이터가 지난해의 극심한 투자 침체기를 지나 생태계가 점진적인 회복 국면에 진입하고 있다는 평가가 나왔다.초기투자액셀러레이터협회는 국내 액셀러레이터 및 초기 스타트업 투자기관 종사자들을 대상으로 진행한 ‘2025년 대한민국 액셀러레이터 및 초기 스타트업 투자 생태계 설문조사’ 결과를 26일 발표했다. 이번 조사는 지난해",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T16:30:36+00:00",
+    "thumbnail": ""
+  },
+  "b281925a530f": {
+    "id": "b281925a530f",
+    "title": "세일포인트, AWS와 에이전틱 AI 아이덴티티 보안 확산 가속화",
+    "link": "https://zdnet.co.kr/view/?no=20260327012611",
+    "summary": "[지디넷코리아]엔터프라이즈 아이덴티티 보안 기업 세일포인트테크놀로지홀딩스(세일포인트)가 아마존웹서비스(AWS)와 에이전틱 AI 보안 강화를 위해 협력 관계를 구축했다.세일포인트는 AWS와 다년간의 전략적 협력 계약(SCA)를 체결했다고 27일 밝혔다. 이번 계약은 양사의 오랜 협력 관계를 한 층 강화하는 것으로, 세일포인트 솔루션을 AWS 환경에서의 에이전",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T16:26:11+00:00",
+    "thumbnail": ""
+  },
+  "71f300db9d45": {
+    "id": "71f300db9d45",
+    "title": "무보, 수출 중견기업 현장 점검…중동 사태 대응 총력",
+    "link": "https://zdnet.co.kr/view/?no=20260327011951",
+    "summary": "[지디넷코리아]한국무역보험공사는 장영진 사장이 서울 중구 소재 중견기업인 한솔제지를 방문해 중동 분쟁에 따른 수출 현장을 긴급 점검했다고 26일 밝혔다.이날 방문은 최근 이란 사태로 인한 국내 기업의 애로사항을 청취하고 실질적인 지원방안을 모색하기 위해 마련됐다.한경록 한솔제지 대표는 호르무즈 봉쇄 여파로 물류비가 급등해 유럽·아프리카 등 타 지역 수출에도",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T16:19:51+00:00",
+    "thumbnail": ""
+  },
+  "ba97635eb84e": {
+    "id": "ba97635eb84e",
+    "title": "라온메타-대한작업치료사협회, 가상실습 공동개발 '맞손'",
+    "link": "https://zdnet.co.kr/view/?no=20260327011915",
+    "summary": "[지디넷코리아]라온시큐어 산하 생성형 인공지능(AI) 기반 메타버스 플랫폼 전문기업 '라온메타(대표 이순형)'가 가상실습 시장에서 사업 확장에 나섰다.라온메타는 27일 대한작업치료사협회와 작업치료 교육 콘텐츠 공동 개발과 확산을 위한 업무협약을 체결했다고 밝혔다.이번 협약은 작업치료사 양성과 보수교육 과정의 현실적 한계를 라온메타의 플랫폼 '메타데미'로 보",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T16:19:15+00:00",
+    "thumbnail": ""
+  },
+  "a3bacf024746": {
+    "id": "a3bacf024746",
+    "title": "중기부, '모두의 창업 프로젝트' 발대식 개최",
+    "link": "https://zdnet.co.kr/view/?no=20260327011145",
+    "summary": "[지디넷코리아]중소벤처기업부(중기부)는 지난 25일 드림플러스 강남에서 국가창업시대 첫 번째 프로젝트인 '모두의 창업 프로젝트' 발대식을 개최했다.이번 행사에는 공적인 프로젝트 추진을 위해 정부와 민간의 창업생태계 혁신 주체들이 모두 모여 앞으로의 포부를 밝히는 자리로 마련했다.모두의 창업 프로젝트’는 기존 지원사업의 심사·선정 구조를 과감히 탈피해 국가가",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T16:11:45+00:00",
+    "thumbnail": ""
+  },
+  "3438b3c3a6e2": {
+    "id": "3438b3c3a6e2",
+    "title": "정부, 나프타 매점매석 금지·수출제한…수출물량 내수전환 등 시행",
+    "link": "https://zdnet.co.kr/view/?no=20260327010726",
+    "summary": "[지디넷코리아]산업통상부는 중동전쟁으로 인한 나프타 수급 차질에 대응하기 위해 ‘나프타 수출제한 규정’을 고시하고 27일부터 시행에 들어갔다. 규정은 5개월간 시행될 예정이며, 규정 시행 즉시 모든 나프타에 대한 수출이 원칙적으로 제한된다. 앞서 정부는 지난 24일 국무회의에서 이 같은 내용을 심의·의결하고 대통령 승인을 받은 바 있다.나프타는 반도체·자동",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T16:07:26+00:00",
+    "thumbnail": ""
+  },
+  "fcf9712086e7": {
+    "id": "fcf9712086e7",
+    "title": "KISA, 전자고지 음성으로 제공…디지털 취약계층 접근성 제고",
+    "link": "https://zdnet.co.kr/view/?no=20260327010413",
+    "summary": "[지디넷코리아]한국인터넷진흥원(KISA)이 어르신, 시각장애인 등 디지털 취약 계층을 위해 전자고지 내용을 음성으로 제공하는 서비스를 시행한다.KISA는 수원특례시와 함께 ‘모바일 음성 전자고지’ 서비스 확산에 나선다고 26일 밝혔다.‘모바일 음성 전자고지’는 전자고지 내용을 음성으로 제공해 어르신, 시각장애인 등 디지털 취약계층의 정보 접근성을 높이는 서",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T16:04:13+00:00",
+    "thumbnail": ""
+  },
+  "26233fea8195": {
+    "id": "26233fea8195",
+    "title": "JLR temporarily halts production at Solihull plant",
+    "link": "https://www.bbc.com/news/articles/c3931xz101do?at_medium=RSS&at_campaign=rss",
+    "summary": "Jaguar Land Rover pauses Range Rover production at its West Midlands factory due to supplier issue.",
+    "source": "BBC Business",
+    "source_domain": "bbc.com",
+    "cat": "경제/주식",
+    "pub_date": "2026-03-26T19:43:48+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0620/live/c77972e0-294a-11f1-a7a2-d14032155d9d.jpg"
+  },
+  "e9fca5091dde": {
+    "id": "e9fca5091dde",
+    "title": "Betting on Everything",
+    "link": "https://www.nytimes.com/2026/03/26/world/polymarket-betting-iran-trump-olympic-transgender.html",
+    "summary": "Prediction market platforms like Polymarket and Kalshi go way beyond sports and politics. We take a closer look.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-26T21:01:27+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/27/multimedia/27int-theworld-prediction-markets-02-wgvb-promo/27int-theworld-prediction-markets-02-wgvb-promo-mediumSquareAt3X.jpg"
+  },
+  "1f984c65f06a": {
+    "id": "1f984c65f06a",
+    "title": "White must clear air with England team-mates - Tuchel",
+    "link": "https://www.bbc.com/sport/football/articles/c62jq8ddn76o?at_medium=RSS&at_campaign=rss",
+    "summary": "England head coach Thomas Tuchel says Ben White must \"clear the air\" with his team-mates after returning to the England squad for the first time since 2022.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T20:50:04+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bdd/live/478a1b90-294d-11f1-98c5-01603f6fa96c.jpg"
+  },
+  "0a58d2ad350b": {
+    "id": "0a58d2ad350b",
+    "title": "30-0 - Sinner extends stunning run of sets to reach Miami semis",
+    "link": "https://www.bbc.com/sport/tennis/articles/cjw84vw0enqo?at_medium=RSS&at_campaign=rss",
+    "summary": "Jannik Sinner claims his 29th and 30th consecutive sets at ATP Masters 1,000 events as he cruises past American Frances Tiafoe into the semi-finals of the Miami Open.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T19:22:58+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f3a6/live/7da9d380-2945-11f1-a7a2-d14032155d9d.jpg"
+  },
+  "4191cf708770": {
+    "id": "4191cf708770",
+    "title": "Bama's Oats on UNC job: 'No reason to leave'",
+    "link": "https://www.espn.com/mens-college-basketball/story/_/id/48314213/nate-oats-says-no-reason-leave-alabama-open-unc-job",
+    "summary": "Alabama coach Nate Oats has \"absolutely no reason to leave\" his current role, despite being mentioned for other opportunities, and said he has had initial discussions with the school about a new contr",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T21:59:30+00:00",
+    "thumbnail": ""
+  },
+  "16533d7055f5": {
+    "id": "16533d7055f5",
+    "title": "Lawsuit accuses sportsbooks of addictive tech use",
+    "link": "https://www.espn.com/espn/betting/story/_/id/48312490/lawsuit-accuses-sportsbooks-using-addictive-technology",
+    "summary": "A lawsuit against DraftKings and FanDuel accuses the sportsbooks of using addictive technology and features to keep customers betting.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T21:59:31+00:00",
+    "thumbnail": ""
+  },
+  "7c896ab968bb": {
+    "id": "7c896ab968bb",
+    "title": "RG III invited to try out for Team USA flag team",
+    "link": "https://www.espn.com/nfl/story/_/id/48314017/robert-griffin-iii-invited-try-team-usa-flag-football",
+    "summary": "Former NFL quarterback Robert Griffin III received an invitation from USA Football to two training camps starting next month in Chula Vista, California.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T21:59:30+00:00",
+    "thumbnail": ""
+  },
+  "19b650914deb": {
+    "id": "19b650914deb",
+    "title": "Hidalgo calls Blakes 'Caitlin-type of level' scorer",
+    "link": "https://www.espn.com/womens-college-basketball/story/_/id/48313810/hannah-hidalgo-calls-mikayla-blakes-caitlin-type-level-scorer",
+    "summary": "Nobody needs to tell Notre Dame guard Hannah Hidalgo that Vanderbilt guard Mikayla Blakes leads the nation in scoring. She has her own thoughts on how hard Blakes is to defend.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T21:59:30+00:00",
+    "thumbnail": ""
+  },
+  "51d037a345c4": {
+    "id": "51d037a345c4",
+    "title": "NHL playoff watch: Who will win the Pacific Division 'pillow fight'?",
+    "link": "https://www.espn.com/nhl/story/_/id/48305960/nhl-playoffs-bracket-standings-2026-wild-card-bracket-games-matchups",
+    "summary": "All eight clubs are in action Thursday, with postseason spots still up for grabs.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T21:42:08+00:00",
     "thumbnail": ""
   }
 }
