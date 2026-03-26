@@ -56,13 +56,13 @@
   },
   "8d49e68cb68d": {
     "id": "8d49e68cb68d",
-    "title": "Air Canada CEO 'deeply saddened' his poor French skills distracted from victims of crash",
+    "title": "Air Canada CEO 'deeply saddened' his English-only message distracted from victims of crash",
     "link": "https://www.bbc.com/news/articles/cgrlnw70xyko?at_medium=RSS&at_campaign=rss",
     "summary": "Michael Rousseau has faced calls to resign for not speaking French in his message after the LaGuardia crash, which killed two Air Canada pilots.",
     "source": "BBC World",
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T14:40:10+00:00",
+    "pub_date": "2026-03-26T17:57:30+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95aa/live/2e9e2d10-291b-11f1-b297-95b0a0a8331e.jpg"
   },
   "7bc7395f02d1": {
@@ -92,9 +92,9 @@
     "title": "Trump confirms May meeting with Xi Jinping as Iran war forces postponement",
     "link": "https://www.bbc.com/news/articles/c05dpr1m71go?at_medium=RSS&at_campaign=rss",
     "summary": "Trump's delayed meeting with Xi Jinping will be the first visit to China by a US president since 2017.",
-    "source": "BBC Business",
+    "source": "BBC World",
     "source_domain": "bbc.com",
-    "cat": "경제/주식",
+    "cat": "국제뉴스",
     "pub_date": "2026-03-26T07:34:55+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fef7/live/33194d00-28af-11f1-bb58-f7787f04c8ed.jpg"
   },
@@ -168,12 +168,12 @@
     "id": "106e7b779b16",
     "title": "Iran War Live Updates: Trump Delivers New Threats, Escalating Effort to Pressure Iran",
     "link": "https://www.nytimes.com/live/2026/03/26/world/iran-war-israel-trump-oil",
-    "summary": "Mr. Trump warned Iranian officials to consider his peace proposal “before it is too late.” He said he had not decided if he would extend his Friday deadline for Iran to fully open the Strait of Hormuz",
+    "summary": "Mr. Trump warned Iranian officials to consider his peace proposal “before it is too late.” As the administration struggles to force Iran to fully open the Strait of Hormuz to oil shipments, the Israel",
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T17:32:47+00:00",
-    "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26mideast-carousel-442-gcbk/26mideast-carousel-442-gcbk-mediumSquareAt3X.jpg"
+    "pub_date": "2026-03-26T19:16:38+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26israel-iran-140-gfqb/26israel-iran-140-gfqb-mediumSquareAt3X.jpg"
   },
   "f139bca8dab2": {
     "id": "f139bca8dab2",
@@ -183,7 +183,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T16:05:02+00:00",
+    "pub_date": "2026-03-26T16:05:03+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/24/multimedia/00int-cuba-promo-bgjw/00int-cuba-promo-bgjw-mediumSquareAt3X.jpg"
   },
   "a6bebf12bd26": {
@@ -205,7 +205,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T17:37:49+00:00",
+    "pub_date": "2026-03-26T18:04:29+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/25/multimedia/00int-olympics-transgender-ban-pkml/00int-olympics-transgender-ban-pkml-mediumSquareAt3X.jpg"
   },
   "7a4fc282882b": {
@@ -216,7 +216,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T14:27:19+00:00",
+    "pub_date": "2026-03-26T17:51:05+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26oz-iran-visas-pljk/26oz-iran-visas-pljk-mediumSquareAt3X.jpg"
   },
   "60484b39f9cf": {
@@ -238,7 +238,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T17:33:51+00:00",
+    "pub_date": "2026-03-26T18:07:50+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26canada-military-spending-tchz/26canada-military-spending-tchz-mediumSquareAt3X.jpg"
   },
   "8f54c06f146e": {
@@ -293,7 +293,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T16:12:53+00:00",
+    "pub_date": "2026-03-26T16:12:54+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26int-ukraine-zelensky-02-hvwk/26int-ukraine-zelensky-02-hvwk-mediumSquareAt3X.jpg"
   },
   "fb73991f6df5": {
@@ -565,9 +565,9 @@
     "title": "Mistral releases a new open source model for speech generation",
     "link": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
     "summary": "The model, which lets enterprises build voice agents for sales and customer engagement, puts Mistral in direct competition with the likes of ElevenLabs, Deepgram, and OpenAI.",
-    "source": "TechCrunch",
+    "source": "TC AI",
     "source_domain": "techcrunch.com",
-    "cat": "IT/테크",
+    "cat": "AI",
     "pub_date": "2026-03-26T11:30:00+00:00",
     "thumbnail": ""
   },
@@ -587,9 +587,9 @@
     "title": "The least surprising chapter of the Manus story is what’s happening right now",
     "link": "https://techcrunch.com/2026/03/25/the-least-surprising-chapter-of-the-manus-story-is-whats-happening-right-now/",
     "summary": "Did anyone think there would not be a reckoning over this tie-up?",
-    "source": "TechCrunch",
+    "source": "TC AI",
     "source_domain": "techcrunch.com",
-    "cat": "IT/테크",
+    "cat": "AI",
     "pub_date": "2026-03-26T02:46:48+00:00",
     "thumbnail": ""
   },
@@ -598,9 +598,9 @@
     "title": "Mercor competitor Deccan AI raises $25M, sources experts from India",
     "link": "https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce/",
     "summary": "Deccan AI concentrates its workforce in India to manage quality in a fast-growing but fragmented AI training market.",
-    "source": "TechCrunch",
+    "source": "TC AI",
     "source_domain": "techcrunch.com",
-    "cat": "IT/테크",
+    "cat": "AI",
     "pub_date": "2026-03-26T00:30:00+00:00",
     "thumbnail": ""
   },
@@ -609,9 +609,9 @@
     "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
     "link": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
     "summary": "Anthropic finds AI isn’t replacing jobs yet, but early data shows growing inequality as experienced users gain an edge, raising concerns about future displacement and workforce divides.",
-    "source": "TechCrunch",
+    "source": "TC AI",
     "source_domain": "techcrunch.com",
-    "cat": "IT/테크",
+    "cat": "AI",
     "pub_date": "2026-03-25T21:44:13+00:00",
     "thumbnail": ""
   },
@@ -1833,7 +1833,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T17:55:10+00:00",
+    "pub_date": "2026-03-26T20:21:52+00:00",
     "thumbnail": ""
   },
   "a403894b9193": {
@@ -1844,7 +1844,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T18:28:49+00:00",
+    "pub_date": "2026-03-26T19:57:30+00:00",
     "thumbnail": ""
   },
   "980f10968c5c": {
@@ -1855,7 +1855,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T18:28:49+00:00",
+    "pub_date": "2026-03-26T19:57:30+00:00",
     "thumbnail": ""
   },
   "7544e477b550": {
@@ -1866,7 +1866,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T18:28:49+00:00",
+    "pub_date": "2026-03-26T19:57:30+00:00",
     "thumbnail": ""
   },
   "188261967b64": {
@@ -1899,7 +1899,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T18:28:49+00:00",
+    "pub_date": "2026-03-26T19:57:30+00:00",
     "thumbnail": ""
   },
   "a092d1563238": {
@@ -1959,13 +1959,13 @@
   },
   "3be4426d9dcf": {
     "id": "3be4426d9dcf",
-    "title": "The NFL draft is almost here! Three biggest needs for all 32 NFL teams -- and a prospect fit",
+    "title": "🏈 NFL draft: Biggest needs for all 32 teams",
     "link": "https://www.espn.com/nfl/draft2026/story/_/id/48303738/2026-nfl-draft-team-needs-depth-chart-holes-prospect-fits",
     "summary": "Our NFL reporters listed the top three positional needs for all 32 teams ahead of April's draft, and our draft experts found non-Round 1 fits to fill them.",
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T16:53:02+00:00",
+    "pub_date": "2026-03-26T19:57:30+00:00",
     "thumbnail": ""
   },
   "0ad5e7c0c467": {
@@ -2104,7 +2104,7 @@
     "id": "810c07cfea56",
     "title": "Intercom's new post-trained Fin Apex 1.0 beats GPT-5.4 and Claude Sonnet 4.6 at customer service resolutions",
     "link": "https://venturebeat.com/technology/intercoms-new-post-trained-fin-apex-1-0-beats-gpt-5-4-and-claude-sonnet-4-6",
-    "summary": "Intercom is taking an unusual gamble for a legacy software company: building its own AI model.The 15-year-old, Dublin, Ireland-based massive customer service platform announced Fin Apex 1.0 on Thursda",
+    "summary": "Intercom is taking an unusual gamble for a legacy software company: building its own AI model.The 15-year-old massive customer service platform announced Fin Apex 1.0 on Thursday, a small, purpose-bui",
     "source": "VentureBeat",
     "source_domain": "venturebeat.com",
     "cat": "AI",
@@ -2196,7 +2196,216 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T18:28:49+00:00",
+    "pub_date": "2026-03-26T19:57:30+00:00",
+    "thumbnail": ""
+  },
+  "5707ec3f0c38": {
+    "id": "5707ec3f0c38",
+    "title": "16 of the most interesting startups from YC W’26 Demo Day",
+    "link": "https://techcrunch.com/2026/03/26/16-of-the-most-interesting-startups-from-yc-w26-demo-day/",
+    "summary": "From redirecting doomscrolling to training humanoid robots, these 16 startups stood out as the most interesting ones from an overflowing YC cohort.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T19:30:00+00:00",
+    "thumbnail": ""
+  },
+  "db840b28c4f3": {
+    "id": "db840b28c4f3",
+    "title": "Google Translate’s real-time headphone translations feature expands to iOS and more countries",
+    "link": "https://techcrunch.com/2026/03/26/google-translates-real-time-headphone-translations-feature-expands-to-ios-and-more-countries/",
+    "summary": "The real-time headphone translations experience keeps each speaker’s tone, emphasis, and cadence intact, so it’s easier to follow the conversation and tell who’s saying what.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T19:11:52+00:00",
+    "thumbnail": ""
+  },
+  "2e81617a9c0f": {
+    "id": "2e81617a9c0f",
+    "title": "OpenAI abandons yet another side quest: ChatGPT’s erotic mode",
+    "link": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
+    "summary": "It's only the latest of several side projects that the AI startup has ditched over the past week.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T18:34:02+00:00",
+    "thumbnail": ""
+  },
+  "e3fbdc525e67": {
+    "id": "e3fbdc525e67",
+    "title": "Data centers get ready — the Senate wants to see your power bills",
+    "link": "https://techcrunch.com/2026/03/26/data-centers-get-ready-the-senate-wants-to-see-your-power-bills/",
+    "summary": "Senators Josh Hawley and Elizabeth Warren want the Energy Information Administration to gather more details about how data centers use power — and how that affects the grid.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T18:23:31+00:00",
+    "thumbnail": ""
+  },
+  "255f8643be88": {
+    "id": "255f8643be88",
+    "title": "Defense startup Shield AI lands $12.7B valuation, up 140%, after US Air Force deal",
+    "link": "https://techcrunch.com/2026/03/26/defense-startup-shield-ai-lands-12-7b-valuation-up-140-after-u-s-air-force-deal/",
+    "summary": "In one year, Shield AI's value has leaped 140%. This after it won a contract to be the software provider to Anduril's Fury fighter jet for the U.S. Air Force.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T18:05:51+00:00",
+    "thumbnail": ""
+  },
+  "8b7ffcc6e877": {
+    "id": "8b7ffcc6e877",
+    "title": "Zelensky visits Saudi Arabia after offering Ukraine's drone expertise",
+    "link": "https://www.bbc.com/news/articles/cx2r4wxdw3no?at_medium=RSS&at_campaign=rss",
+    "summary": "There is renewed urgency for Ukraine to get a drone deal done, as the US increasingly focuses on Iran.",
+    "source": "BBC World",
+    "source_domain": "bbc.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-26T18:24:13+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fae/live/f2b9d3f0-293b-11f1-934f-036468834728.jpg"
+  },
+  "156ff8e9cab1": {
+    "id": "156ff8e9cab1",
+    "title": "Rationing power and diluting petrol - how African countries are coping with effects of Iran war",
+    "link": "https://www.bbc.com/news/articles/cq8wkq1n9epo?at_medium=RSS&at_campaign=rss",
+    "summary": "The disruption in oil supplies has caused shortages and concerns in several African countries.",
+    "source": "BBC World",
+    "source_domain": "bbc.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-26T17:57:41+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36e6/live/a68f56a0-2920-11f1-babf-516204a6f1ce.jpg"
+  },
+  "175a2c2667c1": {
+    "id": "175a2c2667c1",
+    "title": "US prosecutors argue Maduro 'plundered' Venezuelan wealth in court battle over legal fees",
+    "link": "https://www.bbc.com/news/articles/c4g8wxyq7v5o?at_medium=RSS&at_campaign=rss",
+    "summary": "A judge said the right to defence was paramount as prosecutors argued the couple should not be able to use Venezuelan funds to pay their lawyers.",
+    "source": "BBC World",
+    "source_domain": "bbc.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-26T18:49:46+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ff1/live/33d21aa0-293c-11f1-a79a-77e93010d956.jpg"
+  },
+  "11fdee61fc25": {
+    "id": "11fdee61fc25",
+    "title": "Spanish woman to die by euthanasia after long legal battle with father",
+    "link": "https://www.bbc.com/news/articles/c7vqdd23y0vo?at_medium=RSS&at_campaign=rss",
+    "summary": "The European Court of Human Rights (ECHR) ruled in Noelia Castillo's favour earlier this week.",
+    "source": "BBC World",
+    "source_domain": "bbc.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-26T18:45:47+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4bbc/live/d567f270-2939-11f1-b297-95b0a0a8331e.jpg"
+  },
+  "03c6a5162a8d": {
+    "id": "03c6a5162a8d",
+    "title": "Hungary Opens Espionage Case Against Journalist",
+    "link": "https://www.nytimes.com/2026/03/26/world/europe/hungary-journalist-election-meddling-espionage.html",
+    "summary": "The government of Prime Minister Viktor Orban has pursued an intensifying campaign against critics in a tough race before April elections.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-26T18:14:05+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26int-hungary-1-vpfk/26int-hungary-1-vpfk-mediumSquareAt3X.jpg"
+  },
+  "62d940a4937c": {
+    "id": "62d940a4937c",
+    "title": "Malaysia Says Iran Will Allow Its Ships to Pass Through the Strait of Hormuz",
+    "link": "https://www.nytimes.com/2026/03/26/world/asia/iran-malaysia-ships-strait-of-hormuz.html",
+    "summary": "The reprieve would ease disruptions in Malaysia’s energy supply, but the prime minister has vowed to make preparations for a more volatile future.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-26T18:18:32+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26int-malaysia-iran-ships-tkwc/26int-malaysia-iran-ships-tkwc-mediumSquareAt3X.jpg"
+  },
+  "e5c14d34c564": {
+    "id": "e5c14d34c564",
+    "title": "Winter Sea Ice in the Arctic Ties a Record Low",
+    "link": "https://www.nytimes.com/2026/03/26/climate/arctic-sea-ice-ties-record-low.html",
+    "summary": "Ice plays a vital role in reflecting away planet-warming sunlight. The Arctic is warming much faster than most other parts of the world.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-26T19:27:40+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26cli-SEA-ICE-RECORD-tkhc/26cli-SEA-ICE-RECORD-tkhc-mediumSquareAt3X.jpg"
+  },
+  "af480eee49a3": {
+    "id": "af480eee49a3",
+    "title": "Lack of talent & scarred by past - Italy's 'torturous' campaign",
+    "link": "https://www.bbc.com/sport/football/articles/cx2dwx7xr1wo?at_medium=RSS&at_campaign=rss",
+    "summary": "Italy take on Northern Ireland in Thursday’s World Cup play‑off semi‑final, hoping to move one step closer to ending their lingering qualifying curse.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-25T11:27:10+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eba3/live/e79365a0-2318-11f1-83bb-2f220ea2da92.jpg"
+  },
+  "ad6b5bf949fa": {
+    "id": "ad6b5bf949fa",
+    "title": "An alternative way to watch Wales v Bosnia-Herzegovina",
+    "link": "https://www.bbc.com/sport/football/videos/cz78q2v3y4go?at_medium=RSS&at_campaign=rss",
+    "summary": "As Wales prepare for their crucial World Cup 2026 play-off with Bosnia-Herzegovina on Thursday night, we bring you a new way to watch and analyse the game in real-time.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-25T18:28:36+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8e0/live/24a70c30-2878-11f1-934f-036468834728.jpg"
+  },
+  "fdfd9cc0090e": {
+    "id": "fdfd9cc0090e",
+    "title": "Prem clubs agree a minimum spend on player wages",
+    "link": "https://www.bbc.com/sport/rugby-union/articles/cx2wp6wdgxvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Prem clubs agree to introduce a 'salary floor' from next season in an attempt to keep the top flight as closely fought as possible.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T19:00:43+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de62/live/d5ba3ab0-2945-11f1-a7a2-d14032155d9d.jpg"
+  },
+  "9c3270bbe789": {
+    "id": "9c3270bbe789",
+    "title": "Pirates pull shaky Skenes in 1st amid OF miscues",
+    "link": "https://www.espn.com/mlb/story/_/id/48313623/pirates-ace-paul-skenes-pulled-1st-inning-season-opener",
+    "summary": "Paul Skenes recorded just two outs before being pulled from the Pirates' season opener, the shortest outing of his MLB career.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T19:57:30+00:00",
+    "thumbnail": ""
+  },
+  "5c6a6ca814ac": {
+    "id": "5c6a6ca814ac",
+    "title": "IU's Cignetti rips transfer Marsh for gold cleats",
+    "link": "https://www.espn.com/college-football/story/_/id/48313383/indiana-curt-cignetti-rips-transfer-nick-marsh-gold-cleats",
+    "summary": "Indiana coach Curt Cignetti ripped transfer wide receiver Nick Marsh for wearing gold cleats on the first day of spring practice for the defending national champs.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T19:57:30+00:00",
+    "thumbnail": ""
+  },
+  "6fd4ffc4e060": {
+    "id": "6fd4ffc4e060",
+    "title": "Duke's Foster game-time call against St. John's",
+    "link": "https://www.espn.com/mens-college-basketball/story/_/id/48313582/duke-caleb-foster-game-call-sweet-16-vs-st-johns",
+    "summary": "Duke guard Caleb Foster will be a game-time decision for the Blue Devils' Sweet 16 matchup against St. John's on Friday, coach Jon Scheyer said Thursday.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T19:57:29+00:00",
+    "thumbnail": ""
+  },
+  "9181361aeb27": {
+    "id": "9181361aeb27",
+    "title": "Predicting the 2026 MLB season, from the playoffs and World Series to MVP and Cy Young",
+    "link": "https://www.espn.com/mlb/story/_/id/48290428/mlb-2026-season-predictions-divisions-playoffs-world-series-mvp-cy-young-awards",
+    "summary": "Can the Dodgers three-peat? Will Skubal and Skenes win another Cy Young? Our experts make their predictions for the 2026 baseball season.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T17:59:57+00:00",
     "thumbnail": ""
   }
 }
