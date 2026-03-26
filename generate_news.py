@@ -152,11 +152,15 @@ def save_archive(data):
     with open(ARCHIVE_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
+# ✅ 수정 1: isinstance 체크 추가 → list 데이터 들어와도 크래시 안 남
 def merge_archive(old, new):
     merged = {**old, **new}
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_DAYS)
     result = {}
     for aid, art in merged.items():
+        if not isinstance(art, dict):
+            print(f"[SKIP] 잘못된 데이터 형식 제거: {aid}")
+            continue
         try:
             dt = datetime.fromisoformat(art['pub_date'])
             if dt.tzinfo is None:
@@ -168,8 +172,9 @@ def merge_archive(old, new):
     return result
 
 # ──────────────────────────────────────────
-# 카드 HTML 생성 (f-string 없이 문자열 연결)
+# 카드 HTML 생성
 # ──────────────────────────────────────────
+# ✅ 수정 2: 파비콘 HTML 올바른 <img> 태그로 수정
 def build_card_html(article):
     aid     = str(article.get('id', ''))
     href    = article.get('link', '')
@@ -237,12 +242,16 @@ def build_html(articles):
     cats = ['세계', '기술', '경제']
     now_str = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 
-    # 탭별 카드 수집
     tab_cards = {c: [] for c in cats}
     tab_cards['__archive__'] = []
     cutoff_recent = datetime.now(timezone.utc) - timedelta(days=2)
 
-    for art in sorted(articles.values(), key=lambda x: x.get('pub_date', ''), reverse=True):
+    # ✅ 수정 3: isinstance 필터 추가 → list 데이터 정렬 시 크래시 방지
+    for art in sorted(
+        [a for a in articles.values() if isinstance(a, dict)],
+        key=lambda x: x.get('pub_date', ''),
+        reverse=True
+    ):
         c = art.get('cat', '기타')
         card = build_card_html(art)
         if c in tab_cards:
@@ -496,7 +505,6 @@ function filterCards() {
     card.style.display = hit ? '' : 'none';
     if (hit) visible++;
   });
-  // 검색 결과 없음 표시
   const grid = activeTab.querySelector('.card-grid');
   let noRes = activeTab.querySelector('.no-result');
   if (q && visible === 0) {
