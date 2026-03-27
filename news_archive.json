@@ -2215,9 +2215,9 @@
     "title": "OpenAI abandons yet another side quest: ChatGPT’s erotic mode",
     "link": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
     "summary": "It's only the latest of several side projects that the AI startup has ditched over the past week.",
-    "source": "TechCrunch",
+    "source": "TC AI",
     "source_domain": "techcrunch.com",
-    "cat": "IT/테크",
+    "cat": "AI",
     "pub_date": "2026-03-26T18:34:02+00:00",
     "thumbnail": ""
   },
@@ -2226,9 +2226,9 @@
     "title": "Data centers get ready — the Senate wants to see your power bills",
     "link": "https://techcrunch.com/2026/03/26/data-centers-get-ready-the-senate-wants-to-see-your-power-bills/",
     "summary": "Senators Josh Hawley and Elizabeth Warren want the Energy Information Administration to gather more details about how data centers use power — and how that affects the grid.",
-    "source": "TechCrunch",
+    "source": "TC AI",
     "source_domain": "techcrunch.com",
-    "cat": "IT/테크",
+    "cat": "AI",
     "pub_date": "2026-03-26T18:23:31+00:00",
     "thumbnail": ""
   },
@@ -3670,7 +3670,7 @@
     "source": "BBC World",
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-27T12:31:17+00:00",
+    "pub_date": "2026-03-27T18:04:02+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9ad/live/243a9dd0-2980-11f1-b297-95b0a0a8331e.jpg"
   },
   "8902597af3ef": {
@@ -3736,8 +3736,8 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-27T17:38:31+00:00",
-    "thumbnail": "https://static01.nyt.com/images/2026/03/27/multimedia/27israel-iran-promo-130pm-jpcv/27israel-iran-promo-130pm-jpcv-mediumSquareAt3X.jpg"
+    "pub_date": "2026-03-27T19:50:56+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/27/multimedia/27israel-iran-promo-330pm-mlqz/27israel-iran-promo-330pm-mlqz-mediumSquareAt3X.jpg"
   },
   "64559e6d29ae": {
     "id": "64559e6d29ae",
@@ -4066,7 +4066,7 @@
     "source": "BBC Business",
     "source_domain": "bbc.com",
     "cat": "경제/주식",
-    "pub_date": "2026-03-27T17:06:04+00:00",
+    "pub_date": "2026-03-27T18:28:34+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc24/live/04a04af0-29d6-11f1-9def-51999882d8d7.jpg"
   },
   "b7d397e737a8": {
@@ -4115,13 +4115,13 @@
   },
   "d43db0eaac27": {
     "id": "d43db0eaac27",
-    "title": "Marco Rubio joins G7 talks with focus on Iran war",
+    "title": "Rubio says US expects to finish Iran war 'in next couple of weeks'",
     "link": "https://www.bbc.com/news/articles/c1l9vz064nqo?at_medium=RSS&at_campaign=rss",
-    "summary": "It is the secretary of state's first foreign trip since the conflict began last month.",
+    "summary": "Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.",
     "source": "BBC World",
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-27T12:59:39+00:00",
+    "pub_date": "2026-03-27T18:41:02+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e231/live/5dbf9ad0-29ba-11f1-b09d-e9355cd4d8ae.jpg"
   },
   "041ff8c06f1f": {
@@ -4148,13 +4148,13 @@
   },
   "e16d024ce4f4": {
     "id": "e16d024ce4f4",
-    "title": "US Senate votes to fund Homeland Security to end airports chaos - but ICE excluded",
+    "title": "Trump orders paychecks for TSA workers as Congress stalls and airport chaos grinds on",
     "link": "https://www.bbc.com/news/articles/c33l4j03kr3o?at_medium=RSS&at_campaign=rss",
-    "summary": "The late-night vote is a step towards bringing the 40-day partial shutdown - and long security lines at US airports - to an end.",
+    "summary": "The late-night vote was a step towards bringing the 40-day partial shutdown - and long security lines at US airports - to an end.",
     "source": "BBC World",
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-27T10:31:46+00:00",
+    "pub_date": "2026-03-27T19:31:57+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1ab/live/5cf32210-29c5-11f1-952c-77491ff53aff.jpg"
   },
   "bcb5a7aae58d": {
@@ -4176,7 +4176,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-27T09:01:31+00:00",
+    "pub_date": "2026-03-27T17:41:35+00:00",
     "thumbnail": "https://static01.nyt.com/images/2020/03/30/world/00int-brazil-us-drugs/30Riopoliceviolence-03-mediumSquareAt3X.jpg"
   },
   "87b76f9c08c2": {
@@ -4187,7 +4187,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-27T08:26:55+00:00",
+    "pub_date": "2026-03-27T18:11:00+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/27/world/27int-skorea-lee-obit/27int-skorea-lee-obit-mediumSquareAt3X.jpg"
   },
   "82cac6bd1ddd": {
@@ -4308,7 +4308,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T18:17:22+00:00",
+    "pub_date": "2026-03-27T20:25:46+00:00",
     "thumbnail": ""
   },
   "6a599b680e57": {
@@ -4319,7 +4319,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T18:17:22+00:00",
+    "pub_date": "2026-03-27T20:25:46+00:00",
     "thumbnail": ""
   },
   "4aa13757c154": {
@@ -4330,7 +4330,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T17:10:07+00:00",
+    "pub_date": "2026-03-27T20:49:01+00:00",
     "thumbnail": ""
   },
   "00839acebfd8": {
@@ -4447,7 +4447,7 @@
     "id": "8061318664b4",
     "title": "One Way or Another, Most of Our Electricity Comes From Solar Power",
     "link": "https://www.wired.com/story/most-of-our-electricity-comes-from-solar-power/",
-    "summary": "That’s good news, since the forecast is sunshine for the next five billion years.",
+    "summary": "That’s good news, since the forecast is sunshine for the next 5 billion years.",
     "source": "Wired",
     "source_domain": "wired.com",
     "cat": "IT/테크",
@@ -4572,7 +4572,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-27T17:25:53+00:00",
+    "pub_date": "2026-03-27T17:51:43+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/27/multimedia/00int-germany-deepfake-01-hgqc/00int-germany-deepfake-01-hgqc-mediumSquareAt3X.jpg"
   },
   "171cad61255b": {
@@ -4588,14 +4588,14 @@
   },
   "375c27651832": {
     "id": "375c27651832",
-    "title": "Salah could play for seven more years - Klopp",
+    "title": "'Irreplaceable' Salah could play for seven more years - Klopp",
     "link": "https://www.bbc.com/sport/football/articles/cdj7d0vv98go?at_medium=RSS&at_campaign=rss",
     "summary": "Jurgen Klopp says Mohamed Salah could carry on playing until the age of 40 after the forward leaves Liverpool at the end of the season.",
     "source": "BBC Sport",
     "source_domain": "bbc.com",
     "cat": "스포츠",
     "pub_date": "2026-03-27T16:58:05+00:00",
-    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6904/live/f328f0c0-29fc-11f1-99ef-b5dfea7d5974.jpg"
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d7f/live/b9f68850-2a09-11f1-b297-95b0a0a8331e.jpg"
   },
   "f403b0338a85": {
     "id": "f403b0338a85",
@@ -4682,7 +4682,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T18:17:22+00:00",
+    "pub_date": "2026-03-27T20:25:46+00:00",
     "thumbnail": ""
   },
   "9c08c43db899": {
@@ -4693,7 +4693,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T18:17:22+00:00",
+    "pub_date": "2026-03-27T20:25:46+00:00",
     "thumbnail": ""
   },
   "bb395840282f": {
@@ -4704,7 +4704,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T18:17:22+00:00",
+    "pub_date": "2026-03-27T20:25:46+00:00",
     "thumbnail": ""
   },
   "66b2d1b5aa3b": {
@@ -4716,6 +4716,204 @@
     "source_domain": "espn.com",
     "cat": "스포츠",
     "pub_date": "2026-03-27T18:17:22+00:00",
+    "thumbnail": ""
+  },
+  "58cca8be9b12": {
+    "id": "58cca8be9b12",
+    "title": "Iranian Hackers Breached Kash Patel’s Email—but Not the FBI’s",
+    "link": "https://www.wired.com/story/iranian-hackers-breached-the-fbi-directors-personal-email-but-not-the-fbi/",
+    "summary": "Plus: Apple makes big claims about the effectiveness of its Lockdown Mode anti-spyware feature, Russia moves to implement homegrown encryption for 5G, and more.",
+    "source": "Wired",
+    "source_domain": "wired.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-27T19:45:21+00:00",
+    "thumbnail": "https://media.wired.com/photos/69c6b14c2e33b7e4cae4cc2b/master/pass/secutiy_Kash_Patel_GettyImages-2266686717.jpg"
+  },
+  "2eb8333cd74d": {
+    "id": "2eb8333cd74d",
+    "title": "This Premium Sennheiser Soundbar Is $1,000 Off",
+    "link": "https://www.wired.com/story/sennheiser-ambeo-max-deal-326/",
+    "summary": "Save big on this oversized Sennheiser soundbar with lots of ports and excellent virtual surround.",
+    "source": "Wired",
+    "source_domain": "wired.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-27T17:39:12+00:00",
+    "thumbnail": "https://media.wired.com/photos/69c6bfb494502e7091a2c38a/master/pass/This-Sennheiser-Soundbar-Is-$1,000-Off.jpg"
+  },
+  "b73b9049bb64": {
+    "id": "b73b9049bb64",
+    "title": "8 Best Espresso Machines for Home (2026), Tested by Coffee Pros",
+    "link": "https://www.wired.com/gallery/best-espresso-machines/",
+    "summary": "The best espresso makers can turn your kitchen into a café and help you hone the art of the perfect shot.",
+    "source": "Wired",
+    "source_domain": "wired.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-27T09:33:00+00:00",
+    "thumbnail": "https://media.wired.com/photos/699d08b7fbe4706f6e413cbd/master/pass/Review-%20Fellow%20Series%201%20Espresso%20Machine.png"
+  },
+  "cdf638f56323": {
+    "id": "cdf638f56323",
+    "title": "Memory chip giant SK hynix could help end ‘RAMmageddon’ with blockbuster US IPO",
+    "link": "https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/",
+    "summary": "SK hynix’s potential U.S. listing could raise $10-$14 billion to help it build more capacity, encourage others to follow, and end the 'RAMmageddon' memory shortage.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-27T19:11:28+00:00",
+    "thumbnail": ""
+  },
+  "7cd204c00aac": {
+    "id": "7cd204c00aac",
+    "title": "Waymo’s skyrocketing ridership in one chart",
+    "link": "https://techcrunch.com/2026/03/27/waymo-skyrocketing-ridership-in-one-chart/",
+    "summary": "Waymo's weekly paid robotaxi trips have increased tenfold in less than two years.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-27T19:11:10+00:00",
+    "thumbnail": ""
+  },
+  "04b0faddd53f": {
+    "id": "04b0faddd53f",
+    "title": "European Commission confirms cyberattack after hackers claim data breach",
+    "link": "https://techcrunch.com/2026/03/27/european-commission-confirms-cyberattack-after-hackers-claim-data-breach/",
+    "summary": "The European Union's top executive body has confirmed a cyberattack after hackers reportedly stole reams of data from the European Commission's cloud storage.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-27T17:59:29+00:00",
+    "thumbnail": ""
+  },
+  "d00e3b520984": {
+    "id": "d00e3b520984",
+    "title": "Iran-backed hackers breach FBI director Kash Patel's personal emails",
+    "link": "https://www.bbc.com/news/articles/cvgl4yk7vgpo?at_medium=RSS&at_campaign=rss",
+    "summary": "A hacker group shares Patel's purported resume and  photos of him on its website, information, the FBI says, is \"historical in nature\".",
+    "source": "BBC World",
+    "source_domain": "bbc.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-27T19:21:19+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4099/live/2015bff0-2a07-11f1-af48-7dd725bb0b8b.jpg"
+  },
+  "d84a186dc5ae": {
+    "id": "d84a186dc5ae",
+    "title": "U.N. Report Documents Sectarian Violence in Syria That Killed Over 1,700",
+    "link": "https://www.nytimes.com/2026/03/27/world/middleeast/syria-mass-killing-druse-un.html",
+    "summary": "Investigators said the government of President Ahmed al-Sharaa had done little to address the extrajudicial killings and torture of Druse civilians in July 2025.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-27T19:38:28+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/27/multimedia/27INT-UN-SYRIA-cgtw/27INT-UN-SYRIA-cgtw-mediumSquareAt3X.jpg"
+  },
+  "dee3306f06b6": {
+    "id": "dee3306f06b6",
+    "title": "Noelia Castillo Ramos Dies in Spain After Winning Right to End Her Life",
+    "link": "https://www.nytimes.com/2026/03/27/world/europe/noelia-castillo-ramos-spain-assisted-death.html",
+    "summary": "Noelia Castillo Ramos, 25, who was in chronic physical and psychological pain, had sought an assisted death since 2024, but her father sued to prevent it.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-27T18:03:41+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/27/multimedia/27int-spain-euthanasia-02-cwvg/27int-spain-euthanasia-02-cwvg-mediumSquareAt3X.jpg"
+  },
+  "ef8264864d46": {
+    "id": "ef8264864d46",
+    "title": "Europe Is Drafting Postwar Plan to Escort Tankers, Officials Say",
+    "link": "https://www.nytimes.com/2026/03/27/world/middleeast/europe-plan-escort-hormuz.html",
+    "summary": "France and Britain are leading planning to have warships escort vessels through the Strait of Hormuz, which officials say is farther along than has been revealed publicly.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-27T19:12:22+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/27/multimedia/27int-Europe-Hormuz1-zflg/27int-Europe-Hormuz1-zflg-mediumSquareAt3X.jpg"
+  },
+  "98c0af834810": {
+    "id": "98c0af834810",
+    "title": "IndexCache, a new sparse attention optimizer, delivers 1.82x faster inference on long-context AI models",
+    "link": "https://venturebeat.com/technology/indexcache-a-new-sparse-attention-optimizer-delivers-1-82x-faster-inference",
+    "summary": "Processing 200,000 tokens through a large language model is expensive and slow: the longer the context, the faster the costs spiral. Researchers at Tsinghua University and Z.ai have built a technique ",
+    "source": "VentureBeat",
+    "source_domain": "venturebeat.com",
+    "cat": "AI",
+    "pub_date": "2026-03-27T00:00:00+00:00",
+    "thumbnail": "https://images.ctfassets.net/jdtwqhzvc2n1/40eJYlM7bcrX8EkzGjnaGC/90a1dcf4bc30b684f2ee9a899fef7f7e/LLM_attention_optimization.jpg?w=300&q=30"
+  },
+  "aced48ba317f": {
+    "id": "aced48ba317f",
+    "title": "British Olympic champion Rand dies aged 86",
+    "link": "https://www.bbc.com/sport/olympics/articles/ce3dn6n2vk4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Mary Rand, the first British woman to win an Olympic gold medal in athletics, dies at the age of 86.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T18:49:19+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b13a/live/76460000-2a08-11f1-af48-7dd725bb0b8b.jpg"
+  },
+  "3fcff37240aa": {
+    "id": "3fcff37240aa",
+    "title": "NRL star Tuivasa-Sheck signs for Wakefield",
+    "link": "https://www.bbc.com/sport/rugby-league/articles/cvg06krpw1qo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wakefield Trinity sign National Rugby League star Roger Tuivasa-Sheck from New Zealand Warriors for the 2027 season.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T18:07:41+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c92c/live/211343b0-279f-11f1-ac4d-5987f4dee3ad.jpg"
+  },
+  "d4138d7ffa1d": {
+    "id": "d4138d7ffa1d",
+    "title": "Tiger Woods involved in Florida rollover crash",
+    "link": "https://www.espn.com/golf/story/_/id/48323058/tiger-woods-involved-florida-rollover-crash",
+    "summary": "Tiger Woods was involved in a rollover crash in Jupiter Island, Florida, on Friday, according to the Martin County Sheriff's Office. No details about the cause of the crash or Woods' condition were im",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T20:25:46+00:00",
+    "thumbnail": ""
+  },
+  "a53a7487211d": {
+    "id": "a53a7487211d",
+    "title": "Former Raiders center Robbins dies at age 52",
+    "link": "https://www.espn.com/nfl/story/_/id/48322447/former-raiders-center-barret-robbins-dies-age-52",
+    "summary": "Former Raiders center Barret Robbins has died at age 52.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T20:25:46+00:00",
+    "thumbnail": ""
+  },
+  "fd6330ce0896": {
+    "id": "fd6330ce0896",
+    "title": "Heyward, WS champ, 5-time Gold Glover, retires",
+    "link": "https://www.espn.com/mlb/story/_/id/48322508/jason-heyward-world-series-champ-5-gold-glover-retires",
+    "summary": "Jason Heyward, World Series champion and five-time Gold Glove winner, retired Friday after 16 seasons in Major League Baseball.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T20:25:46+00:00",
+    "thumbnail": ""
+  },
+  "bb8924fe8081": {
+    "id": "bb8924fe8081",
+    "title": "S. Carolina says OU rematch not revenge game",
+    "link": "https://www.espn.com/womens-college-basketball/story/_/id/48322761/south-carolina-not-viewing-oklahoma-rematch-revenge-game",
+    "summary": "Facing one of the only two teams that beat it during the regular season, South Carolina doesn't view its Sweet 16 matchup with Oklahoma as a revenge game.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T20:25:46+00:00",
+    "thumbnail": ""
+  },
+  "4b8baab7e6c4": {
+    "id": "4b8baab7e6c4",
+    "title": "Why NBA insiders are all-in on the Spurs: 'Victor breaks all the rules'",
+    "link": "https://www.espn.com/nba/story/_/id/48315231/nba-intel-wembanyama-spurs-thunder-bog-expansion-updates-east-race-injuries",
+    "summary": "San Antonio's title buzz is growing around the league. Plus, new intel on expansion and an East playoff race full of injury questions.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T17:12:37+00:00",
     "thumbnail": ""
   }
 }
