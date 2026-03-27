@@ -3736,7 +3736,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-27T21:45:43+00:00",
+    "pub_date": "2026-03-27T22:37:15+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/27/multimedia/27israel-iran-promo-445pm-hqmw/27israel-iran-promo-445pm-hqmw-mediumSquareAt3X.jpg"
   },
   "64559e6d29ae": {
@@ -4308,7 +4308,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T22:19:13+00:00",
+    "pub_date": "2026-03-28T00:00:09+00:00",
     "thumbnail": ""
   },
   "6a599b680e57": {
@@ -4319,7 +4319,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T22:19:14+00:00",
+    "pub_date": "2026-03-28T00:00:09+00:00",
     "thumbnail": ""
   },
   "4aa13757c154": {
@@ -4330,7 +4330,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T22:39:27+00:00",
+    "pub_date": "2026-03-27T22:48:29+00:00",
     "thumbnail": ""
   },
   "00839acebfd8": {
@@ -4572,7 +4572,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-27T17:51:43+00:00",
+    "pub_date": "2026-03-27T22:41:17+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/27/multimedia/00int-germany-deepfake-01-hgqc/00int-germany-deepfake-01-hgqc-mediumSquareAt3X.jpg"
   },
   "171cad61255b": {
@@ -4682,7 +4682,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T22:19:13+00:00",
+    "pub_date": "2026-03-28T00:00:09+00:00",
     "thumbnail": ""
   },
   "9c08c43db899": {
@@ -4836,7 +4836,7 @@
     "source": "VentureBeat",
     "source_domain": "venturebeat.com",
     "cat": "AI",
-    "pub_date": "2026-03-27T00:00:00+00:00",
+    "pub_date": "2026-03-27T19:00:00+00:00",
     "thumbnail": "https://images.ctfassets.net/jdtwqhzvc2n1/40eJYlM7bcrX8EkzGjnaGC/90a1dcf4bc30b684f2ee9a899fef7f7e/LLM_attention_optimization.jpg?w=300&q=30"
   },
   "aced48ba317f": {
@@ -4880,7 +4880,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T22:19:14+00:00",
+    "pub_date": "2026-03-28T00:00:09+00:00",
     "thumbnail": ""
   },
   "fd6330ce0896": {
@@ -4942,7 +4942,7 @@
     "id": "cbde9d88c3b4",
     "title": "Tiger Woods charged with driving under influence after crash",
     "link": "https://www.bbc.com/sport/golf/articles/cvg092kege7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Golfer Tiger Woods is charged with driving under the influence after a car crash in Florida, police say.",
+    "summary": "Tiger Woods is charged with driving under the influence after rolling his car in a crash in Florida, police confirm.",
     "source": "BBC World",
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
@@ -4990,7 +4990,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T22:37:31+00:00",
+    "pub_date": "2026-03-28T00:00:09+00:00",
     "thumbnail": ""
   },
   "fb5f57ddc56f": {
@@ -5001,7 +5001,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T22:19:14+00:00",
+    "pub_date": "2026-03-28T00:00:09+00:00",
     "thumbnail": ""
   },
   "448ea7263e90": {
@@ -5012,7 +5012,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-27T22:19:13+00:00",
+    "pub_date": "2026-03-28T00:00:09+00:00",
     "thumbnail": ""
   },
   "1c2571b8d144": {
@@ -5024,6 +5024,127 @@
     "source_domain": "espn.com",
     "cat": "스포츠",
     "pub_date": "2026-03-27T22:19:13+00:00",
+    "thumbnail": ""
+  },
+  "3f0970fc8867": {
+    "id": "3f0970fc8867",
+    "title": "야구 중계 3년차 '티빙'...KBO 시즌 개막 열기 달궜다",
+    "link": "https://zdnet.co.kr/view/?no=20260327233342",
+    "summary": "[지디넷코리아]OTT 티빙이 28일 KBO 리그 정규 시즌 개막을 앞두고 '야구 특수'를 누리고 있다. 지난 12일부터 24일까지 진행된 시범경기 기간 각종 이용자 지표가 급증하면서, 본 시즌 개막에 대한 기대감이 더욱 커지는 모양새다.티빙에 따르면, 시범경기가 시작된 이달 12~23일 티빙의 일일활성이용자수(DAU) 총합은 1975만 53으로, 지난달 1",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-27T22:00:01+00:00",
+    "thumbnail": ""
+  },
+  "d07e939cb751": {
+    "id": "d07e939cb751",
+    "title": "Man arrested over plot to firebomb pro-Palestinian activist's NY home",
+    "link": "https://www.bbc.com/news/articles/c4g69q6r32do?at_medium=RSS&at_campaign=rss",
+    "summary": "Agents found eight Molotov cocktails in the man's Hoboken home, according to court documents.",
+    "source": "BBC World",
+    "source_domain": "bbc.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-27T22:03:34+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2337/live/3331f510-2a23-11f1-a3a2-f39ab326cd69.jpg"
+  },
+  "2cf2e218e8d4": {
+    "id": "2cf2e218e8d4",
+    "title": "Strikes on Iranian Industry Expand Blows to Civilian Economy",
+    "link": "https://www.nytimes.com/2026/03/27/world/middleeast/iran-strikes-infrastructure-industry.html",
+    "summary": "After Israel said it would intensify attacks on Iran’s industrial infrastructure, major steel plants and other vital plants were struck.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-27T22:22:01+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/27/world/27israel-iran-industrial-sites/27israel-iran-industrial-sites-mediumSquareAt3X.jpg"
+  },
+  "63c8e8014dd9": {
+    "id": "63c8e8014dd9",
+    "title": "Who was the attacking spark? How England's players rated",
+    "link": "https://www.bbc.com/sport/football/articles/cp84kxzjne2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Who impressed for England in Friday's friendly against Uruguay? Alex Howell rates the players.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T21:52:43+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca7c/live/fd3a50d0-2a25-11f1-841d-036b1ed79cac.jpg"
+  },
+  "be9f66eda051": {
+    "id": "be9f66eda051",
+    "title": "Champions Hull KR bounce back to hammer St Helens",
+    "link": "https://www.bbc.com/sport/rugby-league/articles/cgj06zgew56o?at_medium=RSS&at_campaign=rss",
+    "summary": "Reigning champions Hull KR celebrate Super League's 30th birthday weekend in style by hammering St Helens.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T22:28:31+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e4e1/live/d64f5da0-2a28-11f1-841d-036b1ed79cac.jpg"
+  },
+  "792ab14e9a06": {
+    "id": "792ab14e9a06",
+    "title": "Wharton eyes Crystal Palace exit - Saturday's gossip",
+    "link": "https://www.bbc.com/sport/football/articles/c9qdj9pw733o?at_medium=RSS&at_campaign=rss",
+    "summary": "Adam Wharton wants Crystal Palace exit, Brighton ready to sell Carlos Baleba for the right price, Arsenal explore Elliot Anderson move and Premier League duo battle for Aurelien Tchouameni.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T22:56:53+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f727/live/28c670d0-2a2b-11f1-934f-036468834728.png"
+  },
+  "00afd1e26984": {
+    "id": "00afd1e26984",
+    "title": "Leinster back to winning ways against Scarlets",
+    "link": "https://www.bbc.com/sport/rugby-union/articles/c3dl5vz4v3po?at_medium=RSS&at_campaign=rss",
+    "summary": "Champions Leinster beat spirited Scarlets with a bonus point in Dublin to go third in the United Rugby Championship.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T21:51:08+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/210f/live/bad80220-2a1e-11f1-b445-970559cc3350.jpg"
+  },
+  "7c7fdb52fe7e": {
+    "id": "7c7fdb52fe7e",
+    "title": "Wakefield go third with victory at York",
+    "link": "https://www.bbc.com/sport/rugby-league/articles/cpd5n89yvzjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wakefield Trinity move into the top three in the Super League table with a third  win on the bounce against York Knights.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T23:02:47+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7fb9/live/99a4b4d0-2a29-11f1-841d-036b1ed79cac.jpg"
+  },
+  "8d4485028db2": {
+    "id": "8d4485028db2",
+    "title": "Tchine shines as Pulse go second in Super League",
+    "link": "https://www.bbc.com/sport/netball/articles/c203kq1zwd0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Olivia Tchine top-scores with 32 goals as London Pulse beat Leeds Rhinos 61-52 to climb up to second in the Netball Super League standings.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T21:53:45+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ebd/live/2aa272e0-2a22-11f1-b297-95b0a0a8331e.jpg"
+  },
+  "34a05e460abf": {
+    "id": "34a05e460abf",
+    "title": "Sources: Sun sold, will relocate to Houston in '27",
+    "link": "https://www.espn.com/wnba/story/_/id/48324323/sun-sold-fertitta-family-relocate-houston-2027",
+    "summary": "The Connecticut Sun franchise is being sold to the Fertitta family for a record $300 million to bring the WNBA back to Houston, sources confirmed to ESPN on Friday.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-28T00:00:09+00:00",
+    "thumbnail": ""
+  },
+  "411fedf1d50d": {
+    "id": "411fedf1d50d",
+    "title": "Ole Miss QB Chambliss clears hurdle to play in '26",
+    "link": "https://www.espn.com/college-football/story/_/id/48324773/trinidad-chambliss-quest-play-2026-clears-legal-hurdle",
+    "summary": "A significant legal hurdle for Ole Miss quarterback Trinidad Chambliss to play in 2026 was cleared on Friday.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-28T00:00:09+00:00",
     "thumbnail": ""
   }
 }
