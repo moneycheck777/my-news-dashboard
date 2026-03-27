@@ -96,7 +96,7 @@
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
     "pub_date": "2026-03-26T07:34:55+00:00",
-    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fef7/live/33194d00-28af-11f1-bb58-f7787f04c8ed.jpg"
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5dba/live/26022b50-2968-11f1-961e-d160a99d7710.jpg"
   },
   "5a21668907df": {
     "id": "5a21668907df",
@@ -172,7 +172,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-26T22:37:06+00:00",
+    "pub_date": "2026-03-26T23:26:48+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26israel-iran-promo5p-qcvk/26israel-iran-promo5p-qcvk-mediumSquareAt3X.jpg"
   },
   "f139bca8dab2": {
@@ -521,9 +521,9 @@
     "title": "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems",
     "link": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/",
     "summary": "Conntour uses AI models to let security teams query camera feeds using natural language to find any object, person, or situation.",
-    "source": "TechCrunch",
+    "source": "TC AI",
     "source_domain": "techcrunch.com",
-    "cat": "IT/테크",
+    "cat": "AI",
     "pub_date": "2026-03-26T13:41:00+00:00",
     "thumbnail": ""
   },
@@ -1855,7 +1855,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T23:10:55+00:00",
+    "pub_date": "2026-03-27T00:55:55+00:00",
     "thumbnail": ""
   },
   "7544e477b550": {
@@ -1937,13 +1937,13 @@
   },
   "3855bec288ed": {
     "id": "3855bec288ed",
-    "title": "Men's March Madness: Predictions, previews for every Sweet 16 game Thursday",
+    "title": "Follow live: 11-seed Texas, 2-seed Purdue in close contest for spot in Elite Eight",
     "link": "https://www.espn.com/mens-college-basketball/story/_/id/48311642/march-madness-sweet-16-predictions-previews-live-tracker-thursday-2026",
-    "summary": "ESPN's college basketball reporters agree on two games but split on the others, plus keys to each team advancing.",
+    "summary": "null",
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T22:06:09+00:00",
+    "pub_date": "2026-03-27T00:46:00+00:00",
     "thumbnail": ""
   },
   "2f600cbc06ce": {
@@ -1954,7 +1954,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T22:06:08+00:00",
+    "pub_date": "2026-03-27T00:16:24+00:00",
     "thumbnail": ""
   },
   "3be4426d9dcf": {
@@ -1965,7 +1965,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T23:10:55+00:00",
+    "pub_date": "2026-03-27T00:55:55+00:00",
     "thumbnail": ""
   },
   "0ad5e7c0c467": {
@@ -2285,7 +2285,7 @@
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
     "pub_date": "2026-03-26T18:49:46+00:00",
-    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ff1/live/33d21aa0-293c-11f1-a79a-77e93010d956.jpg"
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5401/live/592fef40-2967-11f1-a79a-77e93010d956.jpg"
   },
   "11fdee61fc25": {
     "id": "11fdee61fc25",
@@ -2383,7 +2383,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T23:10:55+00:00",
+    "pub_date": "2026-03-27T00:55:55+00:00",
     "thumbnail": ""
   },
   "6fd4ffc4e060": {
@@ -2713,7 +2713,7 @@
     "source": "BBC Business",
     "source_domain": "bbc.com",
     "cat": "경제/주식",
-    "pub_date": "2026-03-26T22:56:13+00:00",
+    "pub_date": "2026-03-26T23:36:14+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b92/live/de9e37f0-2966-11f1-a2fb-cb82ebb56cce.jpg"
   },
   "3b13878a0ef7": {
@@ -2834,7 +2834,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T23:10:55+00:00",
+    "pub_date": "2026-03-27T00:55:55+00:00",
     "thumbnail": ""
   },
   "e6c7de81202d": {
@@ -2845,7 +2845,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-26T23:10:55+00:00",
+    "pub_date": "2026-03-27T00:55:55+00:00",
     "thumbnail": ""
   },
   "2d80b83b1b5c": {
@@ -2857,6 +2857,149 @@
     "source_domain": "espn.com",
     "cat": "스포츠",
     "pub_date": "2026-03-26T23:10:55+00:00",
+    "thumbnail": ""
+  },
+  "897b13ec94f9": {
+    "id": "897b13ec94f9",
+    "title": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
+    "link": "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/",
+    "summary": "Google is launching \"switching tools\" that, just as it sounds, will make it easier for users of other chatbots to switch to Gemini.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T23:47:56+00:00",
+    "thumbnail": ""
+  },
+  "440f12656a6b": {
+    "id": "440f12656a6b",
+    "title": "\"폴더블 아이폰, 아이폰18 프로보다 늦게 나온다\"",
+    "link": "https://zdnet.co.kr/view/?no=20260327080632",
+    "summary": "[지디넷코리아]애플이 첫 폴더블 스마트폰 ‘아이폰 폴드(가칭)’ 출시를 준비 중인 가운데, 해당 제품의 출시 시점이 아이폰18 프로 모델보다 늦춰질 것이라는 전망이 다시 제기됐다.블룸버그 통신의 마크 거먼은 27일(현지시간) 진행한 실시간 질의응답에서 폴더블 아이폰이 아이폰18 프로·아이폰18 프로 맥스와 같은 9월 출시 일정에 맞춰 고객에게 배송되지는 않",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T23:16:20+00:00",
+    "thumbnail": ""
+  },
+  "b3f6f05c1719": {
+    "id": "b3f6f05c1719",
+    "title": "데이비드 삭스 美 AI·가상자산 특사 임기 종료…비트코인 3%대 하락",
+    "link": "https://zdnet.co.kr/view/?no=20260327075550",
+    "summary": "[지디넷코리아]미국 정부서 인공지능(AI)·가상자산 담당 특사였던 데이비드 특사가 임기를 마쳤으며 대통령 과학기술자문위원회에 합류한다.26일(현지시간) 블룸버그 등에 따르면 삭스는 특별 정부 직원으로 130일 임기를 마쳤으며 과학기술자문위원회 공동 의장으로 일할 예정이라고 말했다.그는 \"앞으로 AI뿐만 아니라 더 넓은 범위의 기술에 대해 권고안을 제시할 수",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-26T22:55:50+00:00",
+    "thumbnail": ""
+  },
+  "989d198bcc85": {
+    "id": "989d198bcc85",
+    "title": "Here’s What Happened in the War in the Middle East on Thursday",
+    "link": "https://www.nytimes.com/2026/03/26/world/middleeast/war-iran-us-israel-recap.html",
+    "summary": "For a second time, President Trump extended the deadline for Iran to fully reopen the Strait of Hormuz.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-26T23:26:47+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/26/multimedia/26israel-iran-front-by-front1-wbzj/26israel-iran-front-by-front1-wbzj-mediumSquareAt3X.jpg"
+  },
+  "3c9d017901cc": {
+    "id": "3c9d017901cc",
+    "title": "Wales lose on penalties as World Cup dream ended by Bosnia-Herzegovina",
+    "link": "https://www.bbc.com/sport/football/videos/c62jqw8p4zdo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales' hopes of reaching the 2026 World Cup are ended by Bosnia-Herzegovina in Cardiff as the away side score a late equaliser before winning on penalties in their play-off semi-final.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T23:52:38+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf51/live/a328e560-2968-11f1-b297-95b0a0a8331e.jpg"
+  },
+  "35531f84902d": {
+    "id": "35531f84902d",
+    "title": "Bayern dismiss £170m Olise link - Friday's gossip",
+    "link": "https://www.bbc.com/sport/football/articles/cq59gg15ynlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bayern Munich want to keep Michael Olise, despite Liverpool interest and possible bid worth more than £170m, while Manchester United will make a formal approach for Sandro Tonali and Arsenal's Myles L",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T23:03:25+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c200/live/962b8c50-2968-11f1-a79a-77e93010d956.png"
+  },
+  "e30b082e54c7": {
+    "id": "e30b082e54c7",
+    "title": "Dzeko, 40, could join oldest players in World Cup history",
+    "link": "https://www.bbc.com/sport/football/articles/ce84y7g4427o?at_medium=RSS&at_campaign=rss",
+    "summary": "Age is just a number - something Edin Dzeko, 40, is proving to be the case after he helped Bosnia-Herzegovina beat Wales in the World Cup qualifying play-offs.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T23:40:29+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b5db/live/843ba360-2966-11f1-a2fb-cb82ebb56cce.jpg"
+  },
+  "b203a969cfec": {
+    "id": "b203a969cfec",
+    "title": "Motherwell's Slattery gets four-game ban for simulation - watch the incident",
+    "link": "https://www.bbc.com/sport/football/articles/cre187ee878o?at_medium=RSS&at_campaign=rss",
+    "summary": "Motherwell midfielder Callum Slattery has been handed a four-game ban for simulation which resulted in a red card for St Mirren defender Richard King.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-26T13:56:04+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32bb/live/2feede10-291d-11f1-babf-516204a6f1ce.jpg"
+  },
+  "318c43f10549": {
+    "id": "318c43f10549",
+    "title": "Cyclones say Jefferson (ankle) to decide if he plays",
+    "link": "https://www.espn.com/mens-college-basketball/story/_/id/48316218/iowa-state-jefferson-ankle-game-decision-friday",
+    "summary": "Iowa State forward Joshua Jefferson remains a gametime decision for Friday night's Sweet 16 game against Tennessee and said he's hoping to play if there is just \"a little bit of pain\" from his low-ank",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T00:55:55+00:00",
+    "thumbnail": ""
+  },
+  "0c05169ac7a6": {
+    "id": "0c05169ac7a6",
+    "title": "Misiorowski, Brewers tie MLB record with 20 K's",
+    "link": "https://www.espn.com/mlb/story/_/id/48315918/misiorowski-brewers-tie-mlb-record-20-k-vs-white-sox",
+    "summary": "Brewers starter Jacob Misiorowski and four relievers buried the White Sox in an avalanche of 20 strikeouts, the first time a team has recorded that many in nine innings on Opening Day.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T00:55:55+00:00",
+    "thumbnail": ""
+  },
+  "5c9858a7969d": {
+    "id": "5c9858a7969d",
+    "title": "McGonigle lives up to hype with 4 hits in debut",
+    "link": "https://www.espn.com/mlb/story/_/id/48315823/tigers-kevin-mcgonigle-lives-hype-4-hits-debut",
+    "summary": "Rookie Kevin McGonigle hit the first pitch he saw for a bases-loaded, two-run double and became the youngest MLB player with four or more hits on Opening Day since 1990.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T00:55:55+00:00",
+    "thumbnail": ""
+  },
+  "d5ce30de811e": {
+    "id": "d5ce30de811e",
+    "title": "Boston College hires UConn assistant Murray",
+    "link": "https://www.espn.com/mens-college-basketball/story/_/id/48315623/boston-college-hires-uconn-assistant-luke-murray-head-coach",
+    "summary": "Boston College hired UConn assistant Luke Murray as its next head coach, the school announced Thursday.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T00:55:56+00:00",
+    "thumbnail": ""
+  },
+  "cb14218e564a": {
+    "id": "cb14218e564a",
+    "title": "'Changing of the guard': Cole Hutson poised to take big role in next wave for the Capitals",
+    "link": "https://www.espn.com/nhl/story/_/id/48305160/nhl-2025-26-capitals-cole-hutson-alex-ovechkin-prospects-next-wave-contention",
+    "summary": "When the new era of Caps hockey begins, the young defenseman will be at the forefront.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-27T00:03:12+00:00",
     "thumbnail": ""
   }
 }
