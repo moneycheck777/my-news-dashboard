@@ -5743,7 +5743,7 @@
   },
   "d5d97d8a7f14": {
     "id": "d5d97d8a7f14",
-    "title": "House Republicans reject Senate deal, prolonging partial government shutdown",
+    "title": "House Republicans reject Senate deal, prolonging partial US government shutdown",
     "link": "https://www.bbc.com/news/articles/cgj052l1j2no?at_medium=RSS&at_campaign=rss",
     "summary": "Airport security agents have not been paid in more than a month due to a congressional impasse, causing travel chaos across the US.",
     "source": "BBC World",
@@ -5815,7 +5815,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-28T09:52:02+00:00",
+    "pub_date": "2026-03-28T10:36:27+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/28/multimedia/28mideast-promo-5am-ET-vztb/28mideast-promo-5am-ET-vztb-mediumSquareAt3X.jpg"
   },
   "15a0046c6d31": {
@@ -5872,5 +5872,71 @@
     "cat": "스포츠",
     "pub_date": "2026-03-28T07:53:38+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60c6/live/be4cafe0-2844-11f1-ac61-c943803d2ed3.jpg"
+  },
+  "d0c13264317f": {
+    "id": "d0c13264317f",
+    "title": "Your Vape Wants to Know How Old You Are",
+    "link": "https://www.wired.com/story/your-vape-wants-to-know-how-old-you-are/",
+    "summary": "Companies hope that biometric age-verification tech in cartridges could put flavored vapes back in business. But it's unlikely to solve the real problems.",
+    "source": "Wired",
+    "source_domain": "wired.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-28T11:00:00+00:00",
+    "thumbnail": "https://media.wired.com/photos/69c6b32db2e9941fa7bff508/master/pass/gear_vape_age_GettyImages-2216295204.jpg"
+  },
+  "af52d2323290": {
+    "id": "af52d2323290",
+    "title": "The Best Samsung Phones of 2026, Tested and Reviewed",
+    "link": "https://www.wired.com/gallery/best-samsung-phones/",
+    "summary": "From flagship and budget to flipping and folding, Samsung’s Galaxy range spans the breadth of the smartphone cosmos. WIRED’s here to help you make your choice.",
+    "source": "Wired",
+    "source_domain": "wired.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-28T10:30:00+00:00",
+    "thumbnail": "https://media.wired.com/photos/69c6f5f3769405385e981558/master/pass/Samsung%20Galaxy%20S26%20Series%20SOURCE%20Julian%20Chokkattu%20(3).jpg"
+  },
+  "60af7b82960b": {
+    "id": "60af7b82960b",
+    "title": "Samsung Frame Pro Review: A Good TV for a Pretty Living Room",
+    "link": "https://www.wired.com/review/samsung-frame-pro/",
+    "summary": "This is the first truly impressive art TV I’ve seen.",
+    "source": "Wired",
+    "source_domain": "wired.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-28T10:00:00+00:00",
+    "thumbnail": "https://media.wired.com/photos/69c6f915edd56ee3abed8545/master/pass/Review--Samsung-Frame-Pro-TV.jpg"
+  },
+  "4b6ff6d4b99d": {
+    "id": "4b6ff6d4b99d",
+    "title": "Yemen’s Houthis Fire at Israel, Vowing Further Attacks",
+    "link": "https://www.nytimes.com/2026/03/28/world/middleeast/yemen-houthis-attack-israel-war.html",
+    "summary": "There has long been concern that the Houthis, an Iran-backed militia, could seek to disrupt shipping in the Red Sea if they entered the broader war.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-28T10:23:07+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/28/multimedia/28israel-iran-houthis-01-mfhj/28israel-iran-houthis-01-mfhj-mediumSquareAt3X.jpg"
+  },
+  "1b97fed12066": {
+    "id": "1b97fed12066",
+    "title": "England players will support White - Henderson",
+    "link": "https://www.bbc.com/sport/football/articles/cd0rnndx7vxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Jordan Henderson says England players will support Ben White after the Arsenal defender was booed by fans at Wembley in Friday's 1-1 draw with Uruguay.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-28T10:01:24+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46fc/live/104cc350-2a81-11f1-b297-95b0a0a8331e.jpg"
+  },
+  "716975709c14": {
+    "id": "716975709c14",
+    "title": "Franklin will need to answer some tough questions - Itauma",
+    "link": "https://www.bbc.com/sport/boxing/videos/crm17r81gv3o?at_medium=RSS&at_campaign=rss",
+    "summary": "British heavyweight Moses Itauma says his American opponent Jermaine Franklin will have some \"tough questions to answer\" in their bout on Saturday.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-28T07:03:21+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1447/live/5d410840-29f7-11f1-b297-95b0a0a8331e.jpg"
   }
 }
