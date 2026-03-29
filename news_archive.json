@@ -6662,7 +6662,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-28T22:24:24+00:00",
+    "pub_date": "2026-03-29T07:58:36+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/28/multimedia/28israel-iran-front-by-front-hgtl/28israel-iran-front-by-front-hgtl-mediumSquareAt3X.jpg"
   },
   "b1f578a748d6": {
@@ -6953,9 +6953,9 @@
   },
   "b2d6bd118b54": {
     "id": "b2d6bd118b54",
-    "title": "Trump is waging war based on instinct and it isn't working",
+    "title": "Jeremy Bowen: Trump is waging war based on instinct and it isn't working",
     "link": "https://www.bbc.com/news/articles/c5y969pnxgvo?at_medium=RSS&at_campaign=rss",
-    "summary": "One month into the conflict in Iran, Trump's gut-instinct approach is not proving effective.",
+    "summary": "One month into the conflict in Iran, Trump's gut-instinct approach is not proving effective, writes the BBC's international editor.",
     "source": "BBC World",
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
@@ -6964,7 +6964,7 @@
   },
   "a60cdc0407b2": {
     "id": "a60cdc0407b2",
-    "title": "One ant for $220: the new frontier of wildlife trafficking",
+    "title": "One ant for $220: The new frontier of wildlife trafficking",
     "link": "https://www.bbc.com/news/articles/cg4g44zv37qo?at_medium=RSS&at_campaign=rss",
     "summary": "The craze for collecting ants takes Kenya by surprise as smugglers zone in to make a profit.",
     "source": "BBC World",
@@ -6982,7 +6982,7 @@
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
     "pub_date": "2026-03-29T00:00:18+00:00",
-    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/edf0/live/c266d6a0-29f2-11f1-8f65-5dbc9a6a5bd5.jpg"
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/47e0/live/6bc0d8c0-2b4e-11f1-a79a-77e93010d956.jpg"
   },
   "f6066417376e": {
     "id": "f6066417376e",
@@ -7025,7 +7025,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-29T06:46:11+00:00",
+    "pub_date": "2026-03-29T09:48:35+00:00",
     "thumbnail": ""
   },
   "891a90521ac1": {
@@ -7311,7 +7311,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-29T04:01:07+00:00",
+    "pub_date": "2026-03-29T08:16:54+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/29/multimedia/29int-iran-retaliation-sub-top-clqp/29int-iran-retaliation-sub-top-clqp-mediumSquareAt3X.jpg"
   },
   "6da05b05a335": {
@@ -7327,14 +7327,14 @@
   },
   "2ee89cb241c6": {
     "id": "2ee89cb241c6",
-    "title": "Iran War Live Updates: Tehran Hit by Heavy Airstrikes as U.S. Marines Arrive in Middle East",
+    "title": "Iran War Live Updates: Israel Strikes Tehran as Regional Diplomats Gather in Pakistan for Talks",
     "link": "https://www.nytimes.com/live/2026/03/29/world/iran-war-trump-israel-oil",
-    "summary": "Airstrikes pummel residential areas and a university in Iran’s capital. Houthi forces in Yemen entered the widening conflict with a missile attack on Israel.",
+    "summary": "Israel said it launched a wave of strikes targeting infrastructure in Tehran and other areas, and Iran retaliated. Officials from Saudi Arabia, Egypt and Turkey were meeting in Pakistan in hopes of fi",
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-29T07:58:37+00:00",
-    "thumbnail": "https://static01.nyt.com/images/2026/03/29/multimedia/29israel-iran-promo-twgl/29israel-iran-promo-twgl-mediumSquareAt3X.jpg"
+    "pub_date": "2026-03-29T09:59:35+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/29/multimedia/29mideast-promo-74rfd/29mideast-promo-74rfd-mediumSquareAt3X.jpg"
   },
   "8da2c1bce2a5": {
     "id": "8da2c1bce2a5",
@@ -7357,5 +7357,93 @@
     "cat": "스포츠",
     "pub_date": "2026-03-29T06:06:35+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce8b/live/e24dcac0-2acc-11f1-b824-0d5a31700528.jpg"
+  },
+  "4c7e52682db9": {
+    "id": "4c7e52682db9",
+    "title": "GIST '발가락'팀, 국제AI 게임 대회서 우승…6천달러 받아",
+    "link": "https://zdnet.co.kr/view/?no=20260329174259",
+    "summary": "[지디넷코리아]GIST AI융합학과 대학원생으로 구성된 '발가락'팀(지도교수 김경중)이 국제 AI 게임 플레이 대회 ‘오락 게임 에이전트 챌린지 ‘소규모 언어 모델’ 트랙에서 우승했다.이 대회는 크래프톤이 주관했다. 엔비디아, 아마존 웹 서비스, 오픈에이아이가 공식 후원사로 참여했다. 총 117개 팀이 참여했고, 총상금은 2만 달러 규모다.주관사인 크래프톤",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T08:42:59+00:00",
+    "thumbnail": ""
+  },
+  "2dd6a86b72dd": {
+    "id": "2dd6a86b72dd",
+    "title": "스마일게이트 에픽세븐, 8.3 대규모 업데이트 예고...장비-영웅 육성 구조 개편",
+    "link": "https://zdnet.co.kr/view/?no=20260329171533",
+    "summary": "[지디넷코리아]스마일게이트가 ‘에픽세븐’ 8.3 버전 업데이트 계획을 공개했다.스마일게이트는 지난 28일 인기 모바일 RPG ‘에픽세븐’의 봄 시즌 온라인 쇼케이스 ‘뉴 에라(NEW ERA)’를 개최하고, 게임 전반에 걸친 대대적인 변화를 예고했다. 이날 쇼케이스에는 탁광진 슈퍼크리에이티브 PD와 허대균 디벨롭먼트 디렉터, 에픽세븐 e스포츠 공식 해설자로 ",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T08:40:45+00:00",
+    "thumbnail": ""
+  },
+  "c4d3e657eba5": {
+    "id": "c4d3e657eba5",
+    "title": "[박준성의 SW] AI로 변신하는 SI",
+    "link": "https://zdnet.co.kr/view/?no=20260329170050",
+    "summary": "[지디넷코리아]글로벌 컨설팅기업 액센츄어(RAccenture)는 1950년대 갓 발명된 컴퓨터와 SW를 이용해 기업의 업무를 자동화하는 선례 없는 과업을 선도하면서 시스템통합(SI) 사업을 창시했다. 첫 SI 프로젝트는 GE에 메인프레임 컴퓨터(세계 첫 기업 데이터센터)를 설치해 주고 봉급 계산과 생산 관리를 자동화하는 SW를 개발해 주는 서비스였다.액센츄",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T08:00:50+00:00",
+    "thumbnail": ""
+  },
+  "bafc7b13624b": {
+    "id": "bafc7b13624b",
+    "title": "100억 지원 지역 정보보호 클러스터 어느 지자체에",
+    "link": "https://zdnet.co.kr/view/?no=20260329160455",
+    "summary": "[지디넷코리아]과기정통부와 한국인터넷진흥원(KISA)은 '지역 거점 정보보호 클러스터 구축' 사업 공모를 이달 25일부터 다음달 27일까지 실시한다.지역 거점 정보보호 클러스터는 정보보호 수요·공급 기업이 다수 분포하는 공간 집적지다. 지역 전략산업과 융합한 정보보호 신사업, 일자리 창출이 활발한 공간으로 현재 동남권(부·울·경, ‘23~), 충청권(세종·",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T07:04:55+00:00",
+    "thumbnail": ""
+  },
+  "e2fe85f5997d": {
+    "id": "e2fe85f5997d",
+    "title": "[1분건강] 아침에 일어났더니 발목이 안 올라가요",
+    "link": "https://zdnet.co.kr/view/?no=20260329095749",
+    "summary": "[지디넷코리아]#. 춘천에 거주하는 조용수(가명·53세)씨는 어느 날 아침 침대에서 일어나려다 이상함을 느꼈다. 오른쪽 발목이 제대로 들리지 않아 발끝이 바닥에 끌렸고 중심을 잃을 뻔했다. 뇌졸중을 의심해 병원을 찾았지만 뇌와 척추 검사에서는 이상이 발견되지 않았다. 원인을 찾지 못한 채 증상은 계속됐고, 보행이 불편해 일상생활에도 지장이 생기기 시작했다.",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T07:00:03+00:00",
+    "thumbnail": ""
+  },
+  "001e2d8282cb": {
+    "id": "001e2d8282cb",
+    "title": "'Is it worth it?' - Verstappen considering F1 future",
+    "link": "https://www.bbc.com/sport/formula1/articles/cx2695dkjzdo?at_medium=RSS&at_campaign=rss",
+    "summary": "Four-time F1 world champion Max Verstappen tells BBC Sport he is considering his future in the sport.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-29T09:30:20+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/529c/live/45eef380-2b4d-11f1-ac93-1955d2dbcfb6.jpg"
+  },
+  "0174c39223cd": {
+    "id": "0174c39223cd",
+    "title": "Coach Peters to leave champions Hull KR",
+    "link": "https://www.bbc.com/sport/rugby-league/articles/c20q1dnxdr3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Willie Peters will leave Super League champions Hull KR at the end of the season to coach in his native Australia.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-29T08:46:35+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c52/live/174af710-2b46-11f1-b281-c79daf2087bd.jpg"
+  },
+  "e4dc4d33b309": {
+    "id": "e4dc4d33b309",
+    "title": "Defeat by Spurs ends Bucks' play-off hopes",
+    "link": "https://www.bbc.com/sport/basketball/articles/cd0rnm9xjmxo?at_medium=RSS&at_campaign=rss",
+    "summary": "The Milwaukee Bucks lose to the San Antonio Spurs and will miss the NBA play-offs for the first time since 2016.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-29T08:23:21+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f46/live/e6c995d0-2b43-11f1-8508-53eb198ee9ef.jpg"
   }
 }
