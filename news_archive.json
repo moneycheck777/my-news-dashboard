@@ -6321,7 +6321,7 @@
     "source": "BBC World",
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-28T21:50:40+00:00",
+    "pub_date": "2026-03-29T07:51:04+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfbf/live/63449610-2ac1-11f1-934f-036468834728.jpg"
   },
   "c6b291e839aa": {
@@ -6546,7 +6546,7 @@
   },
   "d36b649807c7": {
     "id": "d36b649807c7",
-    "title": "No Kings protests across the US rally against Donald Trump",
+    "title": "No Kings protesters across the US rally against Donald Trump",
     "link": "https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&at_campaign=rss",
     "summary": "One of the flagship No Kings rallies happened in Minnesota, where singer Bruce Springsteen performed to crowds.",
     "source": "BBC World",
@@ -6700,13 +6700,13 @@
   },
   "ea2a861da414": {
     "id": "ea2a861da414",
-    "title": "Fear and Gibson miss out on medal after penalty",
+    "title": "Fear and Gibson miss out after 'incorrect' penalty",
     "link": "https://www.bbc.com/sport/articles/ckgeylzvzp3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Britain's Lilah Fear and Lewis Gibson finish fourth in the ice dance at the World Championships after being given two-point penalty.",
+    "summary": "British Ice Skating appeals after Lilah Fear and Lewis Gibson miss out on an ice dance bronze medal at the World Figure Skating Championships.",
     "source": "BBC Sport",
     "source_domain": "bbc.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-28T22:25:16+00:00",
+    "pub_date": "2026-03-29T06:01:02+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd29/live/c030b380-2af4-11f1-b297-95b0a0a8331e.jpg"
   },
   "5ebd48d79b82": {
@@ -7025,7 +7025,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-29T04:48:18+00:00",
+    "pub_date": "2026-03-29T06:46:11+00:00",
     "thumbnail": ""
   },
   "891a90521ac1": {
@@ -7173,7 +7173,7 @@
   },
   "ae1f4c3e6e84": {
     "id": "ae1f4c3e6e84",
-    "title": "Japanese Grand Prix LIVE! Latest updates as Oscar Piastri leads early from George Russell",
+    "title": "Japanese Grand Prix: Kimi Antonelli takes second career win in Suzuka - as it happened",
     "link": "https://www.espn.com/f1/story/_/id/48302466/japanese-grand-prix-2026-f1-latest-updates-commentary-suzuka-george-russell-kimi-antonelli-lewis-hamilton-win-result",
     "summary": "The third grand prix of the 2026 Formula 1 season is upon us at the Suzuka Circuit in Japan, and you can follow it all with ESPN.",
     "source": "ESPN",
@@ -7181,5 +7181,181 @@
     "cat": "스포츠",
     "pub_date": "2026-03-29T05:56:06+00:00",
     "thumbnail": ""
+  },
+  "843cd6199be1": {
+    "id": "843cd6199be1",
+    "title": "월드컵 이후도 독점중계...\"보편적 시청권 재설계 필요”",
+    "link": "https://zdnet.co.kr/view/?no=20260329150940",
+    "summary": "[지디넷코리아]밀라노 코르티나 동계올림픽을 JTBC가 단독 중계하면서 시청권에 제한이 생겼다는 지적이 쏟아졌다. 이는 방송법 내 보편적 시청권에 대한 논의로 번졌는데, 기존 법제에서 포섭하지 못한 OTT까지 스포츠 중계에 가세하면서 디지털 미디어 시대에 맞게 법제를 재설계할 필요가 있다는 의견이 제기됐다.국회 입법조사처가 최근 발간한 보고서 ‘올림픽 중계방",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T06:09:40+00:00",
+    "thumbnail": ""
+  },
+  "af9ccba5c90f": {
+    "id": "af9ccba5c90f",
+    "title": "딥엑스, 양산 7개월 만에 8개국·27건 구매 주문 확보",
+    "link": "https://zdnet.co.kr/view/?no=20260329114311",
+    "summary": "[지디넷코리아]초저전력 피지컬 AI 반도체 기업 딥엑스가 첫 양산 제품 출시 7개월 만에 8개국에서 27건의 구매주문(PO)을 확보했다고 29일 밝혔다.딥엑스는 지난해 8월 양산을 시작했으며 지난해 5개월 동안 확보된 PO는 2건이었다. 이후 3개월이 채 되지 않아 25건의 추가 주문이 발생하며 주문 증가 속도가 빠르게 증가했다. 확보된 주문은 로보틱스, ",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T05:42:01+00:00",
+    "thumbnail": ""
+  },
+  "6b13bcd44552": {
+    "id": "6b13bcd44552",
+    "title": "드론 비행에 태양의 서커스 묘기까지… 에버랜드, 신규 공연 론칭",
+    "link": "https://zdnet.co.kr/view/?no=20260329100129",
+    "summary": "[지디넷코리아]삼성물산 리조트부문이 운영하는 에버랜드가 올봄 국내외 최정상급 아티스트들과 손잡고 역대급 규모의 신규 공연을 선보인다. 에버랜드는 오는 4월 1일부터 스페셜 불꽃쇼 '빛의 수호자들'과 서커스 공연 '윙즈 오브 메모리'를 본격적으로 무대에 올린다고 29일 밝혔다. 이번 신규 공연은 에버랜드가 축적해 온 공연 제작 역량에 글로벌 연출진의 예술성이",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T05:40:47+00:00",
+    "thumbnail": ""
+  },
+  "5822115654d0": {
+    "id": "5822115654d0",
+    "title": "[ZD브리핑] KT 주총, 박윤영 대표 선임안 논의…현대車 북미라인업 공개",
+    "link": "https://zdnet.co.kr/view/?no=20260329111326",
+    "summary": "[지디넷코리아]지디넷코리아는 IT 업계의 이슈를 미리 체크하는 '이번 주 꼭 챙겨봐야 할 뉴스'를 제공합니다. '꼭 챙길 뉴스'는 정보통신, 소프트웨어(SW), 전자기기, 소재부품, 콘텐츠, 플랫폼, e커머스, 금융, 디지털 헬스케어, 게임, 블록체인, 과학 등의 소식을 담았습니다. 바쁜 현대인들의 월요병을 조금이나마 덜어 줄 '꼭 챙길 뉴스'를 통해 한 ",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T05:39:40+00:00",
+    "thumbnail": ""
+  },
+  "bd9880f70bb2": {
+    "id": "bd9880f70bb2",
+    "title": "TV로 키오스크 연습한다...LG전자, 시니어 맞춤 TV 서비스 확대",
+    "link": "https://zdnet.co.kr/view/?no=20260329112908",
+    "summary": "[지디넷코리아]LG전자가 시니어 고객을 위한 차별화된 콘텐츠를 확대한다. LG 이지 TV(LG Easy TV)로 매장에 가기 전에 키오스크 사용법 등을 교육해주는 것이다.LG전자는 최근 스마트케어 기업 ㈜캐어유와 손잡고 시니어 맞춤형 라이프스타일 TV인 LG 이지 TV에서 키오스크 주문 연습을 할 수 있는 ‘캐어유’ 서비스를 선보였다고 29일 밝혔다.LG전",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T05:32:48+00:00",
+    "thumbnail": ""
+  },
+  "72501edb8fbc": {
+    "id": "72501edb8fbc",
+    "title": "[AI 고속도로] 정부가 점찍은 '베라루빈'…국내 안착 가능할까",
+    "link": "https://zdnet.co.kr/view/?no=20260329094939",
+    "summary": "[지디넷코리아]정부가 '인공지능(AI) 고속도로' 구축을 위해 차세대 그래픽처리장치(GPU) 확보에 속도를 내는 가운데, 엔비디아의 최신 아키텍처 '베라루빈' 도입이 핵심 과제로 떠오르고 있다. 기존 시스템과 다른 구조와 높은 인프라 요구 조건 등으로 인해 업계에선 국내 안착 가능성을 두고 신중론이 확산되는 분위기다.29일 업계에 따르면 과학기술정보통신부는",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T05:32:15+00:00",
+    "thumbnail": ""
+  },
+  "4f8edd1b4a8d": {
+    "id": "4f8edd1b4a8d",
+    "title": "AI가 민원 처리…정부, 원스톱 행정서비스 시동",
+    "link": "https://zdnet.co.kr/view/?no=20260329122639",
+    "summary": "[지디넷코리아]정부가 인공지능(AI) 기반 민원 처리 체계를 도입해 부처 간 칸막이를 없애고 행정 서비스 전반의 혁신을 추진한다.행정안전부는 국민이 한 번의 방문으로 필요한 민원을 모두 처리할 수 있도록 지원하는 '원스톱 행정서비스 추진단'을 출범한다고 29일 밝혔다.그동안 국민은 하나의 민원을 해결하기 위해 여러 기관을 방문하거나 방대한 구비 서류를 직접",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T05:28:47+00:00",
+    "thumbnail": ""
+  },
+  "72e1d1a02730": {
+    "id": "72e1d1a02730",
+    "title": "MLB 스트라이크 판정, 5G 특화망으로 풀었다",
+    "link": "https://zdnet.co.kr/view/?no=20260329140427",
+    "summary": "[지디넷코리아]미국 메이저리그 프로야구에 홈플레이트 심판 판정에 ABS 챌린지 시스템이 도입된다. 스트라이크와 볼 판정을 두고 ABS 판정 확인이나 번복에 5G 특화망이 활용되는 점이 이목을 끈다.피어스네트워크에 따르면, 메이저리그는 주심의 스트라이크와 볼 판정에 각 팀이 경기당 두 번의 챌린지를 사용할 수 있는데 이 시스템은 T모바일이 구축한 5G 특화망",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T05:04:27+00:00",
+    "thumbnail": ""
+  },
+  "662172455adc": {
+    "id": "662172455adc",
+    "title": "AI 강국 도약...NW 인프라 고도화, 디지털 역량 확대",
+    "link": "https://zdnet.co.kr/view/?no=20260329134957",
+    "summary": "[지디넷코리아]정부가 30여 년간 국가정보화 정책으로 ICT 강국 입지를 다진 가운데 AI 강국 도약을 위해 초저지연 네트워크, AI 생태계 보안 등의 디지털 경쟁력을 확대하기로 했다.지난 27일 정부는 제18차 정보통신전략위원회를 통해 제4차 정보통신 진흥 및 융합 활성화 기본계획과 제8차 지능정보사회 종합계획을 서면으로 의결했다.정보통신전략위는 정보통신",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T04:49:57+00:00",
+    "thumbnail": ""
+  },
+  "619adb24659d": {
+    "id": "619adb24659d",
+    "title": "롯데케미칼, HD현대와 대산 통합법인 설립…사업재편 본격화",
+    "link": "https://zdnet.co.kr/view/?no=20260329134152",
+    "summary": "[지디넷코리아]롯데케미칼이 대산공장 물적분할과 통합법인 합병을 통해 ‘기업 활력 제고를 위한 특별법’에 따른 석유화학 사업 구조 재편을 선제적으로 추진한다.롯데케미칼은 29일 대산공장을 물적분할한 뒤 분할 신설회사와 HD현대케미칼의 합병을 추진한다고 밝혔다. 합병은 분할 신설회사가 HD현대케미칼에 흡수합병되는 방식으로 진행되며, 롯데케미칼은 그 대가로 신주",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T04:41:52+00:00",
+    "thumbnail": ""
+  },
+  "7dec04865ecd": {
+    "id": "7dec04865ecd",
+    "title": "프리스마크 \"日닛토보 T-글래스 공급부족 갈수록 커진다\"",
+    "link": "https://zdnet.co.kr/view/?no=20260329130232",
+    "summary": "[지디넷코리아]일본 소재업체 닛토보(Nittobo)의 T-글래스 공급 부족이 갈수록 커질 것이라고 시장조사업체 프리스마크가 최근 전망했다. 닛토보가 T-글래스 생산능력을 확대하고 있지만 수요 상승폭이 더 크다. 타이완글래스 등 경쟁사의 생산능력 확대 계획까지 고려하면 시장 전체 공급 부족은 완화될 수 있다. 경쟁사의 기술력과 빅테크의 선택이 변수다. T-글",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T04:32:30+00:00",
+    "thumbnail": ""
+  },
+  "4c68fb6f7ac9": {
+    "id": "4c68fb6f7ac9",
+    "title": "A Toothless Iran? Missile and Drone Strikes Show It Can Still Inflict Pain.",
+    "link": "https://www.nytimes.com/2026/03/29/world/middleeast/iran-missiles-war.html",
+    "summary": "A wave of strikes across the Middle East in recent days shows that Iran has not lost the capacity to retaliate.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-29T04:01:07+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/29/multimedia/29int-iran-retaliation-sub-top-clqp/29int-iran-retaliation-sub-top-clqp-mediumSquareAt3X.jpg"
+  },
+  "6da05b05a335": {
+    "id": "6da05b05a335",
+    "title": "The Slum in Gangnam, the Richest Part of Seoul",
+    "link": "https://www.nytimes.com/2026/03/29/world/asia/korea-seoul-gangnam-slum.html",
+    "summary": "The city wants to redevelop a shantytown in Gangnam district, where hundreds are defying eviction, fighting for a right to own a home in an area notorious for the exorbitant cost of housing.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-29T07:50:05+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/24/multimedia/00int-skorea-gangnam-dispatch-01-bwvp/00int-skorea-gangnam-dispatch-01-bwvp-mediumSquareAt3X.jpg"
+  },
+  "2ee89cb241c6": {
+    "id": "2ee89cb241c6",
+    "title": "Iran War Live Updates: Tehran Hit by Heavy Airstrikes as U.S. Marines Arrive in Middle East",
+    "link": "https://www.nytimes.com/live/2026/03/29/world/iran-war-trump-israel-oil",
+    "summary": "Airstrikes pummel residential areas and a university in Iran’s capital. Houthi forces in Yemen entered the widening conflict with a missile attack on Israel.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-29T07:58:37+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/29/multimedia/29israel-iran-promo-twgl/29israel-iran-promo-twgl-mediumSquareAt3X.jpg"
+  },
+  "8da2c1bce2a5": {
+    "id": "8da2c1bce2a5",
+    "title": "Antonelli wins to become youngest title leader",
+    "link": "https://www.bbc.com/sport/formula1/articles/c75k7kqdw6no?at_medium=RSS&at_campaign=rss",
+    "summary": "Kimi Antonelli takes his second win in succession and the lead of the world championship at the Japanese Grand Prix.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-29T07:38:27+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c097/live/620fb060-2b41-11f1-8508-53eb198ee9ef.jpg"
+  },
+  "c1bbb8f5a36f": {
+    "id": "c1bbb8f5a36f",
+    "title": "How Arbeloa is getting the best out of Real Madrid's stars",
+    "link": "https://www.bbc.com/sport/football/articles/c937n1qdlk0o?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC Sport looks at how Alvaro Arbeloa has managed to get the best out of the Real Madrid squad since his appointment in January.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-29T06:06:35+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce8b/live/e24dcac0-2acc-11f1-b824-0d5a31700528.jpg"
   }
 }
