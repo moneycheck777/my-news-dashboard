@@ -1965,7 +1965,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-29T21:30:46+00:00",
+    "pub_date": "2026-03-29T22:48:59+00:00",
     "thumbnail": ""
   },
   "de7db79a7432": {
@@ -4902,7 +4902,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-29T21:30:46+00:00",
+    "pub_date": "2026-03-29T22:48:59+00:00",
     "thumbnail": ""
   },
   "36489717681a": {
@@ -7333,7 +7333,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-29T20:55:55+00:00",
+    "pub_date": "2026-03-29T22:30:40+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/29/multimedia/29israel-iran-promo-5pm-cgtk/29israel-iran-promo-5pm-cgtk-mediumSquareAt3X.jpg"
   },
   "8da2c1bce2a5": {
@@ -7712,13 +7712,13 @@
   },
   "013501c8dec1": {
     "id": "013501c8dec1",
-    "title": "Michigan routs Tennessee to advance to Final Four",
+    "title": "Follow live: UConn challenging Duke with spot in Final Four on the line",
     "link": "https://www.espn.com/mens-college-basketball/story/_/id/48335596/march-madness-predictions-live-tracker-elite-eight-michigan-duke-uconn-2026",
     "summary": "null",
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-29T21:55:42+00:00",
+    "pub_date": "2026-03-29T23:42:06+00:00",
     "thumbnail": ""
   },
   "9aaedb8f7a04": {
@@ -7734,13 +7734,13 @@
   },
   "ec06f85a3364": {
     "id": "ec06f85a3364",
-    "title": "Everything you need to know for Sunday's women's Elite Eight matchups",
+    "title": "How UConn and UCLA clinched a spot in the women's Final Four",
     "link": "https://www.espn.com/womens-college-basketball/story/_/id/48334068/women-march-madness-2026-previews-updates-analysis-elite-eight-uconn-ucla-duke",
-    "summary": "We've got you covered for all of Sunday's action, from pregame keys  to postgame analysis for UConn, Duke, Notre Dame and UCLA.",
+    "summary": "UCLA rallied to beat Duke and UConn held off Notre Dame as both No. 1 seeds won Sunday in the Elite Eight.",
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-29T16:50:08+00:00",
+    "pub_date": "2026-03-29T23:35:10+00:00",
     "thumbnail": ""
   },
   "b0e454c16892": {
@@ -7751,7 +7751,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-29T21:51:24+00:00",
+    "pub_date": "2026-03-29T23:42:51+00:00",
     "thumbnail": ""
   },
   "7557a1236990": {
@@ -7894,7 +7894,7 @@
     "source": "BBC World",
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-29T19:52:56+00:00",
+    "pub_date": "2026-03-29T21:39:08+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db3d/live/10b10f40-2b85-11f1-9b12-e7dc1d4ddef6.jpg"
   },
   "6c85ff780177": {
@@ -8081,7 +8081,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-29T21:51:24+00:00",
+    "pub_date": "2026-03-29T23:42:50+00:00",
     "thumbnail": ""
   },
   "d3e4f61117c6": {
@@ -8158,7 +8158,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-29T20:54:53+00:00",
+    "pub_date": "2026-03-29T22:02:28+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/29/multimedia/29israel-iran-palm-sunday-vjlp/29israel-iran-palm-sunday-vjlp-mediumSquareAt3X.jpg"
   },
   "e90cdbc70c86": {
@@ -8180,7 +8180,7 @@
     "source": "BBC Sport",
     "source_domain": "bbc.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-29T20:32:57+00:00",
+    "pub_date": "2026-03-29T21:22:50+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48b0/live/bf018ed0-2ba3-11f1-b297-95b0a0a8331e.png"
   },
   "c48677dfb577": {
@@ -8202,18 +8202,150 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-29T21:51:24+00:00",
+    "pub_date": "2026-03-29T23:42:51+00:00",
     "thumbnail": ""
   },
   "344b50d44d7f": {
     "id": "344b50d44d7f",
     "title": "Lynch: 49ers' injury conspiracy 'big nothing burger'",
     "link": "https://www.espn.com/nfl/story/_/id/48340939/lynch-49ers-injury-conspiracy-burger",
-    "summary": "A few days after the San Francisco 49ers season ended, general manager John Lynch vowed to investigate anything and everything that might have contributed to the team's avalanche of injuries in 2025.",
+    "summary": "Speaking Sunday afternoon at the NFL's annual meetings, 49ers GM John Lynch ruled out one conspiracy theory behind the team's avalanche of injuries in 2025.",
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-29T21:51:24+00:00",
+    "pub_date": "2026-03-29T23:42:51+00:00",
+    "thumbnail": ""
+  },
+  "ee305b01be9a": {
+    "id": "ee305b01be9a",
+    "title": "The Pixel 10a doesn’t have a camera bump, and it’s great",
+    "link": "https://techcrunch.com/2026/03/29/google-pixel-10a-review-camera-bump-performance-ai-chip/",
+    "summary": "The Google Pixel 10a can lay flat on a table, but otherwise the company hasn't brought a ton of upgrades to its newest budget smartphone.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T21:30:00+00:00",
+    "thumbnail": ""
+  },
+  "80a97b961beb": {
+    "id": "80a97b961beb",
+    "title": "YouTube CEO says the best YouTubers will ‘never leave their home’",
+    "link": "https://techcrunch.com/2026/03/29/youtube-ceo-says-the-best-youtubers-will-never-leave-their-home/",
+    "summary": "CEO Neal Mohan insisted that he isn’t worried about Netflix luring away YouTube's most popular creators.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-29T21:17:52+00:00",
+    "thumbnail": ""
+  },
+  "9bfe48910e6f": {
+    "id": "9bfe48910e6f",
+    "title": "Renoir, Cézanne and Matisse paintings stolen in Italian job",
+    "link": "https://www.bbc.com/news/articles/cn4vw2xmpzzo?at_medium=RSS&at_campaign=rss",
+    "summary": "The paintings were taken from a museum in Parma by four masked men in the middle of the night, police say.",
+    "source": "BBC World",
+    "source_domain": "bbc.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-29T21:29:56+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ecbd/live/b03161d0-2bb4-11f1-a0a0-97bfc6191d57.png"
+  },
+  "d4616d2616dc": {
+    "id": "d4616d2616dc",
+    "title": "U.S. to Allow Russian Oil Tanker to Reach Cuba, Breaking Blockade",
+    "link": "https://www.nytimes.com/2026/03/29/world/americas/cuba-russian-oil-tanlker.html",
+    "summary": "The tanker full of crude oil could reach its expected destination by Tuesday, providing a lifeline to the island amid intense U.S. pressure.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-29T22:48:23+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/29/multimedia/29-int-cuba-russia-tanker-wztq/29-int-cuba-russia-tanker-wztq-mediumSquareAt3X-v3.jpg"
+  },
+  "06f128cb6e1e": {
+    "id": "06f128cb6e1e",
+    "title": "Israel’s Other War",
+    "link": "https://www.nytimes.com/2026/03/29/world/israel-lebanon-hezbollah-war-iran.html",
+    "summary": "As missiles fly in Iran, Israeli troops have moved deep into southern Lebanon to hit Hezbollah.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-29T21:01:43+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/30/multimedia/30int-theworld-lebanon-01-zbcl-promo/30int-theworld-lebanon-01-zbcl-promo-mediumSquareAt3X.jpg"
+  },
+  "cb20dd06b6a1": {
+    "id": "cb20dd06b6a1",
+    "title": "Emotional Woodland seals first win since brain surgery",
+    "link": "https://www.bbc.com/sport/golf/articles/c5y85wyxj91o?at_medium=RSS&at_campaign=rss",
+    "summary": "Having recovered from brain surgery and battled PTSD, an emotional Gary Woodland seals his first win in seven years at the Houston Open.",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-29T22:39:30+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a9af/live/3fb42ff0-2bbe-11f1-aaa0-1d9ca6116e57.jpg"
+  },
+  "deffbf387e7e": {
+    "id": "deffbf387e7e",
+    "title": "UCLA rallies vs. Duke to make Women's Final Four",
+    "link": "https://www.espn.com/womens-college-basketball/story/_/id/48341780/ucla-rallies-vs-duke-make-women-final-four",
+    "summary": "UCLA overcame a rare first-half deficit, battling back against an aggressive Duke defense to win 70-58 and advance to the women's Final Four.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-29T23:42:51+00:00",
+    "thumbnail": ""
+  },
+  "2ac29138f1a0": {
+    "id": "2ac29138f1a0",
+    "title": "May guides Michigan to first Final Four since '18",
+    "link": "https://www.espn.com/mens-college-basketball/story/_/id/48341285/michigan-overwhelms-tennessee-reach-1st-final-four-2018",
+    "summary": "Yaxel Lendeborg scored 27 points, Elliot Cadeau had 10 assists and Michigan rolled into the Final Four, overwhelming Tennessee for a 95-62 victory in the NCAA tournament Sunday.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-29T23:42:51+00:00",
+    "thumbnail": ""
+  },
+  "b1deb40ade0d": {
+    "id": "b1deb40ade0d",
+    "title": "Woodland wins Houston by 5 amid PTSD battle",
+    "link": "https://www.espn.com/golf/story/_/id/48342395/woodland-wins-houston-open-first-title-brain-surgery",
+    "summary": "Gary Woodland won the Houston Open by five shots on Sunday, his first PGA Tour victory since undergoing brain surgery in 2023.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-29T23:42:51+00:00",
+    "thumbnail": ""
+  },
+  "28d62e58ade2": {
+    "id": "28d62e58ade2",
+    "title": "Sources: St. John's inks Pitino to lucrative new deal",
+    "link": "https://www.espn.com/mens-college-basketball/story/_/id/48342357/st-john-men-basketball-signs-rick-pitino-new-contract-making-second-highest-paid-coach-big-east",
+    "summary": "Rick Pitino has signed a new deal with St. John's that makes him the second-highest-paid coach in the Big East, sources told ESPN on Sunday, confirming a report by NJ.com.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-29T23:42:51+00:00",
+    "thumbnail": ""
+  },
+  "8805ff241699": {
+    "id": "8805ff241699",
+    "title": "Cassidy out, Tortorella in for slumping Knights",
+    "link": "https://www.espn.com/nhl/story/_/id/48341426/golden-knights-fire-bruce-cassidy-hire-john-tortorella",
+    "summary": "The Golden Knights fired Bruce Cassidy on Sunday and turned to John Tortorella to replace him.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-29T23:42:51+00:00",
+    "thumbnail": ""
+  },
+  "95f3a2aef103": {
+    "id": "95f3a2aef103",
+    "title": "WNBA's CBA: 10 biggest wins from new agreement",
+    "link": "https://www.espn.com/wnba/story/_/id/48316853/wnba-cba-collective-bargaining-agreement-2026-biggest-wins",
+    "summary": "The CBA permanently and positively changes the WNBA's landscape. These are the wins, biggest strides and areas of compromise.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-29T22:49:12+00:00",
     "thumbnail": ""
   }
 }
