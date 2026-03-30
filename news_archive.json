@@ -5485,7 +5485,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-30T18:47:47+00:00",
+    "pub_date": "2026-03-30T22:04:29+00:00",
     "thumbnail": ""
   },
   "7a33bb4d8038": {
@@ -7869,9 +7869,9 @@
     "title": "Sora’s shutdown could be a reality check moment for AI video",
     "link": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
     "summary": "Is this just normal corporate strategy, or are we about to see a broader pullback on AI-generated video?",
-    "source": "TechCrunch",
+    "source": "TC AI",
     "source_domain": "techcrunch.com",
-    "cat": "IT/테크",
+    "cat": "AI",
     "pub_date": "2026-03-29T16:30:00+00:00",
     "thumbnail": ""
   },
@@ -8368,7 +8368,7 @@
     "source_domain": "bbc.com",
     "cat": "IT/테크",
     "pub_date": "2026-03-29T23:07:12+00:00",
-    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6b4/live/4807f780-29e4-11f1-934f-036468834728.jpg"
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8750/live/081187a0-2c6d-11f1-99fa-3346840cd8ed.jpg"
   },
   "516bb6a84b06": {
     "id": "516bb6a84b06",
@@ -8572,11 +8572,11 @@
     "id": "630d118af471",
     "title": "Millions of drivers mis-sold car finance to receive average £829 in compensation",
     "link": "https://www.bbc.com/news/articles/c9vlm2ggrwlo?at_medium=RSS&at_campaign=rss",
-    "summary": "The City regulator says 12.1 million motor finance deals will be eligible for redress.",
+    "summary": "The City regulator says 12.1 million mis-sold motor finance deals will be eligible for redress.",
     "source": "BBC Business",
     "source_domain": "bbc.com",
     "cat": "경제/주식",
-    "pub_date": "2026-03-30T18:05:45+00:00",
+    "pub_date": "2026-03-30T18:59:19+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09ba/live/d4f128a0-29e5-11f1-81d4-f1e3c77fafb4.jpg"
   },
   "f2ef34329b4f": {
@@ -9010,14 +9010,14 @@
   },
   "80c21301c5d5": {
     "id": "80c21301c5d5",
-    "title": "Iran War Live Updates: Trump Claims Progress in Talks to End War, Then Again Threatens Intense Attacks",
+    "title": "Iran War Live Updates: Trump Renews Threats Against Iranian Oil and Energy Facilities",
     "link": "https://www.nytimes.com/live/2026/03/30/world/iran-war-trump-oil-news",
-    "summary": "President Trump warned that if a deal was not struck, he would respond by “completely obliterating” Iranian energy infrastructure targets. Oil and stock markets wavered on the news.",
+    "summary": "President Trump claimed progress in talks to end the war but warned that lacking a deal he would order intense attacks on Iranian infrastructure targets. Oil and stock markets wavered on the news.",
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-30T18:00:23+00:00",
-    "thumbnail": "https://static01.nyt.com/images/2026/03/30/multimedia/30israel-iran-promo-2pm/30israel-iran-promo-915am-zkgw-mediumSquareAt3X.jpg"
+    "pub_date": "2026-03-30T21:05:17+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/30/multimedia/30israel-iran-promo-4pm-gtpq/30israel-iran-promo-4pm-gtpq-mediumSquareAt3X.jpg"
   },
   "00f34eb1ac74": {
     "id": "00f34eb1ac74",
@@ -9087,13 +9087,13 @@
   },
   "914f72f4e5c1": {
     "id": "914f72f4e5c1",
-    "title": "Israel Passes Law to Allow Hanging of Palestinians Convicted of Deadly Attacks",
+    "title": "Israel Passes Law to Hang Palestinians Convicted of Deadly Attacks",
     "link": "https://www.nytimes.com/2026/03/30/world/middleeast/israel-death-penalty-palestinians-attacks.html",
-    "summary": "The law could be applied to Jewish Israeli extremists, but experts say that will likely never happen.",
+    "summary": "Experts say the law was written in such a way as to ensure that it was unlikely to ever apply to Jewish extremists who commit similar crimes.",
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-30T17:57:05+00:00",
+    "pub_date": "2026-03-30T21:00:33+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/30/multimedia/00-HFOisrael-deathpenalty-hzkj/00-HFOisrael-deathpenalty-hzkj-mediumSquareAt3X.jpg"
   },
   "4156bda94c2c": {
@@ -9522,7 +9522,7 @@
     "source": "BBC World",
     "source_domain": "bbc.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-30T13:55:01+00:00",
+    "pub_date": "2026-03-30T21:06:47+00:00",
     "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5da/live/17b9c0c0-2c3e-11f1-9d83-af3423d2a1a1.jpg"
   },
   "03a7a96f3611": {
@@ -9665,7 +9665,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-30T18:39:12+00:00",
+    "pub_date": "2026-03-30T20:46:30+00:00",
     "thumbnail": ""
   },
   "ed949be635b1": {
@@ -9676,7 +9676,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-30T18:49:22+00:00",
+    "pub_date": "2026-03-30T20:47:20+00:00",
     "thumbnail": ""
   },
   "01bfe904ace3": {
@@ -9687,18 +9687,18 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-30T18:02:02+00:00",
+    "pub_date": "2026-03-30T20:46:14+00:00",
     "thumbnail": ""
   },
   "5723184764c2": {
     "id": "5723184764c2",
-    "title": "A historic rookie class? Is Trout back? 10 things we learned from MLB's opening weekend",
+    "title": "A historic rookie class? Is Trout back? 10 things we learned from opening weekend",
     "link": "https://www.espn.com/mlb/story/_/id/48339938/mlb-2026-opening-weekend-takeaways-rookies-yankees-dodgers-hot-start-early-struggles",
-    "summary": "From early trends to the most -- and least -- surprising performances, this is what stood out from baseball's return.",
+    "summary": "From early trends to the most -- and least -- surprising performances, what stood out in baseball's return.",
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-30T14:03:08+00:00",
+    "pub_date": "2026-03-30T20:46:14+00:00",
     "thumbnail": ""
   },
   "bdd306cf8dc7": {
@@ -9775,7 +9775,7 @@
     "source": "NYT World",
     "source_domain": "nytimes.com",
     "cat": "국제뉴스",
-    "pub_date": "2026-03-30T17:31:52+00:00",
+    "pub_date": "2026-03-30T18:08:13+00:00",
     "thumbnail": "https://static01.nyt.com/images/2026/03/30/world/30int-colombia-senator-elephant-promo/30int-colombia-senator-elephant-promo-mediumSquareAt3X-v3.jpg"
   },
   "3063229ca75e": {
@@ -9885,7 +9885,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-30T18:52:48+00:00",
+    "pub_date": "2026-03-30T22:04:29+00:00",
     "thumbnail": ""
   },
   "76c80d851183": {
@@ -9896,7 +9896,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-30T18:47:47+00:00",
+    "pub_date": "2026-03-30T22:04:29+00:00",
     "thumbnail": ""
   },
   "f5c3511dfaa2": {
@@ -9907,7 +9907,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-30T18:47:47+00:00",
+    "pub_date": "2026-03-30T22:04:29+00:00",
     "thumbnail": ""
   },
   "0a420fcbb58d": {
@@ -9918,7 +9918,7 @@
     "source": "ESPN",
     "source_domain": "espn.com",
     "cat": "스포츠",
-    "pub_date": "2026-03-30T18:47:47+00:00",
+    "pub_date": "2026-03-30T22:04:29+00:00",
     "thumbnail": ""
   },
   "01a4c6b9f3c4": {
@@ -9963,6 +9963,204 @@
     "source_domain": "espn.com",
     "cat": "스포츠",
     "pub_date": "2026-03-30T16:16:32+00:00",
+    "thumbnail": ""
+  },
+  "b4424bafeb23": {
+    "id": "b4424bafeb23",
+    "title": "As more Americans adopt AI tools, fewer say they can trust the results",
+    "link": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
+    "summary": "AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-30T20:24:53+00:00",
+    "thumbnail": ""
+  },
+  "4c7383e72338": {
+    "id": "4c7383e72338",
+    "title": "What we’re looking for in Startup Battlefield 2026 and how to put your best application forward",
+    "link": "https://techcrunch.com/2026/03/30/what-were-looking-for-in-startup-battlefield-2026-and-how-to-put-your-best-application-forward/",
+    "summary": "Here's what we're looking for in your Startup Battlefield 200 application and how to make sure your application reflects it.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-30T18:57:51+00:00",
+    "thumbnail": ""
+  },
+  "9fe14a4695a5": {
+    "id": "9fe14a4695a5",
+    "title": "Delve whistleblower strikes again, with alleged receipts about ‘fake compliance’",
+    "link": "https://techcrunch.com/2026/03/30/delve-whistleblower-strikes-again-with-alleged-receipts-about-fake-compliance/",
+    "summary": "Shortly after Delve's founder published a lengthy denial of allegations, while promising changes, the accuser came forward with more alleged details.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-30T18:26:07+00:00",
+    "thumbnail": ""
+  },
+  "4fe81aa2b630": {
+    "id": "4fe81aa2b630",
+    "title": "Meta starts testing a premium subscription on Instagram",
+    "link": "https://techcrunch.com/2026/03/30/meta-starts-testing-a-premium-subscription-on-instagram/",
+    "summary": "Among the premium features on Instagram is the ability to view a Story without the poster seeing that you viewed it and the option to see how many people have rewatched your Story.",
+    "source": "TechCrunch",
+    "source_domain": "techcrunch.com",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-30T18:10:31+00:00",
+    "thumbnail": ""
+  },
+  "11ba33ebb97c": {
+    "id": "11ba33ebb97c",
+    "title": "\"올해 미국 데스크톱·노트북 출하 13% 감소 전망\"",
+    "link": "https://zdnet.co.kr/view/?no=20260331005557",
+    "summary": "[지디넷코리아]올해 미국 데스크톱·노트북 출하량(태블릿 제외)이 지난해보다 13% 줄어든 6188만대를 기록할 것이라고 시장조사업체 옴디아가 30일(현지시간) 전망했다.옴디아는 2025년 초 이후 메모리와 스토리지 비용이 40~70% 올랐고, 올해 1분기 메모리와 스토리지 비용은 최소 60% 추가 상승할 것이라고 전망했다. 메모리와 스토리지 공급 제약이 교",
+    "source": "ZDNet Korea",
+    "source_domain": "zdnet.co.kr",
+    "cat": "IT/테크",
+    "pub_date": "2026-03-30T16:06:52+00:00",
+    "thumbnail": ""
+  },
+  "ee75bdea1ded": {
+    "id": "ee75bdea1ded",
+    "title": "Most Syrian refugees in Germany expected to return home in three years, Merz says",
+    "link": "https://www.bbc.com/news/articles/cy41vqx4pdzo?at_medium=RSS&at_campaign=rss",
+    "summary": "Merz’s government has taken a tougher line on refugees and migrants, amid surging support for the anti-immigration AfD party.",
+    "source": "BBC World",
+    "source_domain": "bbc.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-30T20:07:17+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6330/live/571088e0-2c60-11f1-88c4-254a3d5fc979.jpg"
+  },
+  "b012d6d8bc86": {
+    "id": "b012d6d8bc86",
+    "title": "Barbie Dream Fest in Florida to issue refunds after fan complaints",
+    "link": "https://www.bbc.com/news/articles/cp3l1422d3qo?at_medium=RSS&at_campaign=rss",
+    "summary": "Fans, who paid up to $450 (£340), complained of a grey convention centre backdrop and a \"swag bag\" that included only a plastic pouch with a Barbie hand sanitiser.",
+    "source": "BBC World",
+    "source_domain": "bbc.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-30T18:13:45+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e31d/live/7e4cf670-2c68-11f1-934f-036468834728.jpg"
+  },
+  "a18a8e97fcf3": {
+    "id": "a18a8e97fcf3",
+    "title": "Céline Dion announces comeback shows in Paris after incurable diagnosis",
+    "link": "https://www.bbc.com/news/articles/c0708dkm2lko?at_medium=RSS&at_campaign=rss",
+    "summary": "The star was diagnosed with a rare condition that affects her singing voice and her ability to walk.",
+    "source": "BBC World",
+    "source_domain": "bbc.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-30T19:15:23+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1775/live/f8b3a060-2c0b-11f1-b5a6-011ae525765c.jpg"
+  },
+  "0f878272741e": {
+    "id": "0f878272741e",
+    "title": "Two Indonesian UN peacekeepers killed in explosion in Lebanon",
+    "link": "https://www.bbc.com/news/articles/c4gd20evgp0o?at_medium=RSS&at_campaign=rss",
+    "summary": "It is the second fatal incident in the last 24 hours, Unifil says, after Israel expanded its operation against Hezbollah.",
+    "source": "BBC World",
+    "source_domain": "bbc.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-30T19:14:12+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4af/live/2d554230-2c64-11f1-88c4-254a3d5fc979.jpg"
+  },
+  "4a4d718641fc": {
+    "id": "4a4d718641fc",
+    "title": "Why Did the U.S. Allow a Russian Oil Tanker Through Its Cuba Blockade?",
+    "link": "https://www.nytimes.com/2026/03/30/world/americas/russian-oil-tanker-cuba.html",
+    "summary": "The ship’s arrival would bring Cuba some badly needed fuel. It also marks a shift from U.S. efforts to block oil shipments and pressure the Cuban government.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-30T19:07:08+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/30/multimedia/30int-Cuba-US-explainer-czpg/30int-Cuba-US-explainer-czpg-mediumSquareAt3X.jpg"
+  },
+  "77995d6bf44e": {
+    "id": "77995d6bf44e",
+    "title": "Removing Unfriendly Leaders",
+    "link": "https://www.nytimes.com/2026/03/30/world/targeted-strike-iran-us-israel-cuba.html",
+    "summary": "The Trump administration appears to have embraced a new foreign policy tactic: getting rid of leaders it doesn’t like. Here’s how that can go wrong.",
+    "source": "NYT World",
+    "source_domain": "nytimes.com",
+    "cat": "국제뉴스",
+    "pub_date": "2026-03-30T21:02:07+00:00",
+    "thumbnail": "https://static01.nyt.com/images/2026/03/31/multimedia/31int-theworld-targeted-strikes-lede-01-mpbz-promo/31int-theworld-targeted-strikes-lede-01-mpbz-promo-mediumSquareAt3X.jpg"
+  },
+  "7f78ea6bc0fc": {
+    "id": "7f78ea6bc0fc",
+    "title": "RSAC 2026 shipped five agent identity frameworks and left three critical gaps open",
+    "link": "https://venturebeat.com/security/rsac-2026-agent-identity-frameworks-three-gaps",
+    "summary": "“You can deceive, manipulate, and lie. That’s an inherent property of language. It’s a feature, not a flaw,” CrowdStrike CTO Elia Zaitsev told VentureBeat in an exclusive interview at RSA Conference 2",
+    "source": "VentureBeat",
+    "source_domain": "venturebeat.com",
+    "cat": "AI",
+    "pub_date": "2026-03-30T19:30:00+00:00",
+    "thumbnail": "https://images.ctfassets.net/jdtwqhzvc2n1/6fV5wwoyrhjNtVlzfCp3qY/93bce937ebe54e27dcfd010b6cb8a8c3/rsac_hero_.jpg?w=300&q=30"
+  },
+  "f1da5f27de19": {
+    "id": "f1da5f27de19",
+    "title": "Two teams, three games, six days - O'Neill's unique predicament",
+    "link": "https://www.bbc.com/sport/football/articles/c393j712p94o?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC Sport NI looks at how Northern Ireland and Blackburn Rovers manager Michael O'Neill will navigate a unique six-day stretch that will include games against Wales, Birmingham City and a relegation s",
+    "source": "BBC Sport",
+    "source_domain": "bbc.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-30T19:18:02+00:00",
+    "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77d2/live/a7007570-2c35-11f1-b8c9-f5058c0aec9a.jpg"
+  },
+  "0059c9311f4e": {
+    "id": "0059c9311f4e",
+    "title": "49ers HC, owner deliver mixed signals on Aiyuk",
+    "link": "https://www.espn.com/nfl/story/_/id/48349809/49ers-coach-owner-deliver-mixed-messages-aiyuk-future",
+    "summary": "49ers coach Kyle Shanahan and owner Jed York delivered differing messages on Bradon Aiyuk's future Monday.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-30T22:04:29+00:00",
+    "thumbnail": ""
+  },
+  "7480a662de24": {
+    "id": "7480a662de24",
+    "title": "Haslam: Watson has 'great chance' to be QB1",
+    "link": "https://www.espn.com/nfl/story/_/id/48350090/haslam-deshaun-watson-great-chance-browns-starter",
+    "summary": "One year after calling the trade for Deshaun Watson a \"big swing-and-miss,\" Browns owner Jimmy Haslam said the quarterback has a \"fresh start\" with new coach Todd Monken.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-30T22:04:29+00:00",
+    "thumbnail": ""
+  },
+  "cee91c7e2d3e": {
+    "id": "cee91c7e2d3e",
+    "title": "Malzahn, Tedford joining CFP selection committee",
+    "link": "https://www.espn.com/college-football/story/_/id/48348043/gus-malzahn-jeff-tedford-joining-cfp-selection-committee",
+    "summary": "Recently retired coach Gus Malzahn, who won a national title in 2010 as Auburn's offensive coordinator, will join former Cal head coach Jeff Tedford on the College Football Playoff selection committee",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-30T22:04:29+00:00",
+    "thumbnail": ""
+  },
+  "1e726ce975e9": {
+    "id": "1e726ce975e9",
+    "title": "U.S. considering tactic shift to get Pulisic on track",
+    "link": "https://www.espn.com/soccer/story/_/id/48349828/united-states-considering-tactic-shift-get-pulisic-track",
+    "summary": "United States coach Mauricio Pochettino said he's considering some tactical tweaks to help get star attacker Christian Pulisic back to his best in front of the goal.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-30T22:04:28+00:00",
+    "thumbnail": ""
+  },
+  "6fa2bb8192b1": {
+    "id": "6fa2bb8192b1",
+    "title": "Why new rules have Verstappen on the brink of walking away from F1",
+    "link": "https://www.espn.com/racing/f1/story/_/id/48347648/why-new-rules-max-verstappen-brink-walking-away-f1",
+    "summary": "Max Verstappen predicted F1's new rule set would underwhelm, and 2026 is proving him correct, so much so that he might just quit the sport entirely.",
+    "source": "ESPN",
+    "source_domain": "espn.com",
+    "cat": "스포츠",
+    "pub_date": "2026-03-30T17:13:17+00:00",
     "thumbnail": ""
   }
 }
